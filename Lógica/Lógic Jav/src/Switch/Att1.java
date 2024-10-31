@@ -30,5 +30,6 @@ public class Att1 {
             default:
                 System.out.println("número inválido");
         }
+        scanner.close();
     }
 }
