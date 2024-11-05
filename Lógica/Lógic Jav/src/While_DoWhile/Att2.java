@@ -11,5 +11,6 @@ public class Att2 {
             System.out.println(num + " multiplicado por " + cont + " é igual a " +num * cont);
             cont++;
         }
+        scanner.close();
     }
 }

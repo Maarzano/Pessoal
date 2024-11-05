@@ -5,15 +5,16 @@ import java.util.Scanner;
 public class Att4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int cont = 0;
-        int num = 0;
+        int count = 0;
+        int soma = 0;
+        System.out.println("digite números inteiros (para sair digite 0)");
         while (true) {
-            System.out.println("digite numero inteiro (para sair 0)");
-            num = scanner.nextInt();
-            if (num ==0) break;
-            cont++;
-        }
-        System.out.println("você escreveu "+ cont +" números \n" +
-                "a soma deles é");
+            int num = scanner.nextInt();
+            if (num==0) break;
+            count++;
+            soma += num;
+         }
+         System.out.println("você digitou " + count + " números, e a soma deles é: "+ soma);
+         scanner.close();
     }
 }

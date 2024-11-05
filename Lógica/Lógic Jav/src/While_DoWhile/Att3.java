@@ -18,5 +18,6 @@ public class Att3 {
                 }
             }
         System.out.println(impar + " + " + par);
+        scanner.close();
     }
 }

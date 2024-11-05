@@ -2,7 +2,7 @@
 Se o valor for acima de R$ 1.000,00, o imposto é de 20%; se for até R$ 1.000,00, o imposto é de 10%.*/
 package attIf;
 import java.util.Scanner;
-public class IfAtt8 {
+public class Att8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("escreva o valor de sua venda R$: ");

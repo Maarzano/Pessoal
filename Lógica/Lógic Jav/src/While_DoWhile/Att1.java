@@ -21,5 +21,6 @@ public class Att1 {
                 break;
             }
         }
+        scanner.close();
     }
 }
