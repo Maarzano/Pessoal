@@ -13,8 +13,11 @@ public class Att4 {
             if (num==0) break;
             count++;
             soma += num;
-         }
-         System.out.println("você digitou " + count + " números, e a soma deles é: "+ soma);
+         } if (count > 0) {
+         System.out.println("você digitou " + count + " números, e a soma deles é: "+ soma + "\n" +
+                 " e sua média é " + soma/count);
+          } else
+          System.out.println("nenhuma número foi digitado");
          scanner.close();
     }
 }
