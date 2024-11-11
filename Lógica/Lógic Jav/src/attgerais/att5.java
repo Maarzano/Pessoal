@@ -5,22 +5,45 @@ import java.util.Random;
 public class att5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         Random random = new Random();
         int numeroAleatorio = random.nextInt(100) + 1;
-        int tentativas = 0;
+        int tentativa = 0;
 
-        while (true) {
-            System.out.println("escolha um número de 1 a 100: ");
+
+        while(true){
+
+            System.out.println("digite um número positivo de 1 a 100");
             int chute = scanner.nextInt();
-            if ( chute < 1){
-                 System.out.println("número inválido");
-                  continue;
+
+            if (chute < 0 ){
+                System.out.println("número inválido tente de novo.");
+
+            } else if (chute < numeroAleatorio) {
+                System.out.println("seu chute foi baixo");
+                tentativa++;
+
+            } else if (chute > numeroAleatorio){
+                System.out.println("seu chute foi alto");
+                tentativa++;
+
+            } else {
+                tentativa++;
+                System.out.println("você acertou o número!!");
+                System.out.println("o número era: " + numeroAleatorio);
+                System.out.println("voce tentou: " + tentativa + " vezes ");
+                System.out.println("quer continuar? (s,n)");
+                String continuar = scanner.next().toLowerCase();
+
+                if (continuar.equals("s")){
+                    tentativa = 0;
+                    numeroAleatorio = random.nextInt(100) + 1;
+
+                } else if (continuar.equals("n")) {
+                    System.out.println("obrigado por jogar, saindo...");
+                    break;
+                }
+            }
         }
-
-
-
-
         scanner.close();
     }
 }
