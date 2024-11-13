@@ -54,5 +54,6 @@ public class att5 {
                 }
             }
         }
+        scanner.close();
     }
 }

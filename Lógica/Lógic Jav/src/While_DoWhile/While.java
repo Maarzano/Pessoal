@@ -1,3 +1,4 @@
+package While_DoWhile;
 import java.util.Scanner;
 public class While {
     public static void main(String[] args) {
