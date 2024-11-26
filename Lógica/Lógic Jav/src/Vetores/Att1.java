@@ -1,26 +1,48 @@
-//soma com vetores
-package Vetores;
+/*
+ criar um algoritimo para pedir o usuário para mudar algum valor do vetor, usando While para ser infinito até
+ que digite pare
+*/
 import java.util.Scanner;
 public class Att1 {
- public static void main(String[] args) {
-Scanner Scan = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner Scan = new Scanner(System.in);
+        int[] Vet1 = {1,2,3,4,5};
+        int percorre = 0;
 
-int[] VetSoma = new int[3];
+        while (percorre < 5) {
+            System.out.println("seu " + percorre + "º indice do vetor é: " + Vet1[percorre]);
+            percorre++;
+        }
+        System.out.println("deseja mudar algum valor dele? (s/n)");
+        char RespSN = Scan.next().toLowerCase().charAt(0);
 
-System.out.println("escreva o primeiro número inteiro: ");
-VetSoma[0] = Scan.nextInt();
+        while(true) {
+            if (RespSN == 's') {
+                System.out.println("então digite o índice que deseja mudar (0 a 4): ");
+                percorre = Scan.nextInt();
 
-System.out.println("o segundo: ");
-VetSoma[1] = Scan.nextInt();
+                System.out.println("você quer inserir qual número nesse índice?");
+                int inserir = Scan.nextInt();
 
-System.out.println("o terceiro: ");
-VetSoma[2] = Scan.nextInt();
+                Vet1[percorre] = inserir;
 
-int Soma = VetSoma[0] + VetSoma[1] + VetSoma[2];
+                percorre = 0;
 
-System.out.println("a soma de seus número é: " + Soma);
+                while (percorre < 5) {
+                    System.out.println("seu " + percorre + "º indice do vetor é: " + Vet1[percorre]);
+                    percorre++;
+                }
+                System.out.println("deseja continuar? ");
+                RespSN = Scan.next().toLowerCase().charAt(0);
+                if (RespSN == 'n') {
+                    System.out.println("saindo, irmão valeu!!");
+                    break;
+                } else System.out.println("OK, voltando...");
 
-
-Scan.close();
- }
+            } else {
+                System.out.println("ok, obrigado até mais!!");
+            }
+        }
+        Scan.close();
+    }
 }
