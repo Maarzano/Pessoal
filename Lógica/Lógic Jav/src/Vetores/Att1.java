@@ -8,7 +8,7 @@ public class Att1 {
         Scanner Scan = new Scanner(System.in);
         int[] Vet1 = {1,2,3,4,5};
         int percorre = 0;
-
+        boolean controle = true;
         while (percorre < 5) {
             System.out.println("seu " + percorre + "º indice do vetor é: " + Vet1[percorre]);
             percorre++;
@@ -16,7 +16,7 @@ public class Att1 {
         System.out.println("deseja mudar algum valor dele? (s/n)");
         char RespSN = Scan.next().toLowerCase().charAt(0);
 
-        while(true) {
+        while(controle) {
             if (RespSN == 's') {
                 System.out.println("então digite o índice que deseja mudar (0 a 4): ");
                 percorre = Scan.nextInt();
@@ -34,13 +34,15 @@ public class Att1 {
                 }
                 System.out.println("deseja continuar? ");
                 RespSN = Scan.next().toLowerCase().charAt(0);
-                if (RespSN == 'n') {
-                    System.out.println("saindo, irmão valeu!!");
-                    break;
-                } else System.out.println("OK, voltando...");
-
+                if (RespSN == 's') {
+                    System.out.println("OK, voltando...");
+                } else {
+                    System.out.println("OK, tchau irmão");
+                    controle = false;
+                }
             } else {
                 System.out.println("ok, obrigado até mais!!");
+                controle = false;
             }
         }
         Scan.close();
