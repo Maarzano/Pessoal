@@ -2,6 +2,7 @@
  criar um algoritimo para pedir o usuário para mudar algum valor do vetor, usando While para ser infinito até
  que digite pare
 */
+package Vetores;
 import java.util.Scanner;
 public class Att1 {
     public static void main(String[] args) {

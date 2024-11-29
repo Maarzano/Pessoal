@@ -1,7 +1,7 @@
 //soma com vetores
 package Vetores;
 import java.util.Scanner;
-public class Att1 {
+public class Att4 {
  public static void main(String[] args) {
   Scanner Scan = new Scanner(System.in);
    

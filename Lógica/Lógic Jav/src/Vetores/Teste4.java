@@ -1,5 +1,6 @@
 //Crie dois vetores de inteiros de mesmo tamanho.
 // Crie um novo vetor em que cada elemento é a soma dos elementos correspondentes dos dois vetores originais.
+package Vetores;
 public class Teste4 {
     public static void main(String[] args) {
 
