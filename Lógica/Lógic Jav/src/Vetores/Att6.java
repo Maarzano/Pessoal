@@ -1,7 +1,7 @@
 // Contar a quantidade de elementos em um vetor que são maiores que um valor dado
 package Vetores;
 import java.util.Scanner;
-public class Teste2 {
+public class Att6 {
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);
 
