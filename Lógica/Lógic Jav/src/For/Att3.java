@@ -11,7 +11,7 @@ public class Att3 {
         System.out.print("Insira o nome do 1° player: ");
         String nomeP1 = scanner.nextLine();
 
-        System.out.print("Muito bem, agora escreva o nome do 2° jogador: ");
+        System.out.print("Insira o nome do 2° player: ");
         String nomeP2 = scanner.nextLine();
 
         System.out.println("Nós vamos jogar o jogo da forca");
