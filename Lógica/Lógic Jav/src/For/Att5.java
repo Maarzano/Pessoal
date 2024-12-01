@@ -43,7 +43,7 @@ public class Att5 {
 
                         nomesArray.add(nomeADD);
 
-                        System.out.println("\nadicionado!! deseja adicionar outro? (s/n)");
+                        System.out.println("\n nome " + nomeADD + " adicionado!! deseja adicionar outro? (s/n)");
                         continuarParar = scanner.nextLine();
                         if (continuarParar.equals("s")){
                             continue;
