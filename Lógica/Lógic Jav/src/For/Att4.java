@@ -2,7 +2,6 @@
 Ao final, imprima quantos números pares e ímpares foram digitados*/
 package For;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 public class Att4 {
     public static void main(String[] args) {
