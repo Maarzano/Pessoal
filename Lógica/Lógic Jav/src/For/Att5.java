@@ -2,13 +2,13 @@
 //com opções para adicionar, remover, exibir todos os nomes, buscar um nome específico e encerrar o programa.
 
 package For;
-import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.*;
 
 public class Att5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ArrayList<String> nomesArray = new ArrayList<>();
+        List<String> nomesArray = new ArrayList<>();
         String continuarParar;
         boolean terminar5 = true;
 

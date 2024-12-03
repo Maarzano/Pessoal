@@ -1,7 +1,5 @@
 package Vetores;
-import java.util.Scanner;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 //Escreva um programa que conte a quantidade de ocorrências de cada palavra em um texto fornecido pelo usuário.
 
@@ -29,5 +27,6 @@ public class Att9 {
     for (Map.Entry<String, Integer> entry : contagemPalavras.entrySet()) {
       System.out.println(entry.getKey() + ": " + entry.getValue());
     }
+    scanner.close();
   }
 }
