@@ -1,4 +1,4 @@
-package attgerais;
+
 import java.util.Scanner;
 public class Att7 {
 public static void main(String[] args) {

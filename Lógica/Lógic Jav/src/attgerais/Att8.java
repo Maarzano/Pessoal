@@ -1,5 +1,4 @@
 //algoritmo para lavar pratos
-package attgerais;
 import java.util.*;
 public class Att8 {
     public static void main(String[] args) {

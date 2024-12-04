@@ -1,5 +1,4 @@
 //fila pro pão
-package attgerais;
 import java.util.*;
 public class Att10 {
     public static void main(String[] args) {

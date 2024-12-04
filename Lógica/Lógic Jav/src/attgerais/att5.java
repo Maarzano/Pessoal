@@ -1,5 +1,5 @@
 // jogo de advinhação
-package attgerais;
+
 import java.util.Scanner;
 import java.util.Random;
 public class att5 {

@@ -1,4 +1,4 @@
-package attgerais;
+
 import java.util.*;
 public class Att9 {
     public static void main(String[] args) {

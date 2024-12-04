@@ -22,6 +22,6 @@ public class Att12 {
 		
 		
 		System.out.println(pilhaNomeInvertida);
-		
+		scanner.close();
 	}
 }

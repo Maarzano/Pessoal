@@ -30,5 +30,6 @@ public class Att11 {
         }
         
         System.out.println("\ntemos " + negativos + " números negativos !!");
+        scanner.close();
 	}
 }

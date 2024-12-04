@@ -1,4 +1,4 @@
-package attgerais;
+
 import java.util.Scanner;
 
 public class Att6 {
