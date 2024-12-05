@@ -2,6 +2,8 @@
 onde cada voto é representado pelo nome de um candidato.
 Conte quantos votos cada candidato recebeu e mostre o vencedor.*/
 
+//Código so para testes, pode ser melhorado...
+
 import java.util.*;
 
 public class Att14 {
@@ -26,13 +28,12 @@ public class Att14 {
         
         System.out.println("deseja dar quantos votos a ele? ");
         int quantidadeVotos = scanner.nextInt();
+
+        mapa.merge(Votar, quantidadeVotos, Integer::sum);
         
         for (Map.Entry<String, Integer> percorre : mapa.entrySet()){
-            mapa.merge(Votar, quantidadeVotos, Integer::sum);
-        }
-        
-        for (Map.Entry<String, Integer> percorre : mapa.entrySet()){
-            System.out.println(mapa);
+        System.out.println("o candidato " + percorre.getKey() + " tem " + percorre.getValue() + " votos");
+
         }
         
         

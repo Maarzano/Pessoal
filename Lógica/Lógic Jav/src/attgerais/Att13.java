@@ -27,6 +27,6 @@ public class Att13 {
             System.out.println(percorre.getKey() + ": " + percorre.getValue());
         }
         
-        
+        scanner.close();
     }
 }
