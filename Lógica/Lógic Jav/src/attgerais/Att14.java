@@ -2,7 +2,7 @@
 onde cada voto é representado pelo nome de um candidato.
 Conte quantos votos cada candidato recebeu e mostre o vencedor.*/
 
-//Código so para testes, pode ser melhorado...
+//Código so para testes, pode ser melhorado
 
 import java.util.*;
 
