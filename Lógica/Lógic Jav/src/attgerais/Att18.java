@@ -2,6 +2,33 @@
 import java.util.*;
 public class Att18 {
     public static void main(String[] args) {
-        
+        Scanner scanner = new Scanner(System.in);
+        Map<String, List<Integer>> separando = new HashMap<>();
+        List<Integer> Par = new ArrayList<>();
+        List<Integer> Impar = new ArrayList<>();
+
+        System.out.println("escreva seus números (digite PARE, para parar)");
+
+        while (true){
+
+            if (!scanner.hasNextInt()){
+                break;
+            }
+            int lendoNumero = scanner.nextInt();
+
+            if (lendoNumero % 2 == 0){
+                Par.add(lendoNumero);
+                separando.put("Par", Par);
+            } else {
+                Impar.add(lendoNumero);
+                separando.put("Impar", Impar);
+            }
+
+        }
+
+        for (String ParouImpar : separando.keySet()){
+            System.out.println(ParouImpar + ": " + separando.get(ParouImpar));
+        }
+        scanner.close();
     }
 }
