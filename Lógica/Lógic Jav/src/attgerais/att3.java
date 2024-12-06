@@ -5,7 +5,7 @@ imprimir seu valor na tela.*/
 
 import java.util.Scanner;
 
-public class att3 {
+public class Att3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("escreva o seu 1° valor: ");
