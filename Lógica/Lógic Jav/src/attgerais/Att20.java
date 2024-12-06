@@ -30,5 +30,6 @@ public class Att20 {
 		for (char Carctere : mapa.keySet()) {
 		    System.out.println(Carctere + ": " + mapa.get(Carctere));
 		}
+		scanner.close();
 	}
 }

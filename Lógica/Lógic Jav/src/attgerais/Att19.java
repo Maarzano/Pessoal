@@ -52,5 +52,6 @@ public class Att19 {
                 System.out.println(alunoKey + " foi reprovado com média: " + media);
             }
         }
+        scanner.close();
     }
 }
