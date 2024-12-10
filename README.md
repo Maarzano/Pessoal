@@ -32,4 +32,3 @@ Aqui estão algumas das áreas e tecnologias que estou explorando:
 ## Estrutura do Repositório
 
 A estrutura do repositório está organizada por áreas de estudo, como exemplo:
-
