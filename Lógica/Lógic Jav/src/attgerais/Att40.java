@@ -1,6 +1,8 @@
 /*Escreva um programa que recebe um vetor de strings ordenadas (em ordem alfabética) e uma string a ser buscada.
  Utilize busca binária para encontrar o índice da string no vetor. */
+
 import java.util.*;
+
 public class Att40 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,15 +18,19 @@ public class Att40 {
 
             meio = (inicio + fim) / 2;
 
-            if (nome == lista[meio]){
+            if (nome.equals(lista[meio])){
                 System.out.println("Existe na lista!");
-            } else if (){
-
+                achou = true;
+                break;
+            } else if (lista[meio].compareTo(nome) > 0){
+                fim = meio - 1;
             } else {
-                
+                inicio = meio + 1;
             }
-            
         }
-
+        if(!achou){
+            System.out.println("seu nome não existe na lista");
+        }
+    scanner.close();
     }
 }
