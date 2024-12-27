@@ -18,7 +18,6 @@ public class Att42 {
         int numeroInserir = scanner.nextInt();
 
         int inicio = 0, fim = lista.size() - 1, meio;
-        boolean achou = false;
 
         while (inicio <= fim){
 
@@ -28,8 +27,6 @@ public class Att42 {
                 fim = meio - 1;
             } else if (lista.get(meio) < numeroInserir){
                 inicio = meio + 1;
-            } else {
-                achou = true;
             }
         }
         lista.add(inicio, numeroInserir);
@@ -38,6 +35,6 @@ public class Att42 {
         for (int percorre:lista){
             System.out.print(percorre + " ");
         }
-
+        scanner.close();
     }
 }
