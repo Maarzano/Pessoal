@@ -17,6 +17,9 @@ public class Att18 {
             int lendoNumero = scanner.nextInt();
 
             if (lendoNumero % 2 == 0){
+                if (lendoNumero == 0){
+                    continue;
+                }
                 Par.add(lendoNumero);
                 separando.put("Par", Par);
             } else {
