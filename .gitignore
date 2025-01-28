@@ -1,0 +1,135 @@
+# Geral para todos os projetos
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+*.cache
+*.env
+
+# Configurações do Visual Studio Code
+.vscode/
+.vscode/*
+.vscode-test/
+
+# Node.js (caso algum projeto use)
+node_modules/
+*.npm
+*.yarn*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# .NET (C#)
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.vcxproj*
+*.appx
+*.appxbundle
+*.nuspec
+*.snk
+*.userprefs
+*.csproj.user
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+*.vs/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.jpf
+*.project
+*.classpath
+*.settings/
+
+# IntelliJ IDEA
+.idea/
+out/
+*.iml
+
+# C++
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.a
+*.dylib
+*.lib
+*.dll
+*.exe
+*.out
+*.class
+*.idb
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.log
+*.manifest
+
+# GCC, CLang e Make
+*.d
+*.dSYM/
+*.depend
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# Windows
+*.exe
+*.dll
+*.bat
+*.cmd
+*.manifest
+*.appx
+*.appxbundle
+
+# Linux
+*.out
+*.so
+*.a
+
+# macOS
+*.dylib
+*.app
+
+# Arquivos de build
+build/
+dist/
+release/
+Debug/
+Release/
+
+# Arquivos de testes
+*.gcda
+*.gcno
+*.gcov
+*.coverage
+
+# Outros IDEs e editores
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
