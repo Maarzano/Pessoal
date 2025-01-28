@@ -1,0 +1,15 @@
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\bin\Debug\net9.0\Lógic C#.exe
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\bin\Debug\net9.0\Lógic C#.deps.json
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\bin\Debug\net9.0\Lógic C#.runtimeconfig.json
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\bin\Debug\net9.0\Lógic C#.dll
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\bin\Debug\net9.0\Lógic C#.pdb
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.AssemblyInfoInputs.cache
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.AssemblyInfo.cs
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.csproj.CoreCompileInputs.cache
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.sourcelink.json
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.dll
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\refint\Lógic C#.dll
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.pdb
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\Lógic C#.genruntimeconfig.cache
+C:\Users\arthu\Repositórios\Pessoal\Lógica\Lógic C#\obj\Debug\net9.0\ref\Lógic C#.dll
