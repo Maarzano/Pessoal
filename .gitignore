@@ -42,6 +42,8 @@ obj/
 *.snk
 *.userprefs
 *.csproj.user
+*.csproj
+*.sln
 *.suo
 *.user
 *.rsuser
