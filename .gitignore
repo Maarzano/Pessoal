@@ -13,6 +13,7 @@ Thumbs.db
 .vscode/
 .vscode/*
 .vscode-test/
+.vscode
 
 # Node.js (caso algum projeto use)
 node_modules/
@@ -82,6 +83,9 @@ out/
 *.ilk
 *.log
 *.manifest
+output/
+output
+*.output
 
 # GCC, CLang e Make
 *.d
