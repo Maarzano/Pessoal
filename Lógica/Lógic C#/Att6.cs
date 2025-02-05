@@ -9,16 +9,6 @@ int op = int.Parse(Console.ReadLine());
 
 Console.Write($"O resultado é: {Calcular(num, num2, op)}\n");
 
-
-
-
-
-
-
-
-
-
-
 private static int Calcular(int num1, int num2, int op){
 
     if (op == 1){
