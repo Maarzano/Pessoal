@@ -1,21 +1,19 @@
 ﻿using ClassePessoa.Models;
 using ClasseCurso.Models;
 
-Pessoa pessoa1 = new();
+Pessoa pessoa1 = new("Arthur");
 pessoa1.Idade = 19;
-pessoa1.Nome = "Arthur";
 pessoa1.Sobrenome = "Marzano";
 
 Pessoa pessoa2 = new();
-pessoa1.Idade = 20;
-pessoa1.Nome = "Patrícia";
-pessoa1.Sobrenome = "Correa";
+pessoa2.Nome = "Patrícia";
+pessoa2.Idade = 20;
+pessoa2.Sobrenome = "Correa";
 
-Curso Senai = new();
-Senai.Nome = "Inglês";
-Senai.Alunos = new List<Pessoa>();
+Console.WriteLine(pessoa1.NomeCompleto);
+Console.WriteLine(pessoa2.NomeCompleto);
 
-Senai.AdicionarAluno(pessoa1);
-Senai.AdicionarAluno(pessoa2);
+Curso curso = new("Sexo");
 
-Senai.ListarAlunos();
+
+Console.WriteLine(curso.Nome);

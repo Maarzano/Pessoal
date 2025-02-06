@@ -6,29 +6,53 @@ using System.Threading.Tasks;
 
 namespace ClassePessoa.Models{
     public class Pessoa {
-        private int idade;
-        public int Idade{ 
+        public Pessoa(string nome){
+            Nome = nome;
+        }
+        public Pessoa(){
 
-            get => idade;
+        }
+
+        private int _idade;
+        private string _nome;
+        public int Idade{
+
+            get => _idade;
             set {
-                if (!int.IsNegative(value))
-                    idade = value;
+                if (value < 0){
+                    throw new ArgumentException("Idade não pode ser negativa");
+                }
+                _idade = value;
             }
 
         }
-        private string nome;
         public string Nome{
 
-            get {return nome;}
-
+            get => _nome.ToUpper();
             set{
                 if (value.Equals("")){
-                    throw new ArgumentException("Não pode ser vazio");
+                    throw new ArgumentException("Nome Não pode ser vazio");
                 }
-                nome = value;
+                _nome = value;
             }
         }
-        public string Sobrenome { get; set; }
-        public string NomeCompleto { get;}
+
+        public void Apresentar(){
+            Console.WriteLine($"Olá, meu nome é {NomeCompleto} e tenho {_idade} anos");
+        }
+        private string _sobrenome;
+        public string Sobrenome { 
+            get => _sobrenome;
+            set {
+                if (value.Equals("")){
+                    throw new ArgumentException("Sobrenome não pode ser vazio");
+                }
+                _sobrenome = value;
+            }
+        }
+
+        public string NomeCompleto { 
+            get => _nome + " " + _sobrenome;
+        }
     }
 }
