@@ -28,7 +28,3 @@ Aqui estão algumas das áreas e tecnologias que estou explorando:
   - Estruturas de dados avançadas
   - Testes unitários e debugging
   - Git e GitHub
-
-## Estrutura do Repositório
-
-A estrutura do repositório está organizada por áreas de estudo, como exemplo:
