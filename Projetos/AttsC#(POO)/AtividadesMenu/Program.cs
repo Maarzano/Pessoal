@@ -1,15 +1,4 @@
-﻿using System;
-using Att1;
-using Att2;
-using Att3;
-using Att4;
-using Att5;
-using Att6;
-using Att7;
-using Att8;
-using Att9;
-
-namespace AtividadesMenu
+﻿namespace AtividadesMenu
 {
     class Program
     {
