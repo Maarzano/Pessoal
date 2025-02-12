@@ -1,5 +1,12 @@
 ﻿using Att1.Models;
 
+namespace Att1
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+
 Console.WriteLine("Seja bem vindo ao estacionamento!\n" +
                     "Digite o preço inicial do estacionamento: ");
 Console.Write("R$ ");
@@ -58,3 +65,6 @@ while (!encerrar){
 }
 
 Console.WriteLine("O programa se encerrou!");
+        }
+    }
+}

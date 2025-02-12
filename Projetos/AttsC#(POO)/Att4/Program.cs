@@ -1,5 +1,12 @@
 ﻿using Att4.Models.Carro;
 
+namespace Att4
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+
 Console.WriteLine($"Escreva a marca do carro");
 string nomeCarro = Console.ReadLine();
 
@@ -12,3 +19,6 @@ int  anoCarro = int.Parse(Console.ReadLine());
 Carro carro = new Carro(nomeCarro, modeloCarro, anoCarro);
 
 carro.ExibirInfo();
+        }
+    }
+}

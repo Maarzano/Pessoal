@@ -1,5 +1,11 @@
 ﻿using Att3.Models;
-using Att3.Models;
+
+namespace Att3
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
 
 GerenciadorDeTarefas gerenciador = new();
 
@@ -27,3 +33,6 @@ gerenciador.AdicionarTarefa("Dar um olá");
 Console.WriteLine("Tarefas todas");
 
 gerenciador.ListarTarefas(true);
+        }
+    }
+}
