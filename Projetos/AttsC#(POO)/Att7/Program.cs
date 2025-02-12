@@ -6,10 +6,9 @@ namespace Att7
     {
         public static void Main(string[] args)
         {
+            Pessoa pessoa1 = new Pessoa(60, 1.80);
 
-Pessoa pessoa1 = new Pessoa(60, 1.80);
-
-pessoa1.Situacao();
+            pessoa1.Situacao();
         }
     }
 }
