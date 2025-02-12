@@ -1,5 +1,5 @@
-﻿using Tarefaa.Models;
-using GerenciadorDeTarefass.Models;
+﻿using Att3.Models;
+using Att3.Models;
 
 GerenciadorDeTarefas gerenciador = new();
 

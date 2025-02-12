@@ -4,7 +4,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClassePessoa.Models{
+namespace Att2.Models{
     public class Pessoa {
         public Pessoa(string nome){
             Nome = nome;

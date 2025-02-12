@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Tarefaa.Models {
+namespace Att3.Models {
     public class Tarefa {
         public int ID {get;}
         public string Descricao{get;}

@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ClassePessoa.Models;
+using Att2.Models;
 
-namespace ClasseCurso.Models {
+namespace Att2.Models {
     public class Curso {
         public Curso(string nomeDoCurso){
             Nome = nomeDoCurso;

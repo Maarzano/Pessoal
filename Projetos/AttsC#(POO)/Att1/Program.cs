@@ -1,4 +1,4 @@
-﻿using ClasseEstacionamento.Models;
+﻿using Att1.Models;
 
 Console.WriteLine("Seja bem vindo ao estacionamento!\n" +
                     "Digite o preço inicial do estacionamento: ");

@@ -1,5 +1,4 @@
-﻿using ClassePessoa.Models;
-using ClasseCurso.Models;
+﻿using Att2.Models;
 
 Pessoa pessoa1 = new("Arthur");
 pessoa1.Idade = 19;

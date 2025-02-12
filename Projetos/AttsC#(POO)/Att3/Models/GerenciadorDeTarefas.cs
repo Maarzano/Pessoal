@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Tarefaa.Models;
+using Att3.Models;
 
-namespace GerenciadorDeTarefass.Models{
+namespace Att3.Models{
     public class GerenciadorDeTarefas{
         private List<Tarefa> tarefas = new List<Tarefa>();
         private int proximoId = 1;
