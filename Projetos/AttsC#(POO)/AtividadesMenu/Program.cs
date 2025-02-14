@@ -17,6 +17,7 @@
                 Console.WriteLine("7. Atividade 7");
                 Console.WriteLine("8. Atividade 8");
                 Console.WriteLine("9. Atividade 9");
+                Console.WriteLine("10.Atividade 10");
                 Console.WriteLine("0. Sair");
                 Console.Write("Escolha uma opção: ");
                 string opcao = Console.ReadLine();
@@ -49,6 +50,9 @@
                         break;
                     case "9":
                         Att9.Program.Main(args);
+                        break;
+                    case "10":
+                        Att10.Program.Main(args);
                         break;
                     case "0":
                         return;
