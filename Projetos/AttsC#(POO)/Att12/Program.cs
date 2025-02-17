@@ -1,8 +1,8 @@
 ﻿using Att12.Models;
 
 namespace Att12 {
-    class ProgramTest {
-        static void Main(string[] args) {
+    public class Program {
+        public static void Main(string[] args) {
             Smartphone nokia = new Nokia("123456789", "NokiaModel", "111111111111111", 64);
             nokia.Ligar();
             nokia.ReceberLigacao();

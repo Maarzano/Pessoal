@@ -18,6 +18,8 @@
                 Console.WriteLine("8. Atividade 8");
                 Console.WriteLine("9. Atividade 9");
                 Console.WriteLine("10.Atividade 10");
+                Console.WriteLine("11.Atividade 11");
+                Console.WriteLine("12.Atividade 12");
                 Console.WriteLine("0. Sair");
                 Console.Write("Escolha uma opção: ");
                 string opcao = Console.ReadLine();
@@ -53,6 +55,12 @@
                         break;
                     case "10":
                         Att10.Program.Main(args);
+                        break;
+                    case "11":
+                    Att11.Program.Main(args);
+                        break;
+                    case "12":
+                    Att12.Program.Main(args);
                         break;
                     case "0":
                         return;
