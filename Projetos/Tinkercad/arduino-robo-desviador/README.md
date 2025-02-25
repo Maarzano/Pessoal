@@ -13,7 +13,7 @@ Link: https://www.tinkercad.com/things/9M25Ux57Fd2-robo-desviador
 
 ![video do robo](https://github.com/Maarzano/arduino-robo-desviador/blob/master/V%C3%ADdeo%20Demonstrativo.mp4)
 
-    ´´´cpp
+```cpp
 
     int distancia = 0;
 
@@ -84,6 +84,7 @@ Link: https://www.tinkercad.com/things/9M25Ux57Fd2-robo-desviador
     digitalWrite(6, LOW);
     digitalWrite(7, HIGH);
     }
+```
 
 ## Créditos
 
