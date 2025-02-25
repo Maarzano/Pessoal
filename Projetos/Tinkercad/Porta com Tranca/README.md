@@ -50,7 +50,7 @@ void setpass()
     lcd.setCursor(0, 0);
     lcd.print("Nova Senha");
   
-    while (password.length() < 8)
+    while (password.length() < 4)
     {
         keypressed = keypad.getKey();
         if (keypressed != NO_KEY)
@@ -77,7 +77,7 @@ void setpass()
             lcd.clear();
             lcd.setCursor(0, 0);
             lcd.print("Senha Cadastrada");
-            delay(2000);
+            delay(1000);
             lcd.clear();
             break; 
         }
@@ -94,7 +94,7 @@ void setpass()
 
 void checkpass()
 {
-    while (strentry.length() < 8)
+    while (strentry.length() < 4)
     {
         keypressed = keypad.getKey();
         if (keypressed != NO_KEY)
@@ -119,7 +119,7 @@ void checkpass()
             lcd.clear();
             lcd.print("Bem Vindo!");
             welcome = true;
-            delay(2000);
+            delay(1000);
             lcd.clear();
             break; 
         }  
@@ -129,7 +129,7 @@ void checkpass()
             strentry = "";
             lcd.clear();
             lcd.print("Senha Errada!");
-            delay(2000);
+            delay(1000);
             lcd.clear();
             break;
         }
