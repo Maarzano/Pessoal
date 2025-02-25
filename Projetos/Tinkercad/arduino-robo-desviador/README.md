@@ -14,6 +14,7 @@ Link: https://www.tinkercad.com/things/9M25Ux57Fd2-robo-desviador
 ![video do robo](https://github.com/Maarzano/arduino-robo-desviador/blob/master/V%C3%ADdeo%20Demonstrativo.mp4)
 
 ```cpp
+    #include <Arduino.h>
 
     int distancia = 0;
 

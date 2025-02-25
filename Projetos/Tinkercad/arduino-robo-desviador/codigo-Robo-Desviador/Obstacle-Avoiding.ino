@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 int distancia = 0;
 
 long lerDistanciaUltrassonica(int pinoTrigger, int pinoEcho)
