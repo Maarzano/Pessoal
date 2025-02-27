@@ -29,8 +29,9 @@ __pycache__/
 *.pyd
 
 # .NET (C#)
-bin/
-obj/
+appsettings.json
+appsettings.Development.json
+Migrations/
 *.exe
 *.dll
 *.pdb
@@ -123,6 +124,8 @@ dist/
 release/
 Debug/
 Release/
+bin/
+obj/
 
 # Arquivos de testes
 *.gcda
