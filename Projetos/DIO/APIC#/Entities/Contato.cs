@@ -16,10 +16,8 @@ namespace APIC_.Entities
         public string Telefone { get; set; }
         public bool Ativo { get; set; }
 
-        [JsonIgnore]
         public ICollection<Endereco> Enderecos { get; set; }
 
-        [JsonIgnore]
         public ICollection<Produto> Produtos { get; set; }
     }
 }

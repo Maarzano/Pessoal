@@ -10,12 +10,12 @@ namespace APIC_.Entities
 {
     public class Produto
     {
-        [Key]
+        [Key][JsonIgnore]
         public int IdProduto { get; set; }
         public string Nome { get; set; }
         public double Preco { get; set; }
 
-        [ForeignKey("Contato")]
+        [ForeignKey("Contato")][JsonIgnore]
         public int IdContato { get; set; }
         
         [JsonIgnore]

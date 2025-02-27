@@ -10,14 +10,14 @@ namespace APIC_.Entities
 {
     public class Endereco
     {
-        [Key]
+        [Key][JsonIgnore]
         public int IdEndereco { get; set; }
         public string Rua { get; set; }
         public string Bairro { get; set; }
         public string Numero { get; set; }
         public int CEP { get; set; }
 
-        [ForeignKey("Contato")]
+        [ForeignKey("Contato")] [JsonIgnore]
         public int IdContato { get; set; }
         [JsonIgnore]
         public Contato Contato { get; set; }
