@@ -11,6 +11,7 @@ module maarzano.obtenhacachorrofx {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires com.google.gson;
+    requires javafx.graphics;
 
     opens maarzano.obtenhacachorrofx to javafx.fxml;
     exports maarzano.obtenhacachorrofx;
