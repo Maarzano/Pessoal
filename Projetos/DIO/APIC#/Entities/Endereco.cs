@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace APIC_.Entities
+{
+    public class Endereco
+    {
+        [Key]
+        public int IdEndereco { get; set; }
+        public string Rua { get; set; }
+        public string Bairro { get; set; }
+        public string Numero { get; set; }
+
+        [ForeignKey("Contato")]
+        public int IdContato { get; set; }
+
+        public Contato Contato { get; set; }
+    }
+}

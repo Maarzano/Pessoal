@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace APIC_.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ContatoController : ControllerBase
     {
         private readonly AgendaContext _context;
@@ -21,6 +21,12 @@ namespace APIC_.Controllers
             _context.Add(contato);
             _context.SaveChanges();
             return Ok(contato);
+        }
+
+        [HttpGet]
+        public IActionResult GetAll(){
+            var contatos = _context.Contatos.ToList();
+            return Ok(contatos);
         }
     }
 }
