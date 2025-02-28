@@ -18,6 +18,5 @@ namespace APIC_.Entities
 
         public ICollection<Endereco> Enderecos { get; set; }
 
-        public ICollection<Produto> Produtos { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 @APIC__HostAddress = http://localhost:5194
 
-GET {{APIC__HostAddress}}/weatherforecast/
+GET {{APIC__HostAddress}}/Contato/ObterPorNome/
 Accept: application/json
 
 ###
