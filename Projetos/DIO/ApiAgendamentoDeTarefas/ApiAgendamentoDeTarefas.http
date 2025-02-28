@@ -1,0 +1,6 @@
+@ApiAgendamentoDeTarefas_HostAddress = http://localhost:5267
+
+GET {{ApiAgendamentoDeTarefas_HostAddress}}/
+Accept: application/json
+
+###
