@@ -11,6 +11,7 @@ header {
     background-color: blue;
     color: white;
     padding: 20px;
+    width: 100%;
     text-align: center;
     border-bottom: 3px solid #0a58ca;
 }
@@ -41,4 +42,15 @@ section {
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #ffffff;
+}
+.imagem {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.imagem img {
+    display: block;
+    border-radius:  10px;
+    box-shadow: rgba(0, 0, 0, 0.2);
 }
