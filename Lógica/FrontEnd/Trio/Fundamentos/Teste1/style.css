@@ -77,3 +77,7 @@ section {
 .titulos-coluna h6 {
     margin: 0;
 }
+
+#a-tolower{
+    text-transform: lowercase;
+}

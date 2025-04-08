@@ -9,15 +9,20 @@
     <body>
 
         <header>
-            <h1 id="Titulo index">Olá, seja bem vindo ao site teste</h1>
-            <hr>
-            <h3>Isso é só um site de teste de como as tags de <i><u><Strong>HTML</Strong></u></i> funcionam...</h3>
+            <h1 id="Titulo-index">Olá, seja bem vindo ao site teste</h1>
+
+            <h3>Isso é só um site de teste de como as tags de <i><Strong>HTML</Strong></i> funcionam...</h3>
 
             <p>Eu vou tentar utilizar as tags que eu aprender aqui para guardar o que eu sei</p>
         </header>
 
-            <hr>
-            <h1><u>Títulos</u></h1>
+        <p>Temos a declaração de que é uma página HTML 5, com o &lt;!DOCTYPE HTML&gt;</p>
+        <p>
+            Temos a tag &lt;html&gt; para construção da página, e dentro dela temos o &lt;head&gt; onde ficará as tag &lt;meta&gt;, &lt;title&gt;, 
+            links de aparência etc...
+        </p>
+
+            <h2><u>Títulos</u></h2>
 
             <p><strong>Temos os títulos que vão de 1 a 6, sendo 6 o menor deles e 1 o maior...</strong></p>
             <div class="titulos-container">
@@ -33,16 +38,48 @@
                     <h6>H6</h6>
                 </div>
             </div>
-            <hr>
 
-            <h1><u>Links</u></h1>
-            <p>A tag <strong>"<u>a</u>"</strong> serve para colocar link a algo tanto para um site mesmo tanto para um id ou página HTML, servindo como índice tbm</p>
+            
+            <h2>atributos</h2>
+
+            <div>
+                <p>Temos alguns atributos dentros das tags de HTML, como por exemplo a id, e a class: 
+                    <ul>
+                        <li>id: dá um id único para identificação do elemento, para utilização do for com label por exemplo...</li>
+                        <li>class: o class pode se repetir, ele serve principalmente para se colocar css em conjuntos específicos...</li>
+                        <li>style: você coloca estilo scc diretamente no elemento (poucoi usado e não é recomendado).</li>
+                        <li>title: o title é usado para dar um nome ao passar o mouse por cima do <span title="VIU?">elemento</span>.</li>
+                        <li>específicos: alguns elementos possuem atributos específicos, como links, forms etc.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <h2>&lt;header&gt;</h2>
+
+            <div>
+                <p>a tag &lt;header&gt;, fica na parte superior do html, tanto quando digitamos o código tanto quando aparece no navegador,<br>
+                    pq é a parte de cima do site, ficaria por exemplo barra de navegação, título padrão etc</p>
+            </div>
+
+            <h2>tipos diferentes de &lt;div&gt;</h2>
+
+            <div>
+                <p>temos a &lt;div&gt; que basicamente separa trechos de código em seções, em blocos, é uma ótima forma de organizar o <br>
+                    layout da página e ajuda a mudar com css depois, mas há outros tipos como já citado o &lt;header&gt;, é um deles, temos <br>
+                    também o &lt;nav&gt;, &lt;section&gt;, &lt;article&gt;&lt;aside&gt;&lt;footer&gt;, que são usados para tipos diferentes de exibição... 
+                    entre outros, vai <br>
+                    depender do que será exibido...</p>
+            </div>
+
+            <h1><u>Links <code>&lt;<span id="a-tolower">a</span>&gt;</code></u></h1>
+            <p>A tag <code>&lt;a&gt;</code> serve para colocar link a algo tanto para um site mesmo tanto para um id ou página HTML, servindo como índice tbm. <br>
+                temos atributos, com href, onde colocamos o link, ou alt, para os leitores de tela, target, (como será aberto a página) entre vários outros para link.
+            </p>
             <a href="http://youtube.com" target="_blank" title="se você clicar em mim isso te levará para o youtube">clique em mim e você irá para o youtube</a>
             <br>
-            <a href="#Titulo index" title="isso vai te levar para o início da página">voltar lá pra cima </a>
+            <a href="#Titulo-index" title="isso vai te levar para o início da página">voltar lá pra cima </a>
             <br>
             <a href="treinamento.html">Aqui vai te levar para uma outra página minha</a>
-            <hr>
 
             <h1>Imagens</h1>
             <p>Consigo com a tag <strong>"<u>img</u>"</strong> colocar imagens no meu documento HTML, além de que tbm posso criar uma imagem com link etc</p>
@@ -56,13 +93,258 @@
                 </a>
             </div>
 
-            <hr>
-
             <h1>Audio</h1>
             <p>A tag <strong>"<u>audio</u>"</strong> serve para colocar um audio na página como a seguir: </p>
             <audio src="MPNOT_12_PremioInnovare_01_VF.mp3" controls="true">audio</audio>
-            
+
+            <h2>&lt;p&gt;</h2>
+
+            <div>
+                <p>a tag &lt;p&gt; serve para se criar um parágrafo, onde terá uma quebra de linha tanto em cima quanto em baixo...</p>
+            </div>
+
+            <h2>texto e formatação</h2>
+
+            <h2>Tag <code>&lt;strong&gt;</code> ✅</h2>
+            <p>Usada para indicar <strong>importância</strong> no texto, sendo semântica e melhor para acessibilidade.</p>
+
+            <h2>Tag <code>&lt;b&gt;</code> ❌</h2>
+            <p><b>Usada para negrito</b>, mas sem significado semântico. Prefira <code>&lt;strong&gt;</code> ou CSS.</p>
+
+            <h2>Tag <code>&lt;em&gt;</code> ✅</h2>
+            <p>Usada para dar <em>ênfase</em> ao texto, sendo interpretada corretamente por leitores de tela.</p>
+
+            <h2>Tag <code>&lt;i&gt;</code> ❌</h2>
+            <p><i>Usada para itálico</i>, mas sem significado semântico. Prefira <code>&lt;em&gt;</code> ou CSS.</p>
+
+            <h2>Tag <code>&lt;u&gt;</code> ❌</h2>
+            <p><u>Usada para sublinhado</u>, mas pode confundir com links. Use CSS.</p>
+
+            <h2>Tag <code>&lt;s&gt;</code> ❌</h2>
+            <p><s>Texto riscado</s>. Pode ser feito com <code>text-decoration: line-through;</code> no CSS.</p>
+
+            <h2>Tag <code>&lt;mark&gt;</code> ✅</h2>
+            <p>Destaca o texto com um <mark>fundo amarelo</mark>, útil para marcações.</p>
+
+            <h2>Tag <code>&lt;small&gt;</code> ✅</h2>
+            <p>Usada para texto de aviso ou detalhes menores. Exemplo: <small>Termos e condições aplicáveis.</small></p>
+
+            <h2>Tag <code>&lt;abbr&gt;</code> ✅</h2>
+            <p>Define abreviações. Exemplo: <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
+
+            <h2>Tag <code>&lt;q&gt;</code> ✅</h2>
+            <p>Para citações curtas: <q>O importante não é vencer todos os dias, mas lutar sempre.</q></p>
+
+            <h2>Tag <code>&lt;blockquote&gt;</code> ✅</h2>
+            <p>Para citações longas:</p>
+            <blockquote>
+                "O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo."
+            </blockquote>
+
+            <h2>Tag <code>&lt;code&gt;</code> ✅</h2>
+            <p>Para código fonte: <code>console.log("Olá, mundo!");</code></p>
+
+            <h2>Tag <code>&lt;pre&gt;</code> ✅</h2>
+            <p>Para manter a formatação original do código:</p>
+            <pre>
+                if (x > 10) {
+                    console.log("Maior que 10");
+                }
+            </pre>
+
+            <h2>Tag <code>&lt;br&gt;</code> ✅</h2>
+            <p>Quebra de linha manual: Primeiro texto. <br> Segundo texto.</p>
+
+            <h2>Tag <code>&lt;hr&gt;</code> ✅</h2>
+            <p>Cria uma linha horizontal:</p>
             <hr>
+
+            <h2>Tag <code>&lt;span&gt;</code> ✅</h2>
+            <p>Para estilização inline sem alterar a estrutura: <span style="color:blue;">Texto azul</span>.</p>
+
+            <h2>Tag <code>&lt;div&gt;</code> ✅</h2>
+            <p>Usada para agrupar elementos sem significado semântico.</p>
+            <div style="border: 1px solid black; padding: 10px;">
+                Este é um bloco de conteúdo dentro de uma <code>&lt;div&gt;</code>.
+            </div>
+
+            <h2>Guia de Tags de Mídia no HTML</h2>
+    
+            <h2>1. Imagem - Tag &lt;img&gt;</h2>
+            <p>Usada para exibir imagens.</p>
+            <pre>&lt;img src="imagem.jpg" alt="Descrição da imagem" width="300"&gt;</pre>
+            <img src="https://via.placeholder.com/300" alt="Exemplo de Imagem">
+            
+            <h2>2. Vídeo - Tag &lt;video&gt;</h2>
+            <p>Usada para exibir vídeos.</p>
+            <pre>&lt;video src="video.mp4" controls&gt;&lt;/video&gt;</pre>
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls width="300"></video>
+            
+            <h2>3. Áudio - Tag &lt;audio&gt;</h2>
+            <p>Usada para tocar arquivos de áudio.</p>
+            <pre>&lt;audio src="musica.mp3" controls&gt;&lt;/audio&gt;</pre>
+            <audio src="https://www.w3schools.com/html/horse.ogg" controls></audio>
+            
+            <h2>4. Incorporação de Conteúdo - Tag &lt;iframe&gt;</h2>
+            <p>Usada para incorporar páginas externas, como vídeos do YouTube.</p>
+            <pre>&lt;iframe src="https://www.youtube.com/embed/VIDEO_ID" width="560" height="315"&gt;&lt;/iframe&gt;</pre>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            
+            <h2>5. Gráficos Vetoriais - Tag &lt;svg&gt;</h2>
+            <p>Usada para gráficos escaláveis.</p>
+            <pre>
+                &lt;svg width="100" height="100"&gt;
+                &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/&gt;
+                &lt;/svg&gt;
+            </pre>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/>
+            </svg>
+            
+            <h2>6. Canvas - Tag &lt;canvas&gt;</h2>
+            <p>Usada para criar gráficos e desenhos com JavaScript.</p>
+            <pre>
+                &lt;canvas id="meuCanvas" width="200" height="100"&gt;&lt;/canvas&gt;
+                &lt;script&gt;
+                    var c = document.getElementById("meuCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "blue";
+                    ctx.fillRect(10, 10, 150, 80);
+                &lt;/script&gt;
+            </pre>
+            <canvas id="meuCanvas" width="200" height="100"></canvas>
+            <script>
+                var c = document.getElementById("meuCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "blue";
+                ctx.fillRect(10, 10, 150, 80);
+            </script>
+
+            <h1>Tags de Tabela no HTML</h1>
+            <h2>1. Tag &lt;table&gt;</h2>
+            <p>Define uma tabela em HTML.</p>
+
+            <h2>2. Tag &lt;tr&gt;</h2>
+            <p>Representa uma linha na tabela.</p>
+
+            <h2>3. Tag &lt;th&gt;</h2>
+            <p>Define um cabeçalho de coluna.</p>
+
+            <h2>4. Tag &lt;td&gt;</h2>
+            <p>Define uma célula de dados.</p>
+
+            <h2>5. Atributo colspan</h2>
+            <p>Faz uma célula ocupar múltiplas colunas.</p>
+
+            <h2>6. Atributo rowspan</h2>
+            <p>Faz uma célula ocupar múltiplas linhas.</p>
+
+            <h2>7. Tag &lt;thead&gt;</h2>
+            <p>Agrupa cabeçalhos de uma tabela.</p>
+
+            <h2>8. Tag &lt;tbody&gt;</h2>
+            <p>Agrupa o conteúdo principal da tabela.</p>
+
+            <h2>9. Tag &lt;tfoot&gt;</h2>
+            <p>Agrupa o rodapé da tabela.</p>
+
+            <h2>10. Tag &lt;caption&gt;</h2>
+            <p>Define um título para a tabela.</p>
+
+            <h2>11. Tag &lt;colgroup&gt;</h2>
+            <p>Define um grupo de colunas para estilização.</p>
+
+            <h2>12. Tag &lt;col&gt;</h2>
+            <p>Especifica propriedades para colunas dentro do &lt;colgroup&gt;.</p>
+
+            <h2>13. Atributo scope</h2>
+            <p>Define o escopo de um cabeçalho (&lt;th&gt;).</p>
+
+            <h2>Exemplo de tabela completa:</h2>
+            <table>
+                <caption>Exemplo de Tabela</caption>
+                <colgroup>
+                    <col style="background-color: lightgray;">
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Idade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Essa célula ocupa duas colunas</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Rodapé da Tabela</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h2>Tag - <code>&lt;form&gt;</code></h2>
+            <p>
+                a tag <code>&lt;form&gt;</code> é usada para pegar informações do usuário no site, como o nome, email... entre outros. <br>
+                existem vários tipos de formulários como:
+            </p>
+
+            <form action="">
+                <label for="digite algo">nome</label>
+                <input type="text" placeholder="digite algo" id="digite algo">
+
+                <label for="senha">senha</label>
+                <input type="password" placeholder="senha" id="senha">
+
+                <br>
+
+                <input type="checkbox" >
+
+                <select name="pais">
+                    <option value="br">Brasil</option>
+                    <option value="us">Estados Unidos</option>
+                    <option value="jp">Japão</option>
+                </select>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+                <button type="button">Clique Aqui</button>
+
+                <input type="file" name="arquivo" accept="image/png, image/jpeg"> <br>
+
+                <input list="cidades" name="cidade">
+                <datalist id="cidades">
+                    <option value="São Paulo">
+                    <option value="Rio de Janeiro">
+                    <option value="Curitiba">
+                    <option value="Belo Horizonte">
+                </datalist>
+            </form>
+
+            <div>
+                <label for="progresso">Nível de Carregamento:</label>
+                <meter id="progresso" value="70" min="0" max="100">70%</meter>
+            </div>
+            <div>
+                <label for="barra">Carregando:</label>
+                <progress id="barra" value="50" max="100"></progress>
+            </div>
+            <div>
+                <details>
+                    <summary>Ver mais detalhes</summary>
+                    <p>Informação adicional escondida.</p>
+                </details>                
+            </div>
+
+            <h2>tag - &lt;meta&gt;</h2>
+            <p draggable="true" >ela serve para muitas coisas como para deixar palavras chaves, charset etc</p>
+
+            
 
 
     </body>
