@@ -11,23 +11,26 @@ header{
     background: linear-gradient(135deg, #ffffff, #e1e8fc88);
 }
 h1 {
+    font-size: 100px;
+    line-height: 90px;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     
 }
 #p-main{
-    margin-top: 0;
+    font-size: 30px;
+    margin-top: 2;
 }
 .btn-SM{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 10px 20px;
     background: rgb(53, 44, 167);
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .btn-SM:hover{
