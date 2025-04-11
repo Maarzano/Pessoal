@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff, #e1e8fc88);
+}
+h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+    
+}
+#p-main{
+    margin-top: 0;
+}
+.btn-SM{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: rgb(53, 44, 167);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-SM:hover{
+    background: #2172ce;
+}
+
+#grid-recurso {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#grid-recurso h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    grid-column: span 2; /* Faz o título ocupar duas colunas */
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.feature {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature img {
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}

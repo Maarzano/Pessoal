@@ -6,33 +6,35 @@
         <title>Pet Lovers</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/ico" href="assets\imagens\2504101202491396.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
+
     <body>
         <header>
-            <h1>Uma assinatura mensal <br> para seu pet <span id="span-main-title" class="span">amado</span></h1>
-            <p>Receba todo mês uma caixa com brinquedos, petiscos <br>e acessórios para seu animal de estimação.</p>
-            <a href="" >Saiba mais</a>
+            <h1>Uma assinatura mensal <br> para seu pet </h1>
+            <p id="p-main">Receba todo mês uma caixa com brinquedos, petiscos <br>e acessórios para seu animal de estimação.</p>
+            <a href="" class="btn-SM">Saiba mais</a>
         </header>
 
-        <section>
+        <section id="grid-recurso">
             <h2>Recursos</h2>
             <section class="feature-grid">
-                <div class="feature-card">
+                <div class="colum-2">
                     <img src="assets\imagens\gift-svgrepo-com.svg" width="40" height="40" alt="Ícone de presente">
                     <h3>Produtos exclusivos</h3>
                     <p>Itens selecionados especilamente para seu pet.</p>
                 </div>
-                <div class="feature-card">
+                <div class="colum-1">
                     <img src="assets\imagens\dog-paw-svgrepo-com.svg" width="40" height="40" alt="Ícone de pata de cachorro">
                     <h3>Brinquedos divertidos</h3>
                     <p>Brinquedos novos e envolventes todo mês.</p>
                 </div>
-                <div class="feature-card">
+                <div class="colum-2">
                     <img src="assets\imagens\dog-food-pictogram-2-svgrepo-com.svg" width="40" height="40" alt="Ícone de comida de cachorro">
                     <h3>Petiscos <span>saudáveis</span></h3>
                     <p>Pestiscos nutritivos e deliciosos incluidos em cada caixa.</p>
                 </div>
-                <div class="feature-card">
+                <div class="colum-2">
                     <img src="assets\imagens\cat-toy-svgrepo-com.svg" width="45" height="45" alt="Ícone de boa de lã">
                     <h3>Acessórios variados</h3>
                     <p>Surpreenda seu pt com acessórios únicos e úteis.</p>
@@ -40,7 +42,6 @@
             </section>
 
         </section>
-
             <section class="testimonials">
                 <h2>Depoimentos</h2>
                 <div class="testimonial-grid">
@@ -59,11 +60,26 @@
 
             <footer>
                 <div class="social-icons">
-                    <img src="assets\imagens\footer-icons\facebook-svgrepo-com.svg" width="20"  alt="Ícone do facebook">
-                    <img src="assets\imagens\footer-icons\twitter-154-svgrepo-com.svg" width="20"  alt="Ícone do twitter">
-                    <img src="assets\imagens\footer-icons\ins-svgrepo-com.svg" width="20"  alt="Ícone do instagram">
+                    <ul>
+                        <li>
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                                <img src="assets/imagens/footer-icons/facebook-svgrepo-com.svg" width="20" alt="Acesse nosso Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                                <img src="assets/imagens/footer-icons/twitter-154-svgrepo-com.svg" width="20" alt="Acesse nosso Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                                <img src="assets/imagens/footer-icons/ins-svgrepo-com.svg" width="20" alt="Acesse nosso Instagram">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <p id="footer-copy">&copy; 2025 PetLover. Todos os direitos reservados.</p>
             </footer>
+            
     </body>
 </html>
