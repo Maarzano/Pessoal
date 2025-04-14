@@ -1,3 +1,7 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -43,17 +47,26 @@ h1 {
 }
 
 #grid-recurso h2 {
-    font-size: 2rem;
+    font-size: 5rem;
     margin-bottom: 20px;
-    grid-column: span 2; /* Faz o título ocupar duas colunas */
+    grid-column: span 2;
 }
 
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 800px;
+    max-width: 1480px;
     margin: 0 auto;
+}
+.feature h3 {
+    font-size: 50px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.feature p {
+    font-size: 35px;
 }
 
 .feature {
@@ -67,13 +80,98 @@ h1 {
 .feature:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    user-select: none;
+    cursor: pointer;
 }
 
 .feature img {
+    float: left;
     margin-bottom: 10px;
+    margin-right: 12px;
+    width: 100px;
+    height: auto;
 }
 
-.feature h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+#img-la{
+    height: 125px;
+    width: auto;
+}
+
+.testimonials{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.testimonials h2 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    grid-column: span 2;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1480px;
+    margin: 0 auto;
+    margin-left: 100px;
+}
+
+.testimonial-grid blockquote{
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    width: 700px;
+    height: fit-content;
+    font-size: 30px;
+}
+
+.testimonial-grid blockquote:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    user-select: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.social-icons{
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.social-icons ul li {
+    margin-bottom: 0px;
+}
+
+.social-icons ul li a{
+color: #fff;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.social-icons ul li a:hover{
+    color: #ccc;
+}
+
+footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
