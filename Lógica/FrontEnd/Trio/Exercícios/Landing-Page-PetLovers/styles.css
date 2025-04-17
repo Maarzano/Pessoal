@@ -2,6 +2,7 @@ html{
     padding: 0px;
     margin: 0px;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -13,18 +14,22 @@ header{
     justify-content: center;
     text-align: center;
     background: linear-gradient(135deg, #ffffff, #e1e8fc88);
+    
 }
+
 h1 {
     font-size: 100px;
     line-height: 90px;
     font-weight: 800;
     margin-bottom: 20px;
-    
+    letter-spacing: -5px;
 }
+
 #p-main{
     font-size: 30px;
-    margin-top: 2;
+    margin-top: 15px;
 }
+
 .btn-SM{
     margin-top: 20px;
     margin-bottom: 15px;
@@ -121,7 +126,7 @@ h1 {
     background: #f9f9f9;
     padding: 30px;
     border-radius: 8px;
-    text-align: center;
+    text-align: justify;
     transition: 0.3s ease-in-out;
     width: 700px;
     height: fit-content;
