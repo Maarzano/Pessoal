@@ -5,13 +5,14 @@ Quero que em cima tenha um menu fixo onde teremos opções como:
 - Sabores
 - Sobre Nós
 - Avaliações
-- Peça Agora
+- Peça Agora (será adicionada apenas ao dar scroll, ficará na direita)
+- (o menu suspensa mudará de cor ao dar scroll tbm)
 
 O site irá abrir em uma foto de um cookie delicioso, e terá um menu lá em cima fixo na esquerda com as opções já citadas ao clicar nele a tela desce para a parte escolhida
 
 ## Sabores
 
-terá 3 ou 4 cookies de tamanho grande com botão de comprar, parecido com a crumbl.
+terá 3 cookies de tamanho grande com botão de comprar, parecido com a crumbl.
 
 ## Sobre Nós
 

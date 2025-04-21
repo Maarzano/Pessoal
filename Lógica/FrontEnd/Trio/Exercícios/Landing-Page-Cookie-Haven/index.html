@@ -3,60 +3,153 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
         <title>Cookie Haven</title>
     </head>
+
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><a href="">Ver Sabores</a></li>
-                    <li><a href="">Sobre Nós</a></li>
-                    <li><a href="">Comentários</a></li>
-                    <li><a href="">Peça Agora</a></li>
+                    <li><a href="#nossos-sabores">Sabores</a></li>
+                    <li><a href="#sobre-nos">Sobre</a></li>
+                    <li><a href="#comentarios">Comentários</a></li>
                 </ul>
                 <div>
-                    <h2>Cookies Haven</h2>
+                    <h3>Cookies Haven</h3>
                 </div>
             </nav>
+
             <div>
                 <h1>Cookies artesanais<br> feitos com <span>amor</span></h1>
                 <p>Encomende agora os cookies mais gostosos de Belo Horizonte</p>
 
-                <a href="">Peça Agora</a>
+                <a href="#peca-agora">Peça Agora</a>
             </div>
+            
         </header>
 
         <main>
-            <article>
-                <h2>Nossos Sabores</h2>
-                <div>
-
+            <section>
+                <h2 id="nossos-sabores">Nossos Sabores</h2>
+                <div class="cookie-card">
+                    <h2>Chocolate Clássico</h2>
+                    <p>Gotas de chocolate, mas com pedaços grandes: um biscoito delicioso recheado com irresistíveis pedaços de chocolate e uma pitada de flor de sal.</p>
+                    <img src="assets/cookie-sweet.avif" alt="" width="100px">
+                    <a href="">Peça Agora</a>
                 </div>
-            </article>
-            <article>
-                <h2>Sobre Nós</h2>
-                <div>
 
+                <div class="cookie-card">
+                    <h2>Double Chocolate</h2>
+                    <p>Um cookie com o dobro de chocolate meio amargo, que derrete ma boca, você não vai se esquecer da sensação!</p>
+                    <img src="assets/cookie-chocolate.avif" alt="" width="100px">
+                    <a href="">Peça Agora</a>
                 </div>
-            </article>
-            <article>
-                <h2>Comentários</h2>
-                <div>
+                <div class="cookie-card">
+                    <h2>Caramelizante</h2>
+                    <p>Gosta de doce? então venha de Caramelizante, com muito caramelo docificado na medida certa, para você e sua família poderem desfrutar desses momentos juntos.</p>
+                    <img src="assets/cookie-caramelo.avif" alt="" width="100px">
+                    <a href="">Peça Agora</a>
+                </div>
+            </section>
 
-                </div>
-            </article>
-            <article>
-                <h2>Peça Agora</h2>
+            <section>
+                <h2 id="sobre-nos">Sobre Nós</h2>
                 <div>
+                    <div>
+                        <h2>Nossa História</h2>
+                        <p>A Cookies Haven nasceu do sonho de um jovem casal apaixonado por confeitaria e momentos compartilhados à mesa.
+                        Unidos pelo amor e pelo desejo de espalhar doçura pelo mundo, começaram em uma pequena cozinha de casa, testando
+                        receitas de cookies durante as madrugadas. Cada fornada era uma mistura de carinho, criatividade e ingredientes
+                        selecionados com cuidado. Aos poucos, suas delícias artesanais conquistaram amigos, vizinhos e, logo, toda a cidade.
+                        Hoje, a Cookies Haven é sinônimo de sabor, afeto e autenticidade, mantendo viva a essência daquele sonho: criar experiências
+                        doces e inesquecíveis em cada mordida.</p>
+                        <img src="assets/casa-IA-chat.png" alt="" width="100px">
+                    </div>
 
+                    <div>
+                        <h2>Nossa Missão</h2>
+                        <p>Na Cookies Haven, nossa missão é espalhar amor e aconchego por meio de cada cookie que criamos.
+                        Acreditamos que doces momentos merecem ser celebrados com sabor e qualidade, e é por isso que nos dedicamos a produzir
+                        cookies artesanais que encantam todos os sentidos. Mais do que uma marca, somos uma extensão da paixão de um casal jovem
+                        que encontrou na confeitaria uma forma de compartilhar felicidade. Buscamos constantemente a excelência, priorizando ingredientes
+                        selecionados, respeito ao cliente e um atendimento caloroso, porque para nós, cada cookie é uma oportunidade de fazer alguém sorrir.</p>
+                        <img src="https://images.unsplash.com/photo-1633737973026-5a91542f639d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="100px">
+                    </div>
                 </div>
-            </article>
+            </section>
+
+            <section>
+                <h2 id="comentarios">Deixe um comentário</h2>
+                <div>
+                    <form class="form">
+                        <div class="group">
+                            <input placeholder="‎" type="text" required="">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="group">
+                            <input placeholder="‎" type="email" id="email" name="email" required="">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="group">
+                            <textarea placeholder="‎" id="comment" name="comment" rows="5" required=""></textarea>
+                            <label for="comment">Comment</label>
+                        </div>
+                            <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div>
+                    <h2 id="comentario">Veja os comentários</h2>
+                    <p>exemplo comentário</p>
+                </div>
+            </section>
 
         </main>
 
-        <footer>
-
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#nossos-sabores">Sabores</a></li>
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#comentarios">Comentários</a></li>
+                        <li><a href="#peca-agora">Peça Agora</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: contato@cookieshaven.com</p>
+                    <p>Telefone: (31) 91234-5678</p>
+                    <p>Endereço: Rua dos Cookies, 123 - Belo Horizonte, MG</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Nos acompanhe</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                            <img src="assets/instagram-icon-com.svg" alt="Instagram" width="24">
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                            <img src="assets/facebook-icon-com.svg" alt="Facebook" width="24">
+                        </a>
+                        <a href="https://www.whatsapp.com" target="_blank" aria-label="WhatsApp">
+                            <img src="assets/whatsapp-icon.svg" alt="WhatsApp" width="24">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cookie Haven. Todos os direitos reservados.</p>
+            </div>
         </footer>
+        
 
     </body>
 </html>
