@@ -11,11 +11,59 @@ html{
 
 body{
     margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
     font-family: 'Poetsen One', sans-serif;
     font-weight: 300;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #3e2c23;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.sumario{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+.sumario li {
+    padding: 5px;
+    margin: 0px 5px;
+    border: 2px solid black;
+    border-color: #000000;
+    border-radius: 14px;
+}
+
+.sumario li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.marca-title{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marca-title h3 {
+    font-size: 35px;
+}
+
+.espaco-vazio{
+    width: 320px;
 }
 
 header{
@@ -29,9 +77,36 @@ header{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
+.main-title {
+    font-size: 9rem;
+    color: #3e2c23;
+    -webkit-text-stroke: 4px #000000;
+}
+
+.main-p {
+    font-size: 3rem;
+    color: #3e2c23;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.btn-peca-agora {
+    font-size: 2rem;
+    margin-top: 90px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    border: 2px solid #000000;
+    background-color: #3e2c23;
+    border-radius: 100px;
+}
+
+.btn-peca-agora:hover{
+    /*TODO: colocar transição*/
+}
 
 /*FOOTER*/
 
