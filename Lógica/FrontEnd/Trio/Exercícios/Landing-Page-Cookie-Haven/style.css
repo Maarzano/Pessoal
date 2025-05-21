@@ -22,12 +22,17 @@ h1, h2, h3 {
 nav {
     position: sticky;
     top: 0;
-    background-color: #3e2c23;
+    background-color: #ffaab2;
     padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.scrolled{
+    background-color: #3e2c23;
 }
 
 .sumario{
@@ -67,11 +72,11 @@ nav {
 }
 
 header{
-    background-image: url('assets/cookie-gostoso-chat.png');
+    background-image: url('assets/Images/fundo-cookie-rosa.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 88vh;
+    height: 78vh;
     color: #000000;
     position: relative;
     padding: 20px;
@@ -89,8 +94,8 @@ header{
 
 .main-p {
     font-size: 3rem;
-    color: #3e2c23;
-    -webkit-text-stroke: 1px #000000;
+    color: #000000;
+    /*-webkit-text-stroke: 1px #000000;*/
 }
 
 .btn-peca-agora {
@@ -100,12 +105,80 @@ header{
     color: #ffffff;
     padding: 15px;
     border: 2px solid #000000;
-    background-color: #3e2c23;
+    background-color: #000000;
     border-radius: 100px;
 }
 
 .btn-peca-agora:hover{
     /*TODO: colocar transição*/
+}
+
+/*MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30vh;
+    padding: 40px;
+}
+
+#nossos-sabores {
+    font-size: 6.3rem;
+    margin: 0 40px 40px 0px;
+}
+
+.cookie-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cookie-card h2 {
+    font-size: 2.3rem;
+}
+
+.cookie-card img {
+    width: 36rem;
+    height: 36rem;
+}
+
+.cookie-card-hover {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-block {
+    width: 55%;
+    height: 50%;
+    font-size: 20px;
+}
+
+.text-block h2 {
+    font-size: 7.3vh;
+    margin-bottom: 20px;
+}
+.text-block ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn2 {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    margin: 30px;
 }
 
 /*FOOTER*/
