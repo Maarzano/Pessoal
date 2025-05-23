@@ -130,9 +130,11 @@ main {
 }
 
 .cookie-card {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 60px 10px;
 }
 
 .cookie-card h2 {
@@ -147,13 +149,23 @@ main {
 .cookie-card-hover {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 25px 30px;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.cookie-card-hover:hover {
+    background-color: #3e2c23;
+
+    color: white;
 }
 
 .img-card {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px;
+    margin-left: 10px;
     
 }
 
@@ -161,6 +173,7 @@ main {
     width: 55%;
     height: 50%;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 .text-block h2 {
