@@ -22,17 +22,8 @@
                 <h3 >Cookies Haven</h3>
             </div>
             <div class="espaco-vazio"> </div>
-            <script>
-                window.addEventListener('scroll', function () {
-                    const nav = document.getElementById('navbar');
-                    if (window.scrollY > 10) {
-                    nav.classList.add('scrolled');
-                    } else {
-                    nav.classList.remove('scrolled');
-                    }
-                });
-            </script>
         </nav>
+        
         <header>
             
 
@@ -51,7 +42,10 @@
             <section>
                 <h2 id="nossos-sabores">Nossos Sabores</h2>
                 <div class="cookie-card">
-                    <div class="cookie-card-hover">
+                    <div class="cookie-card-hover cookie1">
+                        <div class="img-card">
+                            <img src="assets/cookie-sweet.avif" alt="" width="100px" class="imageCookieInvertido">
+                        </div>
                         <div class="text-block">
                             <h2>Chocolate Clássico</h2>
                             <p>Gotas de chocolate, mas com pedaços grandes: um biscoito delicioso recheado com irresistíveis pedaços de chocolate e uma pitada de flor de sal.</p>
@@ -60,24 +54,42 @@
                                 <li><a href="" class="btn-peca-agora btn2">Saiba Mais</a></li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+
+                <div class="cookie-card">
+                    <div class="cookie-card-hover cookie2">
+                        <div class="text-block">
+                            <h2>Double Chocolate</h2>
+                            <p>Um cookie com o dobro de chocolate meio amargo, que derrete ma boca, você não vai se esquecer da sensação!</p>
+                            <ul>
+                                <li><a href="" class="btn-peca-agora btn2">Peça Agora</a></li>
+                                <li><a href="" class="btn-peca-agora btn2">Saiba Mais</a></li>
+                            </ul>
+                        </div>
                         <div class="img-card">
-                            <img src="assets/cookie-sweet.avif" alt="" width="100px">
+                            <img src="assets/cookie-chocolate.avif" alt="" width="100px">
                         </div>
                     </div>
                 </div>
 
                 <div class="cookie-card">
-                    <h2>Double Chocolate</h2>
-                    <p>Um cookie com o dobro de chocolate meio amargo, que derrete ma boca, você não vai se esquecer da sensação!</p>
-                    <img src="assets/cookie-chocolate.avif" alt="" width="100px">
-                    <a href="">Peça Agora</a>
+                    <div class="cookie-card-hover cookie3">
+                        <div class="img-card">
+                            <img src="assets/cookie-caramelo.avif" alt="" width="100px" class="imageCookieInvertido">
+                        </div>
+                        <div class="text-block">
+                            <h2>Caramelizante</h2>
+                            <p>Gosta de doce? então venha de Caramelizante, com muito caramelo docificado na medida certa, para você e sua família poderem desfrutar desses momentos juntos.</p>
+
+                            <ul>
+                                <li><a href="" class="btn-peca-agora btn2">Peça Agora</a></li>
+                                <li><a href="" class="btn-peca-agora btn2">Saiba Mais</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="cookie-card">
-                    <h2>Caramelizante</h2>
-                    <p>Gosta de doce? então venha de Caramelizante, com muito caramelo docificado na medida certa, para você e sua família poderem desfrutar desses momentos juntos.</p>
-                    <img src="assets/cookie-caramelo.avif" alt="" width="100px">
-                    <a href="">Peça Agora</a>
-                </div>
+
             </section>
 
             <section>
