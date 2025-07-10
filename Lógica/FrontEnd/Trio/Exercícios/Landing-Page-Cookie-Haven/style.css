@@ -221,6 +221,140 @@ main {
     margin: 30px;
 }
 
+
+/*sobre nóis*/
+
+#sobre-nos{
+    font-size: 6rem;
+}
+
+.title-sobre {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-nos-historia{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem 3rem 1rem;
+    margin: 3rem 0;
+}
+
+.sobre-nos-historia-text {
+    width: 50%;
+}
+.sobre-nos-historia-text > p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.sobre-nos-historia-img{
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    border-radius: 20px;
+}
+.sobre-nos-historia-img img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.sobre-nos-missao {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem 3rem 1rem;
+    margin: 3rem 0;
+}
+.sobre-nos-missao-text {
+    width: 50%;
+    text-align: right;
+}
+.sobre-nos-missao-text > p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.sobre-nos-missao-img{
+    width: 45%;
+}
+.sobre-nos-missao-img img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+/*COMENTARIOS*/
+
+.comentarios-container {
+    background: #fff8f3;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(62,44,35,0.08);
+    padding: 2.5rem 2rem 2rem 2rem;
+    margin: 60px auto 60px auto;
+    max-width: 500px;
+    border: 2px solid var(--marrom);
+}
+
+.comentario-title {
+    color: var(--marrom);
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Poetsen One', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.group label {
+    font-weight: 600;
+    color: var(--marrom-calro);
+    margin-bottom: 0.2rem;
+}
+
+.group input,
+.group textarea {
+    border: 1.5px solid #e0cfc2;
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    background: #fff;
+    color: #3e2c23;
+    font-family: inherit;
+    transition: border 0.2s;
+    resize: none;
+}
+
+.group input:focus,
+.group textarea:focus {
+    border: 1.5px solid var(--marrom);
+    outline: none;
+}
+
+.btn-comentario {
+    background: var(--marrom);
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.7rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+}
+
+.btn-comentario:hover {
+    background: var(--marrom-calro);
+}
+
 /*FOOTER*/
 
 .footer {
