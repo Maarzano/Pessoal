@@ -94,52 +94,57 @@
 
             <section>
                 <h2 id="sobre-nos">Sobre Nós</h2>
-                <div>
-                    <div>
-                        <h2>Nossa História</h2>
-                        <p>A Cookies Haven nasceu do sonho de um jovem casal apaixonado por confeitaria e momentos compartilhados à mesa.
-                        Unidos pelo amor e pelo desejo de espalhar doçura pelo mundo, começaram em uma pequena cozinha de casa, testando
-                        receitas de cookies durante as madrugadas. Cada fornada era uma mistura de carinho, criatividade e ingredientes
-                        selecionados com cuidado. Aos poucos, suas delícias artesanais conquistaram amigos, vizinhos e, logo, toda a cidade.
-                        Hoje, a Cookies Haven é sinônimo de sabor, afeto e autenticidade, mantendo viva a essência daquele sonho: criar experiências
-                        doces e inesquecíveis em cada mordida.</p>
-                        <img src="assets/casa-IA-chat.png" alt="" width="100px">
+                <div class="sobre-nos">
+                    <div class="sobre-nos-historia">
+                        <div class="sobre-nos-historia-text">
+                            <h2 class="title-sobre">Nossa História</h2>
+                            <p>A Cookies Haven nasceu do sonho de um jovem casal apaixonado por confeitaria e momentos compartilhados à mesa.
+                            Unidos pelo amor e pelo desejo de espalhar doçura pelo mundo, começaram em uma pequena cozinha de casa, testando
+                            receitas de cookies durante as madrugadas. </p> <br>
+                            <p>Cada fornada era uma mistura de carinho, criatividade e ingredientes
+                            selecionados com cuidado. Aos poucos, suas delícias artesanais conquistaram amigos, vizinhos e, logo, toda a cidade.
+                            Hoje, a Cookies Haven é sinônimo de sabor, afeto e autenticidade, mantendo viva a essência daquele sonho: criar experiências
+                            doces e inesquecíveis em cada mordida.</p>
+                        </div>
+                        <div class="sobre-nos-historia-img">
+                            <img src="assets/Images/julian-hochgesang-Ms9Zb6umsKU-unsplash.jpg" alt="">
+                        </div>
                     </div>
-
-                    <div>
-                        <h2>Nossa Missão</h2>
-                        <p>Na Cookies Haven, nossa missão é espalhar amor e aconchego por meio de cada cookie que criamos.
-                        Acreditamos que doces momentos merecem ser celebrados com sabor e qualidade, e é por isso que nos dedicamos a produzir
-                        cookies artesanais que encantam todos os sentidos. Mais do que uma marca, somos uma extensão da paixão de um casal jovem
-                        que encontrou na confeitaria uma forma de compartilhar felicidade. Buscamos constantemente a excelência, priorizando ingredientes
-                        selecionados, respeito ao cliente e um atendimento caloroso, porque para nós, cada cookie é uma oportunidade de fazer alguém sorrir.</p>
-                        <img src="https://images.unsplash.com/photo-1633737973026-5a91542f639d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="100px">
+                    <div class="sobre-nos-missao">
+                        <div class="sobre-nos-missao-img">
+                            <img src="./assets/Images/blondegirl.png" alt="" width="100px">
+                        </div>
+                        <div class="sobre-nos-missao-text">
+                            <h2 class="title-sobre">Nossa Missão</h2>
+                            <p>Na Cookies Haven, nossa missão é espalhar amor e aconchego por meio de cada cookie que criamos.
+                            Acreditamos que doces momentos merecem ser celebrados com sabor e qualidade, e é por isso que nos dedicamos a produzir
+                            cookies artesanais que encantam todos os sentidos. </p> <br>
+                            <p>Mais do que uma marca, somos uma extensão da paixão de um casal jovem
+                            que encontrou na confeitaria uma forma de compartilhar felicidade. Buscamos constantemente a excelência, priorizando ingredientes
+                            selecionados, respeito ao cliente e um atendimento caloroso, porque para nós, cada cookie é uma oportunidade de fazer alguém sorrir.</p>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section>
-                <h2 id="comentarios">Deixe um comentário</h2>
-                <div>
-                    <form class="form">
+            <section class="comentarios-container" id="comentarios">
+                <h2 class="comentario-title">Deixe um comentário</h2>
+                <div class="comentario-group">
+                    <form class="form" id="form-comentario" autocomplete="off">
                         <div class="group">
-                            <input placeholder="‎" type="text" required="">
-                            <label for="name">Name</label>
+                            <label for="name">Nome</label>
+                            <input placeholder="Seu nome" type="text" required id="name" name="name">
                         </div>
                         <div class="group">
-                            <input placeholder="‎" type="email" id="email" name="email" required="">
                             <label for="email">Email</label>
+                            <input placeholder="Seu email" type="email" id="email" name="email" required>
                         </div>
                         <div class="group">
-                            <textarea placeholder="‎" id="comment" name="comment" rows="5" required=""></textarea>
-                            <label for="comment">Comment</label>
+                            <label for="comment">Comentário</label>
+                            <textarea placeholder="Escreva seu comentário..." id="comment" name="comment" rows="4" required></textarea>
                         </div>
-                            <button type="submit">Submit</button>
+                        <button type="submit" class="btn-peca-agora btn-comentario">Enviar</button>
                     </form>
-                </div>
-                <div>
-                    <h2 id="comentario">Veja os comentários</h2>
-                    <p>exemplo comentário</p>
                 </div>
             </section>
 
@@ -184,7 +189,5 @@
                 <p>&copy; 2025 Cookie Haven. Todos os direitos reservados.</p>
             </div>
         </footer>
-        
-
     </body>
 </html>
