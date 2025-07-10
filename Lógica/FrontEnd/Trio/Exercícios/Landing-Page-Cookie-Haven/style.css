@@ -134,7 +134,7 @@ main {
 }
 
 #nossos-sabores {
-    font-size: 6.3rem;
+    font-size: 6rem;
     margin: 0 40px 40px 0px;
 }
 
@@ -210,6 +210,7 @@ main {
     list-style: none;
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 }
 
 .btn2 {
