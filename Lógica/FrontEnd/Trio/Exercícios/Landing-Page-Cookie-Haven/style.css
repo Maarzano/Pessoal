@@ -99,7 +99,7 @@ header{
 .main-title {
     font-size: 9rem;
     color: #3e2c23;
-    -webkit-text-stroke: 4px #000000;
+    -webkit-text-stroke: 3px #000000;
 }
 
 .main-p {
@@ -114,7 +114,6 @@ header{
     text-decoration: none;
     color: #ffffff;
     padding: 15px 30px;
-    border: 2px solid #000000;
     background-color: #000000;
     border-radius: 100px;
 }
