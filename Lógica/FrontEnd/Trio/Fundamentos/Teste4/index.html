@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Teste-4</title>
+    </head>
+    <body>
+        <nav class="cabecalho">
+            <div class="img-container">
+                <img src="assets/temp.svg" alt="" class="icon">
+            </div>
+        </nav>
+        <main class="main">
+            <button class="btn" onclick="handleClick()">Clique em mim</button>
+
+        </main>
+        <script>
+            const handleClick = (obj) => {
+                const root = document.querySelector(":root");
+                const style = getComputedStyle(root);
+                const bgColor = style.getPropertyValue("--bg-color");
+                
+                root.style.setProperty("--bg-color", "#ff0000");
+                root.style.setProperty('--bg-color-main', '#00ff00');
+                
+            }
+        </script>
+    </body>
+</html>

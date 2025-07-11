@@ -1,0 +1,43 @@
+:root {
+    --bg-color: #1a1a1a;
+    --bg-color-main: #505050;
+}
+
+html {
+    font-size: 62.50%;
+    background-color: var(--bg-color, grey);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecalho {
+    background-color: black;
+    max-width: 100vw;
+    min-height: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    width: 100px;
+}
+
+.icon {
+    width: 100%;
+}
+
+.main {
+    min-height: 100vh;
+    width: 90%;
+    background-color: var(--bg-color-main);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
