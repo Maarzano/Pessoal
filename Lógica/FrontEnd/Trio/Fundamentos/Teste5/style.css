@@ -1,0 +1,36 @@
+:root {
+    --cor-texto: #000;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.flex-item{
+    padding: 1.5em;
+    background-color: rgb(66, 66, 199);
+    color: var(--cor-texto);
+}
+
+.flex-item h1 {
+    font-size: 3rem;
+}
+
+.flex-item p {
+    font-size: 2em;
+}
