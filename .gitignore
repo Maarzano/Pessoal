@@ -14,6 +14,7 @@ Thumbs.db
 .vscode/*
 .vscode-test/
 .vscode
+.codemap
 
 # Node.js (caso algum projeto use)
 node_modules/
