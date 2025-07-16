@@ -1,0 +1,33 @@
+:root {
+    --nav: #175252;
+    --card: #233131;
+    --height-nav: 8rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-fixo {
+    background-color: var(--nav);
+    width: 100vw;
+    height: var(--height-nav);
+}
+
+.card {
+    background-color: var(--card);
+    width: 60vw;
+    height: calc(100vh - var(--height-nav));
+    margin: auto;
+    text-align: center;
+}
+
+.card button {
+    margin-top: calc(5% + 10px);
+}
