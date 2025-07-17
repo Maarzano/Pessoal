@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --cor-fundo-padrao: #9b9b9b;
+    --cor-card: #414949;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-fundo-padrao);
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 30vw;
+    height: 30vw;
+    background-color: var(--cor-card);
+    border-radius: 1vw;
+}
+
+img {
+    width: 100%;
+}
