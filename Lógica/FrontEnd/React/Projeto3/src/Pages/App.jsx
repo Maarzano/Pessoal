@@ -14,7 +14,7 @@ function App() {
   const handleSearchRepo = async () => {
     const {data} = await api.get(`repos/${currentRepo}`)
 
-    if(data.id){
+    if(data.id){ //teste
       const isExist = repos.find(repo => repo.id === data.id);
 
       if(!isExist){
