@@ -74,20 +74,20 @@
       "index": "Zz",
       "roundness": null,
       "seed": 1878600165,
-      "version": 1565,
-      "versionNonce": 1068934123,
+      "version": 1570,
+      "versionNonce": 56691302,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754404556553,
+      "updated": 1754507165022,
       "link": null,
       "locked": false,
-      "text": "A primeira máquina encontrada que usava alguma base de\ncálculos ou afins foi encontrada em uma ilha na grécia,\nera movida a engrangens.\n\nA função dela era prever a posição dos astros no céu,\nela por exemplo conseguia prever o éclipse, era muito\narcaico e era análogo a posição dos astros, era uma\nrepresentação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a\ncontagem de tempo, tanto para saber quando plantar,\npois assim eles sabiam quando ia fazer frio, daqui\nquanto tempo, quanto tempo se passou desde a última\nseca e afins... na idade média esses tipos de máquinas\neram muito importantes",
+      "text": "A primeira máquina encontrada que usava alguma base de\ncálculos ou afins foi encontrada em uma ilha de\nAntikythera na grécia, era movida a engrangens.\n\nA função dela era prever a posição dos astros no céu,\nela por exemplo conseguia prever o éclipse, era muito\narcaico e era análogo a posição dos astros, era uma\nrepresentação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a\ncontagem de tempo, tanto para saber quando plantar,\npois assim eles sabiam quando ia fazer frio, daqui\nquanto tempo, quanto tempo se passou desde a última\nseca e afins... na idade média esses tipos de máquinas\neram muito importantes",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "tO4hQLgXBMC2ITGY05dGL",
-      "originalText": "A primeira máquina encontrada que usava alguma base de cálculos ou afins foi encontrada em uma ilha na grécia, era movida a engrangens.\n\nA função dela era prever a posição dos astros no céu, ela por exemplo conseguia prever o éclipse, era muito arcaico e era análogo a posição dos astros, era uma representação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a contagem de tempo, tanto para saber quando plantar, pois assim eles sabiam quando ia fazer frio, daqui quanto tempo, quanto tempo se passou desde a última seca e afins... na idade média esses tipos de máquinas eram muito importantes",
+      "originalText": "A primeira máquina encontrada que usava alguma base de cálculos ou afins foi encontrada em uma ilha de Antikythera na grécia, era movida a engrangens.\n\nA função dela era prever a posição dos astros no céu, ela por exemplo conseguia prever o éclipse, era muito arcaico e era análogo a posição dos astros, era uma representação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a contagem de tempo, tanto para saber quando plantar, pois assim eles sabiam quando ia fazer frio, daqui quanto tempo, quanto tempo se passou desde a última seca e afins... na idade média esses tipos de máquinas eram muito importantes",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -333,7 +333,7 @@
     {
       "id": "FmZMV7q9VSiPjdGww6oeH",
       "type": "text",
-      "x": 1158.4444444444443,
+      "x": 1156.7777777777776,
       "y": 428.55555555555554,
       "width": 155.76390075683594,
       "height": 35,
@@ -350,11 +350,11 @@
       "index": "aC",
       "roundness": null,
       "seed": 1833496587,
-      "version": 570,
-      "versionNonce": 1033559467,
+      "version": 575,
+      "versionNonce": 1687994406,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754400523490,
+      "updated": 1754505397559,
       "link": null,
       "locked": false,
       "text": "Curiosidade",
@@ -436,7 +436,7 @@
       "x": 426.8888888888888,
       "y": 1336.1111111111115,
       "width": 606.3333333333334,
-      "height": 664,
+      "height": 795,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -452,8 +452,8 @@
         "type": 3
       },
       "seed": 1403175685,
-      "version": 1688,
-      "versionNonce": 1365824331,
+      "version": 1823,
+      "versionNonce": 1579085178,
       "isDeleted": false,
       "boundElements": [
         {
@@ -485,7 +485,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754404133540,
+      "updated": 1754507045582,
       "link": null,
       "locked": false
     },
@@ -493,9 +493,9 @@
       "id": "FNhfDs73f2HoAQNRihzWS",
       "type": "text",
       "x": 431.96577284071174,
-      "y": 1418.1111111111115,
+      "y": 1408.6111111111115,
       "width": 596.1795654296875,
-      "height": 500,
+      "height": 650,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -509,20 +509,20 @@
       "index": "aFV",
       "roundness": null,
       "seed": 1780633611,
-      "version": 2652,
-      "versionNonce": 1531263237,
+      "version": 3081,
+      "versionNonce": 2054273722,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754401899116,
+      "updated": 1754507045582,
       "link": null,
       "locked": false,
-      "text": "Onde foi encontrados em vários lugares do mundo, nos\negípcios, e em vários outras populações usvam o ábaco para\ncalcular.\n\nConsistia em bolinhas e barras, onde a primeira barra\nrepresentava a unidade, depois a dezena, depois centena e\nassim por diante.\n\nEntão se você quisesse, contar 3 de alguma coisa você movia\napenas 3 bolinhas da primeira barra, mas se quisesse 45, você\nmovia 5 da primiera coluna e 4 da segunda e assim por\ndiante...\n\nMas até agora calculamos apenas adição, e se quisermos\ndiminuir? é a mesa regra da adição, se quisermos tirar 6 de\n45 tiramos as 5... mas falta mais 1, então entra algo\ninteressante agora, você vai retirar 1 da dezena e voltar 10\nna unidade, assim temos uma representação de 40 mas de\nforma diferente, lembra que falta mais 1? então tiramos 1 das\nunidades, assim fica 39...",
+      "text": "Onde foi encontrados em vários lugares do mundo, nos\negípcios, e em vários outras populações usvam o ábaco para\ncalcular.\n\nConsistia em bolinhas e barras, onde a primeira barra\nrepresentava a unidade, depois a dezena, depois centena e\nassim por diante.\n\nEntão se você quisesse, contar 3 de alguma coisa você movia\napenas 3 bolinhas da primeira barra, mas se quisesse 45, você\nmovia 5 da primiera coluna e 4 da segunda e assim por\ndiante...\n\nMas até agora calculamos apenas adição, e se quisermos\ndiminuir? é a mesa regra da adição, se quisermos tirar 6 de\n45 tiramos as 5... mas falta mais 1, então entra algo\ninteressante agora, você vai retirar 1 da dezena e voltar 10\nna unidade, assim temos uma representação de 40 mas de\nforma diferente, lembra que falta mais 1? então tiramos 1 das\nunidades, assim fica 39...\n\nO ábaco revolucionou porque se tornou mais fácil fazer\ncontas, pois as pessoas não tinham que se esforçar tanto\npara ficar guardadando os valores, agora poderiam apenas\nolhar o ábaco e ter a quantidade certa, sendo assim uma\nforma de extensão física de memória.",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "HIcpzKmSUvJfH9lwnjDNi",
-      "originalText": "Onde foi encontrados em vários lugares do mundo, nos egípcios, e em vários outras populações usvam o ábaco para calcular.\n\nConsistia em bolinhas e barras, onde a primeira barra representava a unidade, depois a dezena, depois centena e assim por diante.\n\nEntão se você quisesse, contar 3 de alguma coisa você movia apenas 3 bolinhas da primeira barra, mas se quisesse 45, você movia 5 da primiera coluna e 4 da segunda e assim por diante...\n\nMas até agora calculamos apenas adição, e se quisermos diminuir? é a mesa regra da adição, se quisermos tirar 6 de 45 tiramos as 5... mas falta mais 1, então entra algo interessante agora, você vai retirar 1 da dezena e voltar 10 na unidade, assim temos uma representação de 40 mas de forma diferente, lembra que falta mais 1? então tiramos 1 das unidades, assim fica 39...",
+      "originalText": "Onde foi encontrados em vários lugares do mundo, nos egípcios, e em vários outras populações usvam o ábaco para calcular.\n\nConsistia em bolinhas e barras, onde a primeira barra representava a unidade, depois a dezena, depois centena e assim por diante.\n\nEntão se você quisesse, contar 3 de alguma coisa você movia apenas 3 bolinhas da primeira barra, mas se quisesse 45, você movia 5 da primiera coluna e 4 da segunda e assim por diante...\n\nMas até agora calculamos apenas adição, e se quisermos diminuir? é a mesa regra da adição, se quisermos tirar 6 de 45 tiramos as 5... mas falta mais 1, então entra algo interessante agora, você vai retirar 1 da dezena e voltar 10 na unidade, assim temos uma representação de 40 mas de forma diferente, lembra que falta mais 1? então tiramos 1 das unidades, assim fica 39...\n\nO ábaco revolucionou porque se tornou mais fácil fazer contas, pois as pessoas não tinham que se esforçar tanto para ficar guardadando os valores, agora poderiam apenas olhar o ábaco e ter a quantidade certa, sendo assim uma forma de extensão física de memória.",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -608,10 +608,10 @@
     {
       "id": "-qdI_yg_ZpMC40vXCrj17",
       "type": "arrow",
-      "x": 422.75717280568557,
-      "y": 1679.7190379634635,
-      "width": 182.89576868563114,
-      "height": 88.6522152534576,
+      "x": 423.16551791568173,
+      "y": 1733.0375859083144,
+      "width": 183.30411379562733,
+      "height": 119.39981979013714,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -625,11 +625,11 @@
       "index": "aI",
       "roundness": null,
       "seed": 819775627,
-      "version": 4424,
-      "versionNonce": 570223333,
+      "version": 4564,
+      "versionNonce": 630664762,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754401899114,
+      "updated": 1754507045582,
       "link": null,
       "locked": false,
       "points": [
@@ -638,8 +638,8 @@
           0
         ],
         [
-          -182.89576868563114,
-          -88.6522152534576
+          -183.30411379562733,
+          -119.39981979013714
         ]
       ],
       "lastCommittedPoint": null,
@@ -1145,10 +1145,10 @@
     {
       "id": "SUw1Cvs6jVlGmB9z3Nt3u",
       "type": "arrow",
-      "x": 676.0025904130689,
+      "x": 673.9741230908603,
       "y": 1224.4586683908212,
-      "width": 13.119008918776103,
-      "height": 110.83206621727618,
+      "width": 11.800859735599715,
+      "height": 110.76924323859635,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -1164,11 +1164,11 @@
         "type": 2
       },
       "seed": 1078872363,
-      "version": 757,
-      "versionNonce": 591939141,
+      "version": 897,
+      "versionNonce": 2110347002,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754401899115,
+      "updated": 1754507045582,
       "link": null,
       "locked": false,
       "points": [
@@ -1177,8 +1177,8 @@
           0
         ],
         [
-          13.119008918776103,
-          110.83206621727618
+          11.800859735599715,
+          110.76924323859635
         ]
       ],
       "lastCommittedPoint": null,
@@ -7689,10 +7689,10 @@
     {
       "id": "THSKsqPwD2jnpsL7PZ0q8",
       "type": "arrow",
-      "x": 1040.121826612762,
-      "y": 1714.4379451452492,
-      "width": 53.01585103657408,
-      "height": 119.9659844236462,
+      "x": 1037.420385777969,
+      "y": 1785.1485092019407,
+      "width": 57.32054924564227,
+      "height": 162.67084785440647,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -7708,11 +7708,11 @@
         "type": 2
       },
       "seed": 1092547787,
-      "version": 349,
-      "versionNonce": 881655179,
+      "version": 489,
+      "versionNonce": 121137082,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754402121423,
+      "updated": 1754507045582,
       "link": null,
       "locked": false,
       "points": [
@@ -7721,8 +7721,8 @@
           0
         ],
         [
-          53.01585103657408,
-          -119.9659844236462
+          57.32054924564227,
+          -162.67084785440647
         ]
       ],
       "lastCommittedPoint": null,
@@ -17104,10 +17104,10 @@
     {
       "id": "UZrU6xUYstkFxh_6eJLIN",
       "type": "arrow",
-      "x": 1038.9166666666679,
-      "y": 1720.1111111110986,
-      "width": 56,
-      "height": 154,
+      "x": 1037.6851035554073,
+      "y": 1790.1227398853357,
+      "width": 55.57648714351626,
+      "height": 86.76962058415256,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -17123,11 +17123,11 @@
         "type": 2
       },
       "seed": 1923472203,
-      "version": 275,
-      "versionNonce": 73059211,
+      "version": 523,
+      "versionNonce": 1993618278,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754402119660,
+      "updated": 1754507052506,
       "link": null,
       "locked": false,
       "points": [
@@ -17136,20 +17136,20 @@
           0
         ],
         [
-          56,
-          154
+          55.57648714351626,
+          86.76962058415256
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "HIcpzKmSUvJfH9lwnjDNi",
-        "focus": -0.6840202070748735,
-        "gap": 5.694444444445708
+        "focus": -0.48664236120030524,
+        "gap": 4.462881333185123
       },
       "endBinding": {
         "elementId": "-n3B6BmdEgt89x-pMSJh7",
-        "focus": -0.5003021148036252,
-        "gap": 11.18407013644386
+        "focus": -0.26993379472017065,
+        "gap": 10.902580487959204
       },
       "startArrowhead": null,
       "endArrowhead": null,
@@ -17158,10 +17158,10 @@
     {
       "id": "_dwbyibb0_M2wt9iH4NUt",
       "type": "arrow",
-      "x": 421.25712167853305,
-      "y": 1972.995055762435,
-      "width": 224.92139853352606,
-      "height": 137.68750258975865,
+      "x": 421.8100709499624,
+      "y": 2010.4147991415748,
+      "width": 225.47434780495539,
+      "height": 113.24887024401778,
       "angle": 0,
       "strokeColor": "#f08c00",
       "backgroundColor": "transparent",
@@ -17177,11 +17177,11 @@
         "type": 2
       },
       "seed": 1560243563,
-      "version": 436,
-      "versionNonce": 261790059,
+      "version": 576,
+      "versionNonce": 301547834,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754403770896,
+      "updated": 1754507045582,
       "link": null,
       "locked": false,
       "points": [
@@ -17190,8 +17190,8 @@
           0
         ],
         [
-          -224.92139853352606,
-          137.68750258975865
+          -225.47434780495539,
+          113.24887024401778
         ]
       ],
       "lastCommittedPoint": null,
@@ -17504,10 +17504,10 @@
     {
       "id": "S-sXqxhP3-GmV5aPTepIR",
       "type": "arrow",
-      "x": 727.9997205548466,
-      "y": 2005.7231310703019,
-      "width": 13.371215281762602,
-      "height": 283.65867536547375,
+      "x": 723.4365349219212,
+      "y": 2137.14680894313,
+      "width": 7.789006341025242,
+      "height": 152.23499749264556,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -17523,11 +17523,11 @@
         "type": 2
       },
       "seed": 432749675,
-      "version": 799,
-      "versionNonce": 1214321323,
+      "version": 939,
+      "versionNonce": 1517357562,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754404556552,
+      "updated": 1754507045582,
       "link": null,
       "locked": false,
       "points": [
@@ -17536,8 +17536,8 @@
           0
         ],
         [
-          -13.371215281762602,
-          283.65867536547375
+          -7.789006341025242,
+          152.23499749264556
         ]
       ],
       "lastCommittedPoint": null,
