@@ -9,7 +9,7 @@
       "x": 445.7142857142817,
       "y": 2295.7182539682376,
       "width": 564,
-      "height": 558.9999999999999,
+      "height": 655,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -25,8 +25,8 @@
         "type": 3
       },
       "seed": 819784971,
-      "version": 1033,
-      "versionNonce": 1601648299,
+      "version": 1138,
+      "versionNonce": 1018195046,
       "isDeleted": false,
       "boundElements": [
         {
@@ -50,7 +50,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754405601238,
+      "updated": 1754507690812,
       "link": null,
       "locked": false
     },
@@ -58,9 +58,9 @@
       "id": "p6k10mfaZN5FVEYHYGrak",
       "type": "text",
       "x": 454.1945103236567,
-      "y": 2387.7182539682376,
+      "y": 2385.7182539682376,
       "width": 547.03955078125,
-      "height": 375,
+      "height": 475,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -74,20 +74,20 @@
       "index": "Zz",
       "roundness": null,
       "seed": 1878600165,
-      "version": 1570,
-      "versionNonce": 56691302,
+      "version": 1832,
+      "versionNonce": 111275174,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507165022,
+      "updated": 1754507690812,
       "link": null,
       "locked": false,
-      "text": "A primeira máquina encontrada que usava alguma base de\ncálculos ou afins foi encontrada em uma ilha de\nAntikythera na grécia, era movida a engrangens.\n\nA função dela era prever a posição dos astros no céu,\nela por exemplo conseguia prever o éclipse, era muito\narcaico e era análogo a posição dos astros, era uma\nrepresentação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a\ncontagem de tempo, tanto para saber quando plantar,\npois assim eles sabiam quando ia fazer frio, daqui\nquanto tempo, quanto tempo se passou desde a última\nseca e afins... na idade média esses tipos de máquinas\neram muito importantes",
+      "text": "A primeira máquina encontrada que usava alguma base de\ncálculos ou afins foi encontrada em uma ilha de\nAntikythera na grécia, era movida a engrangens.\n\nA função dela era prever a posição dos astros no céu,\nela por exemplo conseguia prever o éclipse, era muito\narcaico e era análogo a posição dos astros, era uma\nrepresentação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a\ncontagem de tempo, tanto para saber quando plantar,\npois assim eles sabiam quando ia fazer frio, daqui\nquanto tempo, quanto tempo se passou desde a última\nseca e afins... na idade média esses tipos de máquinas\neram muito importantes\n\nEsse mecânismo era tão complexo que algo foi se igualar\nuns .400 anos depois, com os relógios astronômicos da\nEuropa medieval",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "tO4hQLgXBMC2ITGY05dGL",
-      "originalText": "A primeira máquina encontrada que usava alguma base de cálculos ou afins foi encontrada em uma ilha de Antikythera na grécia, era movida a engrangens.\n\nA função dela era prever a posição dos astros no céu, ela por exemplo conseguia prever o éclipse, era muito arcaico e era análogo a posição dos astros, era uma representação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a contagem de tempo, tanto para saber quando plantar, pois assim eles sabiam quando ia fazer frio, daqui quanto tempo, quanto tempo se passou desde a última seca e afins... na idade média esses tipos de máquinas eram muito importantes",
+      "originalText": "A primeira máquina encontrada que usava alguma base de cálculos ou afins foi encontrada em uma ilha de Antikythera na grécia, era movida a engrangens.\n\nA função dela era prever a posição dos astros no céu, ela por exemplo conseguia prever o éclipse, era muito arcaico e era análogo a posição dos astros, era uma representação dos astros em engrenagens e afins.\n\nEsse mecânismo era importante principalemente para a contagem de tempo, tanto para saber quando plantar, pois assim eles sabiam quando ia fazer frio, daqui quanto tempo, quanto tempo se passou desde a última seca e afins... na idade média esses tipos de máquinas eram muito importantes\n\nEsse mecânismo era tão complexo que algo foi se igualar uns .400 anos depois, com os relógios astronômicos da Europa medieval",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -17504,10 +17504,10 @@
     {
       "id": "S-sXqxhP3-GmV5aPTepIR",
       "type": "arrow",
-      "x": 723.4365349219212,
-      "y": 2137.14680894313,
-      "width": 7.789006341025242,
-      "height": 152.23499749264556,
+      "x": 724.4615067646102,
+      "y": 2137.1468089431296,
+      "width": 7.358282057571955,
+      "height": 151.76390595214298,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -17523,11 +17523,11 @@
         "type": 2
       },
       "seed": 432749675,
-      "version": 939,
-      "versionNonce": 1517357562,
+      "version": 1049,
+      "versionNonce": 2045898662,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507045582,
+      "updated": 1754507690812,
       "link": null,
       "locked": false,
       "points": [
@@ -17536,8 +17536,8 @@
           0
         ],
         [
-          -7.789006341025242,
-          152.23499749264556
+          -7.358282057571955,
+          151.76390595214298
         ]
       ],
       "lastCommittedPoint": null,
@@ -17558,10 +17558,10 @@
     {
       "id": "1dpz83X-T_XazH72D0QAN",
       "type": "arrow",
-      "x": 1015.3955752760837,
-      "y": 2573.232792036336,
-      "width": 118.31871043819797,
-      "height": 10.58087862699449,
+      "x": 1014.9458274149433,
+      "y": 2597.2534278111166,
+      "width": 120.15864652826394,
+      "height": 1.9988972100345563,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -17577,11 +17577,11 @@
         "type": 2
       },
       "seed": 1529017355,
-      "version": 854,
-      "versionNonce": 1134527819,
+      "version": 964,
+      "versionNonce": 1923156710,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754404556553,
+      "updated": 1754507690812,
       "link": null,
       "locked": false,
       "points": [
@@ -17590,8 +17590,8 @@
           0
         ],
         [
-          118.31871043819797,
-          10.58087862699449
+          120.15864652826394,
+          1.9988972100345563
         ]
       ],
       "lastCommittedPoint": null,
@@ -17700,10 +17700,10 @@
     {
       "id": "dluSHTd_OBOzFTaHGiZZT",
       "type": "arrow",
-      "x": 441.45319100251663,
-      "y": 2562.8517947400996,
-      "width": 71.56389069247086,
-      "height": 0.39313662191852927,
+      "x": 441.79274375095196,
+      "y": 2584.378868795194,
+      "width": 71.90344344090624,
+      "height": 5.747689800567969,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -17719,11 +17719,11 @@
         "type": 2
       },
       "seed": 741846757,
-      "version": 801,
-      "versionNonce": 1268892715,
+      "version": 911,
+      "versionNonce": 357219878,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754405056606,
+      "updated": 1754507690812,
       "link": null,
       "locked": false,
       "points": [
@@ -17732,8 +17732,8 @@
           0
         ],
         [
-          -71.56389069247086,
-          0.39313662191852927
+          -71.90344344090624,
+          -5.747689800567969
         ]
       ],
       "lastCommittedPoint": null,
@@ -18521,16 +18521,20 @@
         "type": 3
       },
       "seed": 517489445,
-      "version": 1206,
-      "versionNonce": 1862061541,
+      "version": 1207,
+      "versionNonce": 979510438,
       "isDeleted": false,
       "boundElements": [
         {
           "id": "Z3MqABxCseo4iOx5d9e0R",
           "type": "arrow"
+        },
+        {
+          "id": "LJeY40W5ua-1FuGvqig53",
+          "type": "arrow"
         }
       ],
-      "updated": 1754408235678,
+      "updated": 1754507943225,
       "link": null,
       "locked": false,
       "status": "pending",
@@ -18598,10 +18602,10 @@
     {
       "id": "B9mV13EiTCFc4G7YOs5su",
       "type": "arrow",
-      "x": 673.4141887548477,
-      "y": 2860.1708595585683,
-      "width": 3.3775234361251023,
-      "height": 592.3130403894129,
+      "x": 673.8134822319342,
+      "y": 2956.577819123534,
+      "width": 3.335819495536043,
+      "height": 495.9060808244476,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -18617,11 +18621,11 @@
         "type": 2
       },
       "seed": 2020493541,
-      "version": 1158,
-      "versionNonce": 2067864837,
+      "version": 1268,
+      "versionNonce": 1994131814,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754407196212,
+      "updated": 1754507690812,
       "link": null,
       "locked": false,
       "points": [
@@ -18630,8 +18634,8 @@
           0
         ],
         [
-          -3.3775234361251023,
-          592.3130403894129
+          -3.335819495536043,
+          495.9060808244476
         ]
       ],
       "lastCommittedPoint": null,
@@ -20571,6 +20575,102 @@
         "elementId": "2byJAWCoQLuQq3Abia4Mx",
         "focus": -0.4192350165646067,
         "gap": 14.071428571427532
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "elbowed": false
+    },
+    {
+      "id": "b_ofKVmG2rf1b5Y0BGVj3",
+      "type": "text",
+      "x": -247.09894222682806,
+      "y": 3424.833333333343,
+      "width": 220.73956298828122,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2f",
+      "roundness": null,
+      "seed": 269379238,
+      "version": 1207,
+      "versionNonce": 305999674,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "LJeY40W5ua-1FuGvqig53",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1754507949188,
+      "link": null,
+      "locked": false,
+      "text": "Pascalina",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Pascalina",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "LJeY40W5ua-1FuGvqig53",
+      "type": "arrow",
+      "x": -144.5035267652986,
+      "y": 3476.3333333333426,
+      "width": 0.8649627539852247,
+      "height": 47.765164820171776,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2g",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2034054054,
+      "version": 84,
+      "versionNonce": 1208432634,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1754507949188,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.8649627539852247,
+          47.765164820171776
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "b_ofKVmG2rf1b5Y0BGVj3",
+        "focus": 0.07259078671036076,
+        "gap": 6.5
+      },
+      "endBinding": {
+        "elementId": "L3dPzxBQ85k3wyg4NAm7W",
+        "focus": -0.12087720108987582,
+        "gap": 5.396544566518514
       },
       "startArrowhead": null,
       "endArrowhead": null,
