@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "source": "https://excalidraw.com",
   "elements": [
     {
       "id": "tO4hQLgXBMC2ITGY05dGL",
@@ -452,14 +452,10 @@
         "type": 3
       },
       "seed": 1403175685,
-      "version": 1823,
-      "versionNonce": 1579085178,
+      "version": 1827,
+      "versionNonce": 386836696,
       "isDeleted": false,
       "boundElements": [
-        {
-          "type": "text",
-          "id": "FNhfDs73f2HoAQNRihzWS"
-        },
         {
           "id": "-qdI_yg_ZpMC40vXCrj17",
           "type": "arrow"
@@ -483,9 +479,13 @@
         {
           "id": "S-sXqxhP3-GmV5aPTepIR",
           "type": "arrow"
+        },
+        {
+          "id": "FNhfDs73f2HoAQNRihzWS",
+          "type": "text"
         }
       ],
-      "updated": 1754507045582,
+      "updated": 1755122982105,
       "link": null,
       "locked": false
     },
@@ -509,11 +509,11 @@
       "index": "aFV",
       "roundness": null,
       "seed": 1780633611,
-      "version": 3081,
-      "versionNonce": 2054273722,
+      "version": 3092,
+      "versionNonce": 1050639016,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507045582,
+      "updated": 1755122982104,
       "link": null,
       "locked": false,
       "text": "Onde foi encontrados em vários lugares do mundo, nos\negípcios, e em vários outras populações usvam o ábaco para\ncalcular.\n\nConsistia em bolinhas e barras, onde a primeira barra\nrepresentava a unidade, depois a dezena, depois centena e\nassim por diante.\n\nEntão se você quisesse, contar 3 de alguma coisa você movia\napenas 3 bolinhas da primeira barra, mas se quisesse 45, você\nmovia 5 da primiera coluna e 4 da segunda e assim por\ndiante...\n\nMas até agora calculamos apenas adição, e se quisermos\ndiminuir? é a mesa regra da adição, se quisermos tirar 6 de\n45 tiramos as 5... mas falta mais 1, então entra algo\ninteressante agora, você vai retirar 1 da dezena e voltar 10\nna unidade, assim temos uma representação de 40 mas de\nforma diferente, lembra que falta mais 1? então tiramos 1 das\nunidades, assim fica 39...\n\nO ábaco revolucionou porque se tornou mais fácil fazer\ncontas, pois as pessoas não tinham que se esforçar tanto\npara ficar guardadando os valores, agora poderiam apenas\nolhar o ábaco e ter a quantidade certa, sendo assim uma\nforma de extensão física de memória.",
@@ -585,8 +585,8 @@
         "type": 3
       },
       "seed": 1991374187,
-      "version": 2030,
-      "versionNonce": 1521498667,
+      "version": 2031,
+      "versionNonce": 1295408808,
       "isDeleted": false,
       "boundElements": [
         {
@@ -594,10 +594,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754401718333,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "9803dc73cb26b913875bdae0bc0ec0ea474afbe6",
       "scale": [
         1,
@@ -609,9 +609,9 @@
       "id": "-qdI_yg_ZpMC40vXCrj17",
       "type": "arrow",
       "x": 423.16551791568173,
-      "y": 1733.0375859083144,
-      "width": 183.30411379562733,
-      "height": 119.39981979013714,
+      "y": 1733.1288868046895,
+      "width": 183.3041137956273,
+      "height": 119.3182530707877,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -625,11 +625,11 @@
       "index": "aI",
       "roundness": null,
       "seed": 819775627,
-      "version": 4564,
-      "versionNonce": 630664762,
+      "version": 4565,
+      "versionNonce": 1039388120,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507045582,
+      "updated": 1755122982121,
       "link": null,
       "locked": false,
       "points": [
@@ -638,8 +638,8 @@
           0
         ],
         [
-          -183.30411379562733,
-          -119.39981979013714
+          -183.3041137956273,
+          -119.3182530707877
         ]
       ],
       "lastCommittedPoint": null,
@@ -977,8 +977,8 @@
       "index": "aU",
       "roundness": null,
       "seed": 1902469445,
-      "version": 569,
-      "versionNonce": 595711397,
+      "version": 570,
+      "versionNonce": 249708504,
       "isDeleted": false,
       "boundElements": [
         {
@@ -986,10 +986,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754401394980,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "54a86329bbab74549a5c93b88c9d5bfde2241dd2",
       "scale": [
         1,
@@ -1145,10 +1145,10 @@
     {
       "id": "SUw1Cvs6jVlGmB9z3Nt3u",
       "type": "arrow",
-      "x": 673.9741230908603,
-      "y": 1224.4586683908212,
-      "width": 11.800859735599715,
-      "height": 110.76924323859635,
+      "x": 673.9612396132042,
+      "y": 1224.458668390821,
+      "width": 11.803702280661241,
+      "height": 110.7692432385968,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -1164,11 +1164,11 @@
         "type": 2
       },
       "seed": 1078872363,
-      "version": 897,
-      "versionNonce": 2110347002,
+      "version": 898,
+      "versionNonce": 1995199192,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507045582,
+      "updated": 1755122982123,
       "link": null,
       "locked": false,
       "points": [
@@ -1177,8 +1177,8 @@
           0
         ],
         [
-          11.800859735599715,
-          110.76924323859635
+          11.803702280661241,
+          110.7692432385968
         ]
       ],
       "lastCommittedPoint": null,
@@ -1278,7 +1278,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "37YMM-Yjtzh1YSY3vDAE0",
@@ -1323,7 +1324,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "EOFq1dZbJlAN_mBZg-2M6",
@@ -1368,7 +1370,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "W_-1CgfQMXs_fwbYEDYKW",
@@ -1413,7 +1416,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "1ovGuGjNXefqeYSUqR2en",
@@ -7690,9 +7694,9 @@
       "id": "THSKsqPwD2jnpsL7PZ0q8",
       "type": "arrow",
       "x": 1037.420385777969,
-      "y": 1785.1485092019407,
+      "y": 1785.2944542291204,
       "width": 57.32054924564227,
-      "height": 162.67084785440647,
+      "height": 162.5718674600255,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -7708,11 +7712,11 @@
         "type": 2
       },
       "seed": 1092547787,
-      "version": 489,
-      "versionNonce": 121137082,
+      "version": 490,
+      "versionNonce": 1754019800,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507045582,
+      "updated": 1755122982124,
       "link": null,
       "locked": false,
       "points": [
@@ -7722,7 +7726,7 @@
         ],
         [
           57.32054924564227,
-          -162.67084785440647
+          -162.5718674600255
         ]
       ],
       "lastCommittedPoint": null,
@@ -7822,7 +7826,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "oCTU5P6Jc03EorVgKD1wz",
@@ -7867,7 +7872,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "GYPeu1CG0MSiX9Yi3wYXz",
@@ -7912,7 +7918,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "CKxk7NOaKK0RAadqKLkLU",
@@ -7957,7 +7964,8 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "polygon": false
     },
     {
       "id": "YA0Ps6Ig_pR3nEpSzxHlU",
@@ -17104,10 +17112,10 @@
     {
       "id": "UZrU6xUYstkFxh_6eJLIN",
       "type": "arrow",
-      "x": 1037.6851035554073,
-      "y": 1790.1227398853357,
-      "width": 55.57648714351626,
-      "height": 86.76962058415256,
+      "x": 1035.9345693270848,
+      "y": 1787.389692177249,
+      "width": 57.49454998543183,
+      "height": 89.7637709394885,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -17123,11 +17131,11 @@
         "type": 2
       },
       "seed": 1923472203,
-      "version": 523,
-      "versionNonce": 1993618278,
+      "version": 524,
+      "versionNonce": 1189575896,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507052506,
+      "updated": 1755122982125,
       "link": null,
       "locked": false,
       "points": [
@@ -17136,8 +17144,8 @@
           0
         ],
         [
-          55.57648714351626,
-          86.76962058415256
+          57.49454998543183,
+          89.7637709394885
         ]
       ],
       "lastCommittedPoint": null,
@@ -17158,10 +17166,10 @@
     {
       "id": "_dwbyibb0_M2wt9iH4NUt",
       "type": "arrow",
-      "x": 421.8100709499624,
-      "y": 2010.4147991415748,
-      "width": 225.47434780495539,
-      "height": 113.24887024401778,
+      "x": 421.8100709499623,
+      "y": 2010.4788770551058,
+      "width": 225.47434780495533,
+      "height": 113.28734509813921,
       "angle": 0,
       "strokeColor": "#f08c00",
       "backgroundColor": "transparent",
@@ -17177,11 +17185,11 @@
         "type": 2
       },
       "seed": 1560243563,
-      "version": 576,
-      "versionNonce": 301547834,
+      "version": 577,
+      "versionNonce": 596779480,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754507045582,
+      "updated": 1755122982126,
       "link": null,
       "locked": false,
       "points": [
@@ -17190,8 +17198,8 @@
           0
         ],
         [
-          -225.47434780495539,
-          113.24887024401778
+          -225.47434780495533,
+          113.28734509813921
         ]
       ],
       "lastCommittedPoint": null,
@@ -17348,8 +17356,8 @@
         "type": 3
       },
       "seed": 1462307819,
-      "version": 1092,
-      "versionNonce": 563402981,
+      "version": 1093,
+      "versionNonce": 2000964008,
       "isDeleted": false,
       "boundElements": [
         {
@@ -17357,10 +17365,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754408249883,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "f4238e1b04a66824ebe2d9257ebfcbbe39d44570",
       "scale": [
         1,
@@ -17481,8 +17489,8 @@
         "type": 3
       },
       "seed": 1793797035,
-      "version": 367,
-      "versionNonce": 1682104683,
+      "version": 368,
+      "versionNonce": 1161594072,
       "isDeleted": false,
       "boundElements": [
         {
@@ -17490,10 +17498,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754408244256,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "17fd82f0fcc77bdfd572c0fb7ce5068be4d6f0a6",
       "scale": [
         1,
@@ -17504,10 +17512,10 @@
     {
       "id": "S-sXqxhP3-GmV5aPTepIR",
       "type": "arrow",
-      "x": 724.4704141917816,
+      "x": 724.4727428127608,
       "y": 2137.1468089431296,
-      "width": 7.363945965119228,
-      "height": 151.76390595214298,
+      "width": 7.360327825005129,
+      "height": 151.76390595214343,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -17523,11 +17531,11 @@
         "type": 2
       },
       "seed": 432749675,
-      "version": 1050,
-      "versionNonce": 553952406,
+      "version": 1051,
+      "versionNonce": 1033905880,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754586352335,
+      "updated": 1755122982127,
       "link": null,
       "locked": false,
       "points": [
@@ -17536,8 +17544,8 @@
           0
         ],
         [
-          -7.363945965119228,
-          151.76390595214298
+          -7.360327825005129,
+          151.76390595214343
         ]
       ],
       "lastCommittedPoint": null,
@@ -17773,8 +17781,8 @@
         "type": 3
       },
       "seed": 1426218629,
-      "version": 863,
-      "versionNonce": 1057211051,
+      "version": 864,
+      "versionNonce": 509400232,
       "isDeleted": false,
       "boundElements": [
         {
@@ -17782,10 +17790,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754408248814,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "81e08dab0fbd89e6afdf5163518f456fdb2355c8",
       "scale": [
         1,
@@ -18521,8 +18529,8 @@
         "type": 3
       },
       "seed": 517489445,
-      "version": 1207,
-      "versionNonce": 979510438,
+      "version": 1208,
+      "versionNonce": 570829272,
       "isDeleted": false,
       "boundElements": [
         {
@@ -18534,10 +18542,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754507943225,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "16891b3add127fea71be55217440cba83ed03227",
       "scale": [
         1,
@@ -18868,14 +18876,14 @@
         "type": 3
       },
       "seed": 1744207915,
-      "version": 1152,
-      "versionNonce": 446083115,
+      "version": 1153,
+      "versionNonce": 137101224,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1754408240333,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "7f5178ce706c3a33947977882fe30ba0b907ae3b",
       "scale": [
         1,
@@ -19584,8 +19592,8 @@
         "type": 3
       },
       "seed": 145920299,
-      "version": 1304,
-      "versionNonce": 183664966,
+      "version": 1305,
+      "versionNonce": 1616064216,
       "isDeleted": false,
       "boundElements": [
         {
@@ -19593,10 +19601,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755094520010,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "d116544e3160d737ed3a94e4bbb4e688ea863819",
       "scale": [
         1,
@@ -19834,8 +19842,8 @@
         "type": 3
       },
       "seed": 1505926949,
-      "version": 1754,
-      "versionNonce": 1916967174,
+      "version": 1755,
+      "versionNonce": 1692256936,
       "isDeleted": false,
       "boundElements": [
         {
@@ -19843,10 +19851,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755094520010,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "b9dc50740e9fc2085a50594e7699ae8fc39f26d6",
       "scale": [
         1,
@@ -20458,8 +20466,8 @@
         "type": 3
       },
       "seed": 894679499,
-      "version": 2144,
-      "versionNonce": 1287611078,
+      "version": 2145,
+      "versionNonce": 951555032,
       "isDeleted": false,
       "boundElements": [
         {
@@ -20467,10 +20475,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755094520010,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "72313c27c5a6c5dbd8cb2d8df8ec6f225ec5a4a3",
       "scale": [
         1,
@@ -20959,8 +20967,8 @@
       "index": "b2y",
       "roundness": null,
       "seed": 664515542,
-      "version": 340,
-      "versionNonce": 1345368138,
+      "version": 341,
+      "versionNonce": 2132686248,
       "isDeleted": false,
       "boundElements": [
         {
@@ -20968,10 +20976,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1754590034209,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "1ed7360cb77e4c6c0e6ccdfd356e629eb54a224a",
       "scale": [
         1,
@@ -21334,7 +21342,7 @@
       "version": 1265,
       "versionNonce": 1853649242,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755093988731,
       "link": null,
       "locked": false,
@@ -21373,7 +21381,7 @@
       "version": 528,
       "versionNonce": 2069444122,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755093988731,
       "link": null,
       "locked": false,
@@ -21468,7 +21476,7 @@
       "version": 604,
       "versionNonce": 1667748250,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755093933088,
       "link": null,
       "locked": false,
@@ -21507,7 +21515,7 @@
       "version": 694,
       "versionNonce": 29319898,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755093988731,
       "link": null,
       "locked": false,
@@ -21559,7 +21567,7 @@
       "version": 454,
       "versionNonce": 704191258,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755093983900,
       "link": null,
       "locked": false,
@@ -21717,7 +21725,7 @@
       "version": 178,
       "versionNonce": 718822726,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755094178137,
       "link": null,
       "locked": false,
@@ -21768,8 +21776,8 @@
         "type": 3
       },
       "seed": 389667590,
-      "version": 560,
-      "versionNonce": 2124981062,
+      "version": 561,
+      "versionNonce": 826759384,
       "isDeleted": false,
       "boundElements": [
         {
@@ -21777,10 +21785,10 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755094238918,
+      "updated": 1755122953573,
       "link": null,
       "locked": false,
-      "status": "pending",
+      "status": "saved",
       "fileId": "a06776b0e26cadce0e2c6ee438b7704f9b226ce5",
       "scale": [
         1,
@@ -21813,7 +21821,7 @@
       "version": 129,
       "versionNonce": 1447500378,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755094241794,
       "link": null,
       "locked": false,
@@ -21867,7 +21875,7 @@
       "version": 184,
       "versionNonce": 681950150,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755094533147,
       "link": null,
       "locked": false,
@@ -21918,8 +21926,8 @@
         "type": 3
       },
       "seed": 1764349574,
-      "version": 268,
-      "versionNonce": 955066310,
+      "version": 269,
+      "versionNonce": 1973355480,
       "isDeleted": false,
       "boundElements": [
         {
@@ -21929,9 +21937,13 @@
         {
           "id": "CvyPNDCcFduoaZ8AO7YRo",
           "type": "arrow"
+        },
+        {
+          "id": "smCB6Cfp2JrPtWwhESO7h",
+          "type": "arrow"
         }
       ],
-      "updated": 1755094685360,
+      "updated": 1755124397820,
       "link": null,
       "locked": false
     },
@@ -21958,7 +21970,7 @@
       "version": 342,
       "versionNonce": 337666906,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755094681726,
       "link": null,
       "locked": false,
@@ -21997,7 +22009,7 @@
       "version": 141,
       "versionNonce": 1605904518,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1755094685360,
       "link": null,
       "locked": false,
@@ -22048,8 +22060,8 @@
         "type": 3
       },
       "seed": 1957696710,
-      "version": 582,
-      "versionNonce": 1885991898,
+      "version": 640,
+      "versionNonce": 79855832,
       "isDeleted": false,
       "boundElements": [
         {
@@ -22077,7 +22089,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755095073760,
+      "updated": 1755123635861,
       "link": null,
       "locked": false
     },
@@ -22101,11 +22113,11 @@
       "index": "b3b",
       "roundness": null,
       "seed": 575480538,
-      "version": 749,
-      "versionNonce": 1550432262,
+      "version": 799,
+      "versionNonce": 2143245784,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094779424,
+      "boundElements": [],
+      "updated": 1755123635857,
       "link": null,
       "locked": false,
       "text": "Uma das coisas que torna a\nmáquina analítica algo tão\nsurpreendente foi sua ideia de\nseparação de partições da\nmáquina, ele separou em vários\nseguimentos e funcionalidades\ncomo:",
@@ -22121,9 +22133,9 @@
     {
       "id": "YeI48UaZFiCjP7h9eb0Xd",
       "type": "arrow",
-      "x": 806.8624661289988,
+      "x": 807.3349686198255,
       "y": 7624.481006180922,
-      "width": 264.97812667299684,
+      "width": 264.6351568205305,
       "height": 221.93452150176017,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -22140,11 +22152,11 @@
         "type": 2
       },
       "seed": 1772539526,
-      "version": 667,
-      "versionNonce": 1472251718,
+      "version": 718,
+      "versionNonce": 2138784680,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094779424,
+      "boundElements": [],
+      "updated": 1755123635871,
       "link": null,
       "locked": false,
       "points": [
@@ -22153,7 +22165,7 @@
           0
         ],
         [
-          264.97812667299684,
+          264.6351568205305,
           221.93452150176017
         ]
       ],
@@ -22194,8 +22206,8 @@
         "type": 3
       },
       "seed": 1975528902,
-      "version": 360,
-      "versionNonce": 1560253958,
+      "version": 410,
+      "versionNonce": 101112536,
       "isDeleted": false,
       "boundElements": [
         {
@@ -22207,7 +22219,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755094850699,
+      "updated": 1755123635857,
       "link": null,
       "locked": false
     },
@@ -22231,11 +22243,11 @@
       "index": "b3dG",
       "roundness": null,
       "seed": 711583578,
-      "version": 233,
-      "versionNonce": 2007634266,
+      "version": 283,
+      "versionNonce": 1720377000,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094843243,
+      "boundElements": [],
+      "updated": 1755123635857,
       "link": null,
       "locked": false,
       "text": "Uma unidade de memória\ncapaz de armazenar 1.000\nnúmeros de 50 dígitos\ncada, análoga à memória\nRAM",
@@ -22268,11 +22280,11 @@
       "index": "b3f",
       "roundness": null,
       "seed": 637889626,
-      "version": 282,
-      "versionNonce": 313126298,
+      "version": 333,
+      "versionNonce": 1125498840,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094944778,
+      "boundElements": [],
+      "updated": 1755123635857,
       "link": null,
       "locked": false,
       "text": "O Armazém",
@@ -22288,10 +22300,10 @@
     {
       "id": "LrAOYsEzb7JAvhfFNU353",
       "type": "arrow",
-      "x": 926.4216329180923,
-      "y": 8103.682539682813,
-      "width": 127.14285714285711,
-      "height": 97.14285714285779,
+      "x": 926.5353206212653,
+      "y": 8103.595676980835,
+      "width": 134.00780164641196,
+      "height": 102.38798339026016,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -22307,11 +22319,11 @@
         "type": 2
       },
       "seed": 335872730,
-      "version": 88,
-      "versionNonce": 1825777370,
+      "version": 240,
+      "versionNonce": 1353972392,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094855313,
+      "boundElements": [],
+      "updated": 1755123635875,
       "link": null,
       "locked": false,
       "points": [
@@ -22320,8 +22332,8 @@
           0
         ],
         [
-          -127.14285714285711,
-          97.14285714285779
+          -134.00780164641196,
+          102.38798339026016
         ]
       ],
       "lastCommittedPoint": null,
@@ -22359,11 +22371,11 @@
       "index": "b3h",
       "roundness": null,
       "seed": 285383962,
-      "version": 417,
-      "versionNonce": 2103636806,
+      "version": 467,
+      "versionNonce": 654312664,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094951876,
+      "boundElements": [],
+      "updated": 1755123635857,
       "link": null,
       "locked": false,
       "text": "O moinho",
@@ -22396,11 +22408,11 @@
       "index": "b3i",
       "roundness": null,
       "seed": 859648730,
-      "version": 444,
-      "versionNonce": 363730202,
+      "version": 494,
+      "versionNonce": 1284592808,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094996106,
+      "boundElements": [],
+      "updated": 1755123635857,
       "link": null,
       "locked": false,
       "text": "Entrada e saída",
@@ -22433,11 +22445,11 @@
       "index": "b3j",
       "roundness": null,
       "seed": 812088006,
-      "version": 548,
-      "versionNonce": 1786134726,
+      "version": 598,
+      "versionNonce": 2136582616,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755095070538,
+      "boundElements": [],
+      "updated": 1755123635858,
       "link": null,
       "locked": false,
       "text": "O controle",
@@ -22472,20 +22484,20 @@
         "type": 3
       },
       "seed": 886443910,
-      "version": 1074,
-      "versionNonce": 1416665734,
+      "version": 1126,
+      "versionNonce": 66333864,
       "isDeleted": false,
       "boundElements": [
         {
-          "id": "kYbIfGKwoSdM2Wy9k-RMg",
-          "type": "arrow"
-        },
-        {
           "type": "text",
           "id": "nY-JW20iL1cqadxQS2mDa"
+        },
+        {
+          "id": "kYbIfGKwoSdM2Wy9k-RMg",
+          "type": "arrow"
         }
       ],
-      "updated": 1755094951876,
+      "updated": 1755123635860,
       "link": null,
       "locked": false
     },
@@ -22509,11 +22521,11 @@
       "index": "b3kV",
       "roundness": null,
       "seed": 1515988122,
-      "version": 463,
-      "versionNonce": 566712774,
+      "version": 513,
+      "versionNonce": 1194766040,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094951876,
+      "boundElements": [],
+      "updated": 1755123635858,
       "link": null,
       "locked": false,
       "text": "A unidade de processamento\naritmético, análoga à CPU, que\nexecutaria as operações (adição,\nsubtração, multiplicação, divisão,\ncomparações e raízes quadradas)",
@@ -22529,9 +22541,9 @@
     {
       "id": "kYbIfGKwoSdM2Wy9k-RMg",
       "type": "arrow",
-      "x": 1087.1064015335273,
+      "x": 1087.0320033374746,
       "y": 8104.892161414053,
-      "width": 9.350383777445586,
+      "width": 9.343277062192783,
       "height": 96.57328969274931,
       "angle": 0,
       "strokeColor": "#e03131",
@@ -22548,11 +22560,11 @@
         "type": 2
       },
       "seed": 1733907674,
-      "version": 499,
-      "versionNonce": 1820602630,
+      "version": 651,
+      "versionNonce": 1890477480,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755094951876,
+      "boundElements": [],
+      "updated": 1755123635875,
       "link": null,
       "locked": false,
       "points": [
@@ -22561,7 +22573,7 @@
           0
         ],
         [
-          9.350383777445586,
+          9.343277062192783,
           96.57328969274931
         ]
       ],
@@ -22602,8 +22614,8 @@
         "type": 3
       },
       "seed": 1887709062,
-      "version": 652,
-      "versionNonce": 440395482,
+      "version": 704,
+      "versionNonce": 511648424,
       "isDeleted": false,
       "boundElements": [
         {
@@ -22615,7 +22627,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755095006105,
+      "updated": 1755123635860,
       "link": null,
       "locked": false
     },
@@ -22639,11 +22651,11 @@
       "index": "b3nV",
       "roundness": null,
       "seed": 65230342,
-      "version": 563,
-      "versionNonce": 222198662,
+      "version": 613,
+      "versionNonce": 866301352,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755095001641,
+      "boundElements": [],
+      "updated": 1755123635858,
       "link": null,
       "locked": false,
       "text": "Um sistema para ler dados e\ninstruções de cartões\nperfurados e para produzir\nresultados em uma\nimpressora ou plotadora",
@@ -22659,10 +22671,10 @@
     {
       "id": "DgGPkBqFn8-_RGbsJdExK",
       "type": "arrow",
-      "x": 1240.187866684326,
-      "y": 8101.8643578646315,
-      "width": 268.181818181818,
-      "height": 80,
+      "x": 1239.616040952118,
+      "y": 8101.693777381494,
+      "width": 284.02384785015215,
+      "height": 84.72575931535175,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -22678,11 +22690,11 @@
         "type": 2
       },
       "seed": 1645072902,
-      "version": 161,
-      "versionNonce": 1154523910,
+      "version": 313,
+      "versionNonce": 472084648,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755095006965,
+      "boundElements": [],
+      "updated": 1755123635876,
       "link": null,
       "locked": false,
       "points": [
@@ -22691,8 +22703,8 @@
           0
         ],
         [
-          268.181818181818,
-          80
+          284.02384785015215,
+          84.72575931535175
         ]
       ],
       "lastCommittedPoint": null,
@@ -22732,8 +22744,8 @@
         "type": 3
       },
       "seed": 1675164762,
-      "version": 479,
-      "versionNonce": 453920090,
+      "version": 531,
+      "versionNonce": 2135201960,
       "isDeleted": false,
       "boundElements": [
         {
@@ -22745,7 +22757,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755095073760,
+      "updated": 1755123635861,
       "link": null,
       "locked": false
     },
@@ -22769,11 +22781,11 @@
       "index": "b3r",
       "roundness": null,
       "seed": 963571290,
-      "version": 370,
-      "versionNonce": 696600390,
+      "version": 420,
+      "versionNonce": 1160379864,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755095070538,
+      "boundElements": [],
+      "updated": 1755123635858,
       "link": null,
       "locked": false,
       "text": "Um mecanismo para executar\ninstruções em sequência,\nincluindo a capacidade de\ndesvios condicionais e loops, o\nque a tornaria Turing-completa",
@@ -22789,10 +22801,10 @@
     {
       "id": "KJ5GFcq_b7HtZGBEUCOhQ",
       "type": "arrow",
-      "x": 1259.051503047962,
-      "y": 7961.637085137352,
-      "width": 117.5,
-      "height": 28.611111111111313,
+      "x": 1257.5769225986915,
+      "y": 7961.996143733747,
+      "width": 120.12612480273765,
+      "height": 29.250569396410356,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -22808,11 +22820,11 @@
         "type": 2
       },
       "seed": 1723868378,
-      "version": 54,
-      "versionNonce": 355877594,
+      "version": 206,
+      "versionNonce": 1254038440,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755095080962,
+      "boundElements": [],
+      "updated": 1755123635877,
       "link": null,
       "locked": false,
       "points": [
@@ -22821,8 +22833,8 @@
           0
         ],
         [
-          117.5,
-          -28.611111111111313
+          120.12612480273765,
+          -29.250569396410356
         ]
       ],
       "lastCommittedPoint": null,
@@ -22839,13 +22851,64 @@
       "startArrowhead": null,
       "endArrowhead": null,
       "elbowed": false
+    },
+    {
+      "id": "smCB6Cfp2JrPtWwhESO7h",
+      "type": "arrow",
+      "x": 246.76905907524883,
+      "y": 7973.834416707351,
+      "width": 424.4444783528645,
+      "height": 654.4442240397138,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3t",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1912841944,
+      "version": 72,
+      "versionNonce": 2144620504,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1755124408329,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          424.4444783528645,
+          654.4442240397138
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "C4kc2COP5dQb39GNN59Vg",
+        "focus": 0.39793643305153376,
+        "gap": 1.580448453131794
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
     }
   ],
   "appState": {
     "gridSize": 20,
     "gridStep": 5,
     "gridModeEnabled": false,
-    "viewBackgroundColor": "#ffffff"
+    "viewBackgroundColor": "#f8f9fa",
+    "lockedMultiSelections": {}
   },
   "files": {
     "9803dc73cb26b913875bdae0bc0ec0ea474afbe6": {
