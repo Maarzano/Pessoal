@@ -25640,8 +25640,8 @@
         "type": 3
       },
       "seed": 1954377469,
-      "version": 516,
-      "versionNonce": 1265802003,
+      "version": 517,
+      "versionNonce": 1955728371,
       "isDeleted": false,
       "boundElements": [
         {
@@ -25663,9 +25663,13 @@
         {
           "id": "mNxsUZaJ-77i4Wfds-Xtu",
           "type": "arrow"
+        },
+        {
+          "id": "LAonhsctx10QBdjBzq6hH",
+          "type": "arrow"
         }
       ],
-      "updated": 1755699516575,
+      "updated": 1755700539911,
       "link": null,
       "locked": false
     },
@@ -25809,7 +25813,7 @@
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
-      "strokeStyle": "solid",
+      "strokeStyle": "dashed",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -25819,8 +25823,8 @@
         "type": 3
       },
       "seed": 657101661,
-      "version": 556,
-      "versionNonce": 1108858163,
+      "version": 557,
+      "versionNonce": 1826103315,
       "isDeleted": false,
       "boundElements": [
         {
@@ -25832,7 +25836,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755697964288,
+      "updated": 1755700639348,
       "link": null,
       "locked": false
     },
@@ -28281,7 +28285,7 @@
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
-      "strokeStyle": "solid",
+      "strokeStyle": "dashed",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -28291,8 +28295,8 @@
         "type": 3
       },
       "seed": 1584053181,
-      "version": 719,
-      "versionNonce": 2147347315,
+      "version": 720,
+      "versionNonce": 914847571,
       "isDeleted": false,
       "boundElements": [
         {
@@ -28300,7 +28304,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755697933492,
+      "updated": 1755700641724,
       "link": null,
       "locked": false
     },
@@ -28316,7 +28320,7 @@
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
-      "strokeStyle": "solid",
+      "strokeStyle": "dashed",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -28326,11 +28330,11 @@
         "type": 2
       },
       "seed": 390825875,
-      "version": 179,
-      "versionNonce": 312341181,
+      "version": 180,
+      "versionNonce": 1235441459,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755697948771,
+      "updated": 1755700635786,
       "link": null,
       "locked": false,
       "points": [
@@ -28370,7 +28374,7 @@
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
-      "strokeStyle": "solid",
+      "strokeStyle": "dashed",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -28380,11 +28384,11 @@
         "type": 2
       },
       "seed": 1253703933,
-      "version": 178,
-      "versionNonce": 1918844819,
+      "version": 179,
+      "versionNonce": 1174335965,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755697964288,
+      "updated": 1755700637519,
       "link": null,
       "locked": false,
       "points": [
@@ -28415,8 +28419,8 @@
     {
       "id": "Fvwjz6-w5KnUCBFAzCC8n",
       "type": "rectangle",
-      "x": 1117.9335376800143,
-      "y": 10641.09126984136,
+      "x": 1481.2668710133478,
+      "y": 10691.09126984136,
       "width": 507.5000000000001,
       "height": 584.9999999999991,
       "angle": 0,
@@ -28436,8 +28440,8 @@
         "type": 3
       },
       "seed": 1851855603,
-      "version": 812,
-      "versionNonce": 243927485,
+      "version": 996,
+      "versionNonce": 418482195,
       "isDeleted": false,
       "boundElements": [
         {
@@ -28447,17 +28451,21 @@
         {
           "id": "0NP6RxkKCOLeho9uqQrf6",
           "type": "arrow"
+        },
+        {
+          "id": "Ke9oRI7wbuonpMNP26k_h",
+          "type": "arrow"
         }
       ],
-      "updated": 1755699656981,
+      "updated": 1755700529083,
       "link": null,
       "locked": false
     },
     {
       "id": "AE_-GGsrTkqBKYNKbQpG0",
       "type": "text",
-      "x": 1255.4335376800143,
-      "y": 10659.84126984136,
+      "x": 1618.7668710133478,
+      "y": 10709.84126984136,
       "width": 245.73590087890625,
       "height": 45,
       "angle": 0,
@@ -28475,11 +28483,11 @@
       "index": "b6S",
       "roundness": null,
       "seed": 498721405,
-      "version": 286,
-      "versionNonce": 420513715,
+      "version": 469,
+      "versionNonce": 2132123005,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755699510106,
+      "updated": 1755700216942,
       "link": null,
       "locked": false,
       "text": "Alonzo Church",
@@ -28495,8 +28503,8 @@
     {
       "id": "q23QjKGqFdq2U5xbJqgiZ",
       "type": "text",
-      "x": 1134.1835376800143,
-      "y": 10901.09126984136,
+      "x": 1497.5168710133478,
+      "y": 10951.09126984136,
       "width": 480.3383345170451,
       "height": 300,
       "angle": 0,
@@ -28514,11 +28522,16 @@
       "index": "b6T",
       "roundness": null,
       "seed": 109192317,
-      "version": 759,
-      "versionNonce": 1873484115,
+      "version": 943,
+      "versionNonce": 930779101,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1755699510106,
+      "boundElements": [
+        {
+          "id": "Ke9oRI7wbuonpMNP26k_h",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1755700548866,
       "link": null,
       "locked": false,
       "text": "Estrutura básica:\n\nVariáveis: x, y, z ...\n\nFunções (abstrações): escritas como λx.\n(expressão)\n\nExemplo: λx.(x + 1) significa “função que recebe x\ne retorna x+1”.\n\nAplicação de funções: (λx.(x+1)) 5 → substitui x\npor 5, resultando em 6.",
@@ -28534,8 +28547,8 @@
     {
       "id": "pXWxbZ1TANY4lNQbm1K_S",
       "type": "text",
-      "x": 1153.157817465171,
-      "y": 10724.84126984136,
+      "x": 1516.4911507985046,
+      "y": 10774.84126984136,
       "width": 425.1395751953113,
       "height": 150,
       "angle": 0,
@@ -28553,11 +28566,11 @@
       "index": "b6U",
       "roundness": null,
       "seed": 244555837,
-      "version": 1090,
-      "versionNonce": 1682077427,
+      "version": 1273,
+      "versionNonce": 119546429,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755699510106,
+      "updated": 1755700216942,
       "link": null,
       "locked": false,
       "text": "Alonzo Church, influenciou a lambda, como\nfunções anônimas que recebiam parâmetros\ntratavam essas informações de alguma\nforma e devolvia uma resposta, poderia ser\nfeito várias coisas com essas funções\napenas conectando elas em sequência",
@@ -28573,10 +28586,10 @@
     {
       "id": "mNxsUZaJ-77i4Wfds-Xtu",
       "type": "arrow",
-      "x": 1214.1835376800143,
-      "y": 10141.09126984136,
-      "width": 141.25,
-      "height": 493.75,
+      "x": 1280.177339300829,
+      "y": 10141.229362385899,
+      "width": 353.3889308048849,
+      "height": 545.1473220590051,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -28592,11 +28605,11 @@
         "type": 2
       },
       "seed": 212964915,
-      "version": 198,
-      "versionNonce": 184155325,
+      "version": 381,
+      "versionNonce": 947185853,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755699518191,
+      "updated": 1755700216942,
       "link": null,
       "locked": false,
       "points": [
@@ -28605,8 +28618,8 @@
           0
         ],
         [
-          141.25,
-          493.75
+          353.3889308048849,
+          545.1473220590051
         ]
       ],
       "lastCommittedPoint": null,
@@ -28627,8 +28640,8 @@
     {
       "id": "RAMd1zXGzRrmtCTFL0c14",
       "type": "rectangle",
-      "x": 1724.1835376800143,
-      "y": 10693.59126984136,
+      "x": 2087.5168710133476,
+      "y": 10743.59126984136,
       "width": 311.2500000000002,
       "height": 327.5,
       "angle": 0,
@@ -28636,7 +28649,7 @@
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
-      "strokeStyle": "solid",
+      "strokeStyle": "dashed",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -28646,8 +28659,8 @@
         "type": 3
       },
       "seed": 353139165,
-      "version": 247,
-      "versionNonce": 1769517277,
+      "version": 431,
+      "versionNonce": 202832435,
       "isDeleted": false,
       "boundElements": [
         {
@@ -28659,15 +28672,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755699668468,
+      "updated": 1755700623569,
       "link": null,
       "locked": false
     },
     {
       "id": "-9hQbwvnajPM51nqh9bQT",
       "type": "text",
-      "x": 1730.7486469329442,
-      "y": 10757.34126984136,
+      "x": 2094.0819802662777,
+      "y": 10807.34126984136,
       "width": 298.1197814941406,
       "height": 200,
       "angle": 0,
@@ -28683,11 +28696,11 @@
       "index": "b6X",
       "roundness": null,
       "seed": 1079245501,
-      "version": 363,
-      "versionNonce": 1973280157,
+      "version": 546,
+      "versionNonce": 1012954877,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755699668468,
+      "updated": 1755700216942,
       "link": null,
       "locked": false,
       "text": "Essa ideia e pensamento dele\najudou a criar posteriormente\numa família de programação, as\nlinguagens funcionais...\n\nE ajudou outras linguagens a\nusarem esse conceito como\nJavaScript por exemplo.",
@@ -28703,8 +28716,8 @@
     {
       "id": "0NP6RxkKCOLeho9uqQrf6",
       "type": "arrow",
-      "x": 1627.8936164854224,
-      "y": 10796.411655829841,
+      "x": 1991.2269498187559,
+      "y": 10846.411655829841,
       "width": 94.56697398109168,
       "height": 38.2877140296132,
       "angle": 0,
@@ -28712,7 +28725,7 @@
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
-      "strokeStyle": "solid",
+      "strokeStyle": "dashed",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -28722,11 +28735,11 @@
         "type": 2
       },
       "seed": 266562067,
-      "version": 107,
-      "versionNonce": 2085129533,
+      "version": 659,
+      "versionNonce": 27969715,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755699668468,
+      "updated": 1755700628480,
       "link": null,
       "locked": false,
       "points": [
@@ -28742,13 +28755,13 @@
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "Fvwjz6-w5KnUCBFAzCC8n",
-        "focus": -0.6103763154661963,
-        "gap": 3.7499999999997726
+        "focus": -0.609539477466429,
+        "gap": 2.460078805407875
       },
       "endBinding": {
         "elementId": "RAMd1zXGzRrmtCTFL0c14",
-        "focus": -0.18012920829822412,
-        "gap": 2.5
+        "focus": -0.18109220467132098,
+        "gap": 1.7229472134999924
       },
       "startArrowhead": null,
       "endArrowhead": null,
@@ -28757,8 +28770,8 @@
     {
       "id": "4QLjg_FKc2ZeJS9YcqbRn",
       "type": "text",
-      "x": 1801.6835376800143,
-      "y": 10708.59126984136,
+      "x": 2165.0168710133476,
+      "y": 10758.59126984136,
       "width": 155.76390075683594,
       "height": 35,
       "angle": 0,
@@ -28774,11 +28787,11 @@
       "index": "b6Z",
       "roundness": null,
       "seed": 133706867,
-      "version": 126,
-      "versionNonce": 1608832797,
+      "version": 309,
+      "versionNonce": 1471290397,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1755699680157,
+      "updated": 1755700216942,
       "link": null,
       "locked": false,
       "text": "Curiosidade",
@@ -28790,6 +28803,408 @@
       "originalText": "Curiosidade",
       "autoResize": true,
       "lineHeight": 1.25
+    },
+    {
+      "id": "DAP_5Rl98Z0lp6RW3pPEP",
+      "type": "rectangle",
+      "x": 836.2876522702123,
+      "y": 11357.265873015898,
+      "width": 559.9999999999999,
+      "height": 480.4761904761908,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "6cIPw77aJXwMRDECSG8yR"
+      ],
+      "frameId": null,
+      "index": "b6a",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1300483763,
+      "version": 457,
+      "versionNonce": 478202845,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "lmzYVvGibB7WMmsrQkXtQ"
+        },
+        {
+          "id": "Ke9oRI7wbuonpMNP26k_h",
+          "type": "arrow"
+        },
+        {
+          "id": "LAonhsctx10QBdjBzq6hH",
+          "type": "arrow"
+        },
+        {
+          "id": "JbRF1nSdpNKlkY2eOgSKc",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1755700614123,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "lmzYVvGibB7WMmsrQkXtQ",
+      "type": "text",
+      "x": 843.8578732174778,
+      "y": 11457.742063492089,
+      "width": 544.8595581054688,
+      "height": 375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "6cIPw77aJXwMRDECSG8yR"
+      ],
+      "frameId": null,
+      "index": "b6b",
+      "roundness": null,
+      "seed": 881845917,
+      "version": 767,
+      "versionNonce": 1016867549,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1755700520734,
+      "link": null,
+      "locked": false,
+      "text": "Essa tese foi criada, foi criada pois se percebeu que a\nideia de Turing, e a ideia de cálculos lambda, mesmo\nparecendo divergetens, na verdade eram equivalentes,\nqualquer problema resolvido com a máquina de turing é\npossível tbm ser resolvida com o lambda e vice versa.\n\nTiveram outros sistemas ou ideias que também eram\nequivalentes como a de funções recursivas de Kurt\nGödel.\n\nA importância desta tese é imensa. Primeiro, ela fornece\numa definição formal e robusta para o conceito de\n\"algoritmo\".47 Segundo, ela estabelece os limites\nfundamentais da computação.\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "bottom",
+      "containerId": "DAP_5Rl98Z0lp6RW3pPEP",
+      "originalText": "Essa tese foi criada, foi criada pois se percebeu que a ideia de Turing, e a ideia de cálculos lambda, mesmo parecendo divergetens, na verdade eram equivalentes, qualquer problema resolvido com a máquina de turing é possível tbm ser resolvida com o lambda e vice versa.\n\nTiveram outros sistemas ou ideias que também eram equivalentes como a de funções recursivas de Kurt Gödel.\n\nA importância desta tese é imensa. Primeiro, ela fornece uma definição formal e robusta para o conceito de \"algoritmo\".47 Segundo, ela estabelece os limites fundamentais da computação.\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "NrCaWWXp1a7AC6l1YjcqC",
+      "type": "text",
+      "x": 899.1447951273553,
+      "y": 11383.218253968276,
+      "width": 429.0478515625,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "6cIPw77aJXwMRDECSG8yR"
+      ],
+      "frameId": null,
+      "index": "b6c",
+      "roundness": null,
+      "seed": 233216445,
+      "version": 267,
+      "versionNonce": 1357694781,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1755700520734,
+      "link": null,
+      "locked": false,
+      "text": "A tese de Church-Turing",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "A tese de Church-Turing",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Ke9oRI7wbuonpMNP26k_h",
+      "type": "arrow",
+      "x": 1487.0495570321168,
+      "y": 11268.123015873049,
+      "width": 326,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b6d",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1560796157,
+      "version": 218,
+      "versionNonce": 1974216403,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1755700561352,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -326,
+          86
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "q23QjKGqFdq2U5xbJqgiZ",
+        "focus": -0.4729757087628328,
+        "gap": 19.991123902112996
+      },
+      "endBinding": {
+        "elementId": "DAP_5Rl98Z0lp6RW3pPEP",
+        "focus": -0.7372502150812447,
+        "gap": 3.142857142849607
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "LAonhsctx10QBdjBzq6hH",
+      "type": "arrow",
+      "x": 1143.0495570321168,
+      "y": 10148.123015873049,
+      "width": 30,
+      "height": 1210,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b6f",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1789527315,
+      "version": 545,
+      "versionNonce": 1394136403,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1755700556460,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -30,
+          1210
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "02fjRNQpFyHoxlfY_1brA",
+        "focus": 0.33366924236498224,
+        "gap": 7.6865079364743
+      },
+      "endBinding": {
+        "elementId": "DAP_5Rl98Z0lp6RW3pPEP",
+        "focus": -0.032078886342835664,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "11_3iMx-avzrw3tmU-_pD",
+      "type": "rectangle",
+      "x": 1511.4245570321168,
+      "y": 11452.373015873047,
+      "width": 311.2500000000002,
+      "height": 343.5,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b6g",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1427719219,
+      "version": 534,
+      "versionNonce": 1361987955,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "9PnXawT2g7CaGQ-WQQXZu"
+        },
+        {
+          "id": "JbRF1nSdpNKlkY2eOgSKc",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1755700626494,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "9PnXawT2g7CaGQ-WQQXZu",
+      "type": "text",
+      "x": 1517.109661402234,
+      "y": 11511.623015873047,
+      "width": 299.8797912597656,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b6h",
+      "roundness": null,
+      "seed": 342377939,
+      "version": 657,
+      "versionNonce": 1546421501,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1755700606283,
+      "link": null,
+      "locked": false,
+      "text": "a equivalência de tantos\nmodelos diferentes sugere que\na \"computabilidade\" não é\nmeramente uma invenção da\nengenharia humana, mas uma\npropriedade fundamental e\nuniversal da lógica e da\nmatemática, um fenômeno a ser\ndescoberto, não inventado.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "11_3iMx-avzrw3tmU-_pD",
+      "originalText": "a equivalência de tantos modelos diferentes sugere que a \"computabilidade\" não é meramente uma invenção da engenharia humana, mas uma propriedade fundamental e universal da lógica e da matemática, um fenômeno a ser descoberto, não inventado.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "QifRwsPXptbaY_tygWq_p",
+      "type": "text",
+      "x": 1586.9245570321168,
+      "y": 11467.373015873047,
+      "width": 155.76390075683594,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b6i",
+      "roundness": null,
+      "seed": 1101402995,
+      "version": 421,
+      "versionNonce": 1993193587,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1755700608121,
+      "link": null,
+      "locked": false,
+      "text": "Curiosidade",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Curiosidade",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "JbRF1nSdpNKlkY2eOgSKc",
+      "type": "arrow",
+      "x": 1401.0495570321168,
+      "y": 11554.123015873049,
+      "width": 106,
+      "height": 10,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b6j",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1599539539,
+      "version": 59,
+      "versionNonce": 167802867,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1755700630478,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          106,
+          10
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "DAP_5Rl98Z0lp6RW3pPEP",
+        "focus": -0.26343312498945004,
+        "gap": 4.761904761904589
+      },
+      "endBinding": {
+        "elementId": "11_3iMx-avzrw3tmU-_pD",
+        "focus": 0.24086935620578817,
+        "gap": 4.375
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "elbowed": false
     }
   ],
   "appState": {
