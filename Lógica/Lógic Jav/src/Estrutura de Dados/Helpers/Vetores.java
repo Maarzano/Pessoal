@@ -1,0 +1,41 @@
+package Helpers;
+
+import java.util.Scanner;
+
+public class Vetores {
+
+    public static void mostrarVetor(int[] vetor){
+        System.out.print("O seu vetor é: ");
+        for(var num : vetor){
+            System.out.print(num + " ");
+        }
+    }
+    public static int identificarMaior(int[] vetor){
+        int maiorValor = vetor[0];
+        for (int numero : vetor) {
+            if (numero > maiorValor) maiorValor = numero;
+        }
+        return maiorValor;
+    }
+    public static int identificarMenor(int[] vetor){
+        int menorValor = vetor[0];
+        for (int numero : vetor) {
+            if (numero < menorValor) menorValor = numero;
+        }
+        return menorValor;
+    }
+
+    public static int[] criarVetorInteiro(int tamanho) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int[] vetor = new int[tamanho];
+
+        for (int i = 0; i < tamanho; i++){
+            System.out.print(i + 1 + ": ");
+            vetor[i] = sc.nextInt();
+        }
+
+        return vetor;
+    }
+}
