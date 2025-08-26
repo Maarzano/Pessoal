@@ -38,4 +38,21 @@ public class Vetores {
 
         return vetor;
     }
+
+    public static int[] numerosPares(int[] vetor){
+        int quantosPares = 0;
+        for(int numero : vetor){
+            if (numero % 2 == 0) quantosPares++;
+        }
+
+        int j = 0;
+        int[] numerosPares = new int[quantosPares];
+        
+        for(int i = 0; i < vetor.length; i++){
+            if (vetor[i] % 2 == 0){ numerosPares[j] = vetor[i];
+                j++;
+            }
+        }
+        return numerosPares;
+    }
 }
