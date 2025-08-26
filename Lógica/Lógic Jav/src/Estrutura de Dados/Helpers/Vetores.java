@@ -47,12 +47,20 @@ public class Vetores {
 
         int j = 0;
         int[] numerosPares = new int[quantosPares];
-        
+
         for(int i = 0; i < vetor.length; i++){
             if (vetor[i] % 2 == 0){ numerosPares[j] = vetor[i];
                 j++;
             }
         }
         return numerosPares;
+    }
+
+    public static float mediaDoVetor(int[] vetor) {
+        int soma = 0;
+        for (int numero : vetor ){
+            soma += numero;
+        }
+        return (float) soma / vetor.length;
     }
 }
