@@ -9,6 +9,7 @@ public class Vetores {
         for(var num : vetor){
             System.out.print(num + " ");
         }
+        System.out.println();
     }
     public static int identificarMaior(int[] vetor){
         int maiorValor = vetor[0];
@@ -62,5 +63,14 @@ public class Vetores {
             soma += numero;
         }
         return (float) soma / vetor.length;
+    }
+
+    public static boolean existeNumero(int[] vetor, int alvo){
+        boolean existeAlvo = false;
+
+        for (int numero : vetor){
+            if (numero == alvo) existeAlvo = true;
+        }
+        return existeAlvo;
     }
 }
