@@ -32783,8 +32783,8 @@
         "type": 3
       },
       "seed": 773390258,
-      "version": 1819,
-      "versionNonce": 1825728622,
+      "version": 1820,
+      "versionNonce": 2120992242,
       "isDeleted": false,
       "boundElements": [
         {
@@ -32794,9 +32794,13 @@
         {
           "id": "VZ9lU2FR41MtUQqCL2ENc",
           "type": "arrow"
+        },
+        {
+          "id": "qwIL9b5kKfg7y6DoT5swF",
+          "type": "arrow"
         }
       ],
-      "updated": 1756402406770,
+      "updated": 1756405063204,
       "link": null,
       "locked": false
     },
@@ -32956,8 +32960,8 @@
         "type": 3
       },
       "seed": 1823513198,
-      "version": 2095,
-      "versionNonce": 590081586,
+      "version": 2096,
+      "versionNonce": 1760845806,
       "isDeleted": false,
       "boundElements": [
         {
@@ -32967,9 +32971,13 @@
         {
           "id": "zfwBrtZKy1zg3txeFz-at",
           "type": "arrow"
+        },
+        {
+          "id": "cJ2zXN_2UKY0gCe7VMqFa",
+          "type": "arrow"
         }
       ],
-      "updated": 1756402551944,
+      "updated": 1756405073311,
       "link": null,
       "locked": false
     },
@@ -33183,8 +33191,8 @@
         "type": 3
       },
       "seed": 468864046,
-      "version": 2978,
-      "versionNonce": 1978820594,
+      "version": 2979,
+      "versionNonce": 638216238,
       "isDeleted": false,
       "boundElements": [
         {
@@ -33194,9 +33202,13 @@
         {
           "id": "tsOIcxNtslHRKht_uLAe9",
           "type": "arrow"
+        },
+        {
+          "id": "jbJKcQmOD9OrOc0IwD5BL",
+          "type": "arrow"
         }
       ],
-      "updated": 1756402694184,
+      "updated": 1756405069490,
       "link": null,
       "locked": false
     },
@@ -33327,6 +33339,603 @@
         "elementId": "D7V_uIh9-CHVHkYcWlIUr",
         "focus": -0.15920357445698272,
         "gap": 4.5
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "elbowed": false
+    },
+    {
+      "id": "F8JOJLjDjvQ4fgqlM7avs",
+      "type": "rectangle",
+      "x": 576.4375059339725,
+      "y": 19389.166666666664,
+      "width": 426,
+      "height": 511.99999999999943,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "m3GeGY_tnfBh7Y9aaItmt"
+      ],
+      "frameId": null,
+      "index": "b8L",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1284918130,
+      "version": 353,
+      "versionNonce": 2142325554,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "CYye-FsvhBfLAs4IqPxMt"
+        },
+        {
+          "id": "YzuFKGhUhrJSWpEKRBbb3",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1756405385831,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "CYye-FsvhBfLAs4IqPxMt",
+      "type": "text",
+      "x": 589.6376707288944,
+      "y": 19496.166666666664,
+      "width": 399.59967041015625,
+      "height": 400,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "m3GeGY_tnfBh7Y9aaItmt"
+      ],
+      "frameId": null,
+      "index": "b8LV",
+      "roundness": null,
+      "seed": 719783922,
+      "version": 793,
+      "versionNonce": 876177134,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405174286,
+      "link": null,
+      "locked": false,
+      "text": "Com o crescimento e complexidade cada\nvez maior nos computadores e sistemas\ndeles... gerenciar memória, processador e\nafins gerou a nescessidade de criar um\nsistema operacional.\n\nOs primeiros como o GM-NAA I/O, eram\n\"monitores\" simples... mas após surgiram\noutros como o UNIX.\n\nO UNIX foi um projeto com uma filosofia\nde simplicidade: um conjunto de pequenas\nferramentas que faziam uma única coisa\nbem e podiam ser combinadas de maneiras\npoderosas.\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "bottom",
+      "containerId": "F8JOJLjDjvQ4fgqlM7avs",
+      "originalText": "Com o crescimento e complexidade cada vez maior nos computadores e sistemas deles... gerenciar memória, processador e afins gerou a nescessidade de criar um sistema operacional.\n\nOs primeiros como o GM-NAA I/O, eram \"monitores\" simples... mas após surgiram outros como o UNIX.\n\nO UNIX foi um projeto com uma filosofia de simplicidade: um conjunto de pequenas ferramentas que faziam uma única coisa bem e podiam ser combinadas de maneiras poderosas.\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Sbzh7tgJYDiTEF6gRq8Dk",
+      "type": "text",
+      "x": 639.9855406019412,
+      "y": 19400.166666666664,
+      "width": 308.9039306640625,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "m3GeGY_tnfBh7Y9aaItmt"
+      ],
+      "frameId": null,
+      "index": "b8M",
+      "roundness": null,
+      "seed": 1420867694,
+      "version": 442,
+      "versionNonce": 1165859954,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "qwIL9b5kKfg7y6DoT5swF",
+          "type": "arrow"
+        },
+        {
+          "id": "jbJKcQmOD9OrOc0IwD5BL",
+          "type": "arrow"
+        },
+        {
+          "id": "cJ2zXN_2UKY0gCe7VMqFa",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1756405166550,
+      "link": null,
+      "locked": false,
+      "text": "A Nescessidade\nde um SO",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "A Nescessidade de um SO",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "qwIL9b5kKfg7y6DoT5swF",
+      "type": "arrow",
+      "x": 367.4375059339725,
+      "y": 18751.166666666664,
+      "width": 327,
+      "height": 634,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8N",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1190925614,
+      "version": 231,
+      "versionNonce": 1026560238,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405064923,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          327,
+          634
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "zttQKJrThFrsWW8jzEXLj",
+        "focus": 0.16519529472173144,
+        "gap": 5.5
+      },
+      "endBinding": {
+        "elementId": "Sbzh7tgJYDiTEF6gRq8Dk",
+        "focus": -0.3886803428053199,
+        "gap": 15
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "jbJKcQmOD9OrOc0IwD5BL",
+      "type": "arrow",
+      "x": 835.4375059339725,
+      "y": 19177.166666666664,
+      "width": 65,
+      "height": 208,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8O",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1528546094,
+      "version": 103,
+      "versionNonce": 1026110062,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405069490,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -65,
+          208
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "D7V_uIh9-CHVHkYcWlIUr",
+        "focus": -0.20911258943140287,
+        "gap": 3.5
+      },
+      "endBinding": {
+        "elementId": "Sbzh7tgJYDiTEF6gRq8Dk",
+        "focus": -0.2536874203396636,
+        "gap": 15
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "cJ2zXN_2UKY0gCe7VMqFa",
+      "type": "arrow",
+      "x": 1403.4375059339725,
+      "y": 18983.166666666664,
+      "width": 599,
+      "height": 404,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8P",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 808926962,
+      "version": 198,
+      "versionNonce": 1199452718,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405073311,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -599,
+          404
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "OveosiKr1NtP5ZaTfODqY",
+        "focus": -0.5559241454493269,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "Sbzh7tgJYDiTEF6gRq8Dk",
+        "focus": -0.34360117626618947,
+        "gap": 13
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "rNZ-ZGtEp9zhREPeARHH0",
+      "type": "rectangle",
+      "x": 1234.3263948228612,
+      "y": 19446.944444444416,
+      "width": 450.0000000000003,
+      "height": 503.88888888889005,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8S",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 503892462,
+      "version": 458,
+      "versionNonce": 1400774322,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "t0krFTgcb1n8Ub6kVnbmL"
+        },
+        {
+          "id": "YzuFKGhUhrJSWpEKRBbb3",
+          "type": "arrow"
+        },
+        {
+          "id": "weVkmZ7qTiEtLl9FK3z8G",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1756405422112,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "t0krFTgcb1n8Ub6kVnbmL",
+      "type": "text",
+      "x": 1239.7665651109473,
+      "y": 19520.833333333307,
+      "width": 439.1196594238281,
+      "height": 425,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8T",
+      "roundness": null,
+      "seed": 1675276846,
+      "version": 469,
+      "versionNonce": 1082518638,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405382414,
+      "link": null,
+      "locked": false,
+      "text": "A inovação mais duradoura do UNIX, foi sua\nportabilidade...\n\nno futuro eles reescreveram o núcleo do\nUNIX em C, uma linguagem de alto nível da\népoca.\n\nIsso tornou o UNIX o primeiro sistema\noperacional que não estava amarrado a uma\narquitetura de hardware específica. Ele podia\nser \"portado\" para diferentes máquinas com\nrelativo esforço.\n\nEssa portabilidade fez com que o UNIX se\nespalhasse pelo mundo acadêmico e\nincluenciasse uma geração inteira de\ncientistas da computação.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "bottom",
+      "containerId": "rNZ-ZGtEp9zhREPeARHH0",
+      "originalText": "A inovação mais duradoura do UNIX, foi sua portabilidade...\n\nno futuro eles reescreveram o núcleo do UNIX em C, uma linguagem de alto nível da época.\n\nIsso tornou o UNIX o primeiro sistema operacional que não estava amarrado a uma arquitetura de hardware específica. Ele podia ser \"portado\" para diferentes máquinas com relativo esforço.\n\nEssa portabilidade fez com que o UNIX se espalhasse pelo mundo acadêmico e incluenciasse uma geração inteira de cientistas da computação.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "OHsxd3PvXRs1X_jqlB_JJ",
+      "type": "text",
+      "x": 1399.8744294908302,
+      "y": 19464.166666666646,
+      "width": 112.23726399739576,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "MzUo0A67bsknT2dAWuN_7"
+      ],
+      "frameId": null,
+      "index": "b8U",
+      "roundness": null,
+      "seed": 1043511538,
+      "version": 719,
+      "versionNonce": 1042951854,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1756405382414,
+      "link": null,
+      "locked": false,
+      "text": "UNIX",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "UNIX",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "YzuFKGhUhrJSWpEKRBbb3",
+      "type": "arrow",
+      "x": 1012.104172600639,
+      "y": 19613.611111111084,
+      "width": 221.1111111111111,
+      "height": 31.111111111113132,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8V",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1650042098,
+      "version": 125,
+      "versionNonce": 1367676146,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405385831,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          221.1111111111111,
+          31.111111111113132
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "F8JOJLjDjvQ4fgqlM7avs",
+        "focus": -0.2199026889405199,
+        "gap": 9.666666666666515
+      },
+      "endBinding": {
+        "elementId": "rNZ-ZGtEp9zhREPeARHH0",
+        "focus": 0.07881460627147935,
+        "gap": 1.1111111111110858
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "W5glwjNgt_E2PvE0BgXTL",
+      "type": "rectangle",
+      "x": 1079.8819503784168,
+      "y": 20018.05555555552,
+      "width": 218.8888888888889,
+      "height": 202.22222222222263,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8W",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 851366382,
+      "version": 415,
+      "versionNonce": 162017966,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "7c2yIsQm1mlXmq0NgI76h"
+        },
+        {
+          "id": "weVkmZ7qTiEtLl9FK3z8G",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1756405429663,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "7c2yIsQm1mlXmq0NgI76h",
+      "type": "text",
+      "x": 1087.3064592149512,
+      "y": 20069.166666666628,
+      "width": 204.0398712158203,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8X",
+      "roundness": null,
+      "seed": 55074610,
+      "version": 407,
+      "versionNonce": 799649006,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405429663,
+      "link": null,
+      "locked": false,
+      "text": "UNIX é a base dos\nsistemas modernos\ncomo Linux, macOS, e\nAndroid",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "W5glwjNgt_E2PvE0BgXTL",
+      "originalText": "UNIX é a base dos sistemas modernos como Linux, macOS, e Android",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "weVkmZ7qTiEtLl9FK3z8G",
+      "type": "arrow",
+      "x": 1377.1733442795503,
+      "y": 19952.490040605288,
+      "width": 94.56120897070764,
+      "height": 65.10578362084561,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b8Y",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1895777710,
+      "version": 348,
+      "versionNonce": 67231534,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1756405429663,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -94.56120897070764,
+          65.10578362084561
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "rNZ-ZGtEp9zhREPeARHH0",
+        "focus": -0.48696728043999615,
+        "gap": 2.2222222222219443
+      },
+      "endBinding": {
+        "elementId": "W5glwjNgt_E2PvE0BgXTL",
+        "focus": -0.20894289185910492,
+        "gap": 3.333333333333485
       },
       "startArrowhead": null,
       "endArrowhead": null,
