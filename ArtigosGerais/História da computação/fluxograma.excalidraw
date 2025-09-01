@@ -32762,8 +32762,8 @@
     {
       "id": "zttQKJrThFrsWW8jzEXLj",
       "type": "rectangle",
-      "x": 138.9375059339725,
-      "y": 18451.666666666664,
+      "x": 149.9375059339725,
+      "y": 18620.666666666664,
       "width": 389,
       "height": 294.000000000001,
       "angle": 0,
@@ -32783,8 +32783,8 @@
         "type": 3
       },
       "seed": 773390258,
-      "version": 1820,
-      "versionNonce": 2120992242,
+      "version": 2087,
+      "versionNonce": 913957396,
       "isDeleted": false,
       "boundElements": [
         {
@@ -32800,15 +32800,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1756405063204,
+      "updated": 1756758137532,
       "link": null,
       "locked": false
     },
     {
       "id": "FKcVKR9eslL9VxpE0EFTo",
       "type": "text",
-      "x": 153.08762190076936,
-      "y": 18515.666666666664,
+      "x": 164.08762190076936,
+      "y": 18684.666666666664,
       "width": 360.69976806640625,
       "height": 225,
       "angle": 0,
@@ -32826,11 +32826,11 @@
       "index": "b84",
       "roundness": null,
       "seed": 839006578,
-      "version": 4131,
-      "versionNonce": 760576238,
+      "version": 4398,
+      "versionNonce": 714899348,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1756402403497,
+      "updated": 1756758137532,
       "link": null,
       "locked": false,
       "text": "Desenvolvido por uma equipe da IBM,\nfoi a primiera linguagem de alto nível\namplamente adotada. Foi projetada\npara computação científica e de\nengenharia, permitindo que os\ncientistas escrevessem expressões\nmatemáticas de forma muito mais\nnatural\n",
@@ -32846,8 +32846,8 @@
     {
       "id": "SUX3rGGEDKxBUpsRsIslI",
       "type": "text",
-      "x": 167.99782239916453,
-      "y": 18467.666666666664,
+      "x": 178.99782239916453,
+      "y": 18636.666666666664,
       "width": 338.8793670696156,
       "height": 45,
       "angle": 0,
@@ -32865,11 +32865,11 @@
       "index": "b85",
       "roundness": null,
       "seed": 1612593970,
-      "version": 2025,
-      "versionNonce": 1918118702,
+      "version": 2292,
+      "versionNonce": 2063480852,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1756402403497,
+      "updated": 1756758137532,
       "link": null,
       "locked": false,
       "text": "FORTRAN",
@@ -32885,10 +32885,10 @@
     {
       "id": "VZ9lU2FR41MtUQqCL2ENc",
       "type": "arrow",
-      "x": 686.4375059339725,
-      "y": 18462.166666666664,
-      "width": 151,
-      "height": 109,
+      "x": 688.116203437761,
+      "y": 18523.425010186453,
+      "width": 143.22143232783776,
+      "height": 165.74311539771588,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -32904,11 +32904,11 @@
         "type": 2
       },
       "seed": 435044466,
-      "version": 85,
-      "versionNonce": 589036210,
+      "version": 352,
+      "versionNonce": 193948948,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1756402410037,
+      "updated": 1756758137532,
       "link": null,
       "locked": false,
       "points": [
@@ -32917,8 +32917,8 @@
           0
         ],
         [
-          -151,
-          109
+          -143.22143232783776,
+          165.74311539771588
         ]
       ],
       "lastCommittedPoint": null,
@@ -33479,10 +33479,10 @@
     {
       "id": "qwIL9b5kKfg7y6DoT5swF",
       "type": "arrow",
-      "x": 367.4375059339725,
-      "y": 18751.166666666664,
-      "width": 327,
-      "height": 634,
+      "x": 391.64580982759253,
+      "y": 18918.001551280824,
+      "width": 294.1088966840972,
+      "height": 467.1651153858402,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -33498,11 +33498,11 @@
         "type": 2
       },
       "seed": 1190925614,
-      "version": 231,
-      "versionNonce": 1026560238,
+      "version": 498,
+      "versionNonce": 2059971220,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1756405064923,
+      "updated": 1756758137532,
       "link": null,
       "locked": false,
       "points": [
@@ -33511,8 +33511,8 @@
           0
         ],
         [
-          327,
-          634
+          294.1088966840972,
+          467.1651153858402
         ]
       ],
       "lastCommittedPoint": null,
