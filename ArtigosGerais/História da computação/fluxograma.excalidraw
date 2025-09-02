@@ -31626,7 +31626,7 @@
       "id": "-7X8KGAHOm8TbnN3wA-mo",
       "type": "rectangle",
       "x": 1165.4375059339725,
-      "y": 16101.16666666666,
+      "y": 16102.16666666666,
       "width": 338,
       "height": 444.0000000000021,
       "angle": 0,
@@ -31646,8 +31646,8 @@
         "type": 3
       },
       "seed": 881121906,
-      "version": 527,
-      "versionNonce": 837261806,
+      "version": 528,
+      "versionNonce": 1827154498,
       "isDeleted": false,
       "boundElements": [
         {
@@ -31659,7 +31659,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1756401414685,
+      "updated": 1756831958137,
       "link": null,
       "locked": false
     },
@@ -31667,7 +31667,7 @@
       "id": "TZXURuxo9n__EFPt_UB6m",
       "type": "text",
       "x": 1176.2976438734256,
-      "y": 16165.166666666662,
+      "y": 16166.166666666662,
       "width": 316.27972412109375,
       "height": 375,
       "angle": 0,
@@ -31685,20 +31685,20 @@
       "index": "b7c",
       "roundness": null,
       "seed": 69131886,
-      "version": 799,
-      "versionNonce": 1106914350,
+      "version": 804,
+      "versionNonce": 531732638,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1756401414685,
+      "updated": 1756831961107,
       "link": null,
       "locked": false,
-      "text": "Marcado por grandes máquinas,\nutilização de válvulas a vácuo,\nsão exemplos de máquinas o\nENIAC e o UNIVAC.\n\nConsumiam grande quantidade de\nenergia, geravam calor excessivo,\ne constantemente precisavam de\nreparos e trocas de peças pois\nas válvulas quebravam ou\nquimavam...\n\ne eles não eram lá muito\nconfiáveis.\n",
+      "text": "Marcado por grandes máquinas,\nutilização de válvulas a vácuo,\nsão exemplos de máquinas o\nENIAC e o UNIVAC.\n\nConsumiam grande quantidade de\nenergia, geravam calor excessivo,\ne constantemente precisavam de\nreparos e trocas de peças pois\nas válvulas quebravam ou\nquimavam.\n\ne eles não eram lá muito\nconfiáveis.\n",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "bottom",
       "containerId": "-7X8KGAHOm8TbnN3wA-mo",
-      "originalText": "Marcado por grandes máquinas, utilização de válvulas a vácuo, são exemplos de máquinas o ENIAC e o UNIVAC.\n\nConsumiam grande quantidade de energia, geravam calor excessivo, e constantemente precisavam de reparos e trocas de peças pois as válvulas quebravam ou quimavam...\n\ne eles não eram lá muito confiáveis.\n",
+      "originalText": "Marcado por grandes máquinas, utilização de válvulas a vácuo, são exemplos de máquinas o ENIAC e o UNIVAC.\n\nConsumiam grande quantidade de energia, geravam calor excessivo, e constantemente precisavam de reparos e trocas de peças pois as válvulas quebravam ou quimavam.\n\ne eles não eram lá muito confiáveis.\n",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -31744,10 +31744,10 @@
     {
       "id": "X7oiO601EwmqLATu1RVIz",
       "type": "arrow",
-      "x": 909.4375059339725,
-      "y": 16245.549369589642,
-      "width": 254.17804288365642,
-      "height": 6.853056920152085,
+      "x": 909.4375059339724,
+      "y": 16245.475150960463,
+      "width": 254.17804288365653,
+      "height": 6.068480140596876,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -31763,11 +31763,11 @@
         "type": 2
       },
       "seed": 1536353070,
-      "version": 158,
-      "versionNonce": 1743675566,
+      "version": 159,
+      "versionNonce": 250610114,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1756401460411,
+      "updated": 1756831958138,
       "link": null,
       "locked": false,
       "points": [
@@ -31776,8 +31776,8 @@
           0
         ],
         [
-          254.17804288365642,
-          -6.853056920152085
+          254.17804288365653,
+          -6.068480140596876
         ]
       ],
       "lastCommittedPoint": null,
