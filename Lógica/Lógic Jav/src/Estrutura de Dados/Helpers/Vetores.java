@@ -83,4 +83,15 @@ public class Vetores {
         }
         return false;
     }
+    public static int[] somarDoisVetores(int[] vetor1, int[] vetor2){
+        int[] vetorResposta = new int[vetor1.length];
+        if(vetor1.length != vetor2.length){
+            throw new IllegalArgumentException("Não pode adicinar vetores de tamanhos diferentes");
+        } else {
+            for(int i = 0;i < vetor1.length;i++){
+                vetorResposta[i] = vetor1[i] + vetor2[i];
+            }
+            return vetorResposta;
+        }
+    }
 }
