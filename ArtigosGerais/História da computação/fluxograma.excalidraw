@@ -20599,8 +20599,8 @@
     {
       "id": "2byJAWCoQLuQq3Abia4Mx",
       "type": "image",
-      "x": 1787.484126984122,
-      "y": 7003.972222222223,
+      "x": 1611.484126984122,
+      "y": 7023.972222222223,
       "width": 258.0000000000002,
       "height": 203.28571428571433,
       "angle": 0,
@@ -20618,8 +20618,8 @@
         "type": 3
       },
       "seed": 894679499,
-      "version": 2145,
-      "versionNonce": 951555032,
+      "version": 2221,
+      "versionNonce": 1513720832,
       "isDeleted": false,
       "boundElements": [
         {
@@ -20627,7 +20627,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1755122953573,
+      "updated": 1757003330649,
       "link": null,
       "locked": false,
       "status": "saved",
@@ -20648,10 +20648,10 @@
     {
       "id": "bEhe86iydAPgtor2o927y",
       "type": "arrow",
-      "x": 1648.9291456480948,
-      "y": 7316.740921002416,
-      "width": 192.1711716594607,
-      "height": 100.63413857094929,
+      "x": 1624.0484363288415,
+      "y": 7321.413156288157,
+      "width": 98.76377300242643,
+      "height": 88.6208980616575,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -20667,11 +20667,11 @@
         "type": 2
       },
       "seed": 728037739,
-      "version": 4334,
-      "versionNonce": 1349001370,
+      "version": 4410,
+      "versionNonce": 1932004352,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1755094520160,
+      "updated": 1757003330649,
       "link": null,
       "locked": false,
       "points": [
@@ -20680,8 +20680,8 @@
           0
         ],
         [
-          192.1711716594607,
-          -100.63413857094929
+          98.76377300242643,
+          -88.6208980616575
         ]
       ],
       "lastCommittedPoint": null,
@@ -29277,20 +29277,20 @@
       "index": "b6kV",
       "roundness": null,
       "seed": 1284955929,
-      "version": 810,
-      "versionNonce": 508330681,
+      "version": 814,
+      "versionNonce": 462425088,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1756225546848,
+      "updated": 1757004791901,
       "link": null,
       "locked": false,
-      "text": "Com a segunda guerra mundial em ação, a\nnescessidade de computadores para\nquebrar códigos, cálculos complexos, como\nprojetos de bala e bombas e afins... fez\ncom que fosse gasto uma grande imensa\nno avanço dos computadores... Deixando\neles totalmente eletrônicos em vez de\neletromecãnicos.\n\nMemso com a ascensão da teoria\neletrônica, as primeira máquinas\noperacionais em grande escala ainda\ndependiam de componentes\neletromecânicos.\n",
+      "text": "Com a segunda guerra mundial em ação, a\nnescessidade de computadores para\nquebrar códigos, cálculos complexos, como\nprojetos de bala e bombas e afins... fez\ncom que fosse gasto uma grande imensa\nno avanço dos computadores... Deixando\neles totalmente eletrônicos em vez de\neletromecânicos.\n\nMemso com a ascensão da teoria\neletrônica, as primeira máquinas\noperacionais em grande escala ainda\ndependiam de componentes\neletromecânicos.\n",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "bottom",
       "containerId": "NlpjzGJe3L-SHojyGUnsE",
-      "originalText": "Com a segunda guerra mundial em ação, a nescessidade de computadores para quebrar códigos, cálculos complexos, como projetos de bala e bombas e afins... fez com que fosse gasto uma grande imensa no avanço dos computadores... Deixando eles totalmente eletrônicos em vez de eletromecãnicos.\n\nMemso com a ascensão da teoria eletrônica, as primeira máquinas operacionais em grande escala ainda dependiam de componentes eletromecânicos.\n",
+      "originalText": "Com a segunda guerra mundial em ação, a nescessidade de computadores para quebrar códigos, cálculos complexos, como projetos de bala e bombas e afins... fez com que fosse gasto uma grande imensa no avanço dos computadores... Deixando eles totalmente eletrônicos em vez de eletromecânicos.\n\nMemso com a ascensão da teoria eletrônica, as primeira máquinas operacionais em grande escala ainda dependiam de componentes eletromecânicos.\n",
       "autoResize": true,
       "lineHeight": 1.25
     },
