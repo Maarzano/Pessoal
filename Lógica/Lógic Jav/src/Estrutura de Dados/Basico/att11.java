@@ -41,5 +41,6 @@ public class att11 {
                     System.out.println("Escolha errada tente de novo");
             }
         }
+        sc.close();
     }
 }

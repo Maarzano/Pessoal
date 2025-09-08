@@ -53,6 +53,7 @@ public class att10 {
                 break;
             }
         }
+        sc.close();
     }
 
 }
