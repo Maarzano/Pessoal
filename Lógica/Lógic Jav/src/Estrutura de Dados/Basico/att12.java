@@ -39,6 +39,7 @@ public class att12 {
                     continue;
             }
         }
+        sc.close();
     }
 
 }
