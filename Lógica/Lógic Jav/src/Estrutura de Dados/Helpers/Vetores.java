@@ -74,6 +74,13 @@ public class Vetores {
         return existeAlvo;
     }
 
+    public static int existeNumeroIndice(int[] vetor, int alvo){
+        for(int i =0; i < vetor.length; i++){
+            if (alvo == vetor[i]) return i;
+        }
+        return -1;
+    }
+
     public static boolean existeNumeroRepetido(int[] vetor){
         int[] vetorCopia = vetor;
         for(int i = 0;i < vetor.length;i++){
