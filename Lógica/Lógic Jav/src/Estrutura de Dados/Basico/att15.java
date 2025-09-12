@@ -13,6 +13,7 @@ public class att15 {
         int indiceNumero = Vetores.existeNumeroIndice(vetor, numeroALvo);
 
         System.out.println(indiceNumero != -1 ? "Econtrado no índice: " + indiceNumero : "Número não encontrado");
+        sc.close();
     }
 
 }
