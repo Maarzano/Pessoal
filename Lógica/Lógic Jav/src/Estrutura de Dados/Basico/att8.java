@@ -18,5 +18,6 @@ public class att8 {
 
         listaConvidados.add(convidados);
         System.out.println(listaConvidados);
+        sc.close();
     }
 }

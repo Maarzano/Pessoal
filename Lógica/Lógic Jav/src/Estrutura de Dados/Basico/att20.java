@@ -56,6 +56,7 @@ public class att20 {
                 continue;
             }
         }
+        sc.close();
         
     }
 

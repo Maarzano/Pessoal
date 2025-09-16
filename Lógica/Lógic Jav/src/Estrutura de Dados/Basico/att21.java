@@ -21,7 +21,7 @@ public class att21 {
             System.out.println("1. Liberar 1 vaga e chamar próximo\n2. Colocar carros na fila de espera\n3. Parar sistema");
 
             switch (sc.nextLine()) {
-                
+
                 case "1":
                     if (fila.isEmpty()){
                         System.out.println("\nNão há nenhum carro na fila de espera");
@@ -49,10 +49,7 @@ public class att21 {
                 break;
             }
         }
-        
-
-        
-        
+        sc.close();
     }
 
 }

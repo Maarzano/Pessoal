@@ -33,6 +33,7 @@ public class att19 {
         } else {
             System.out.println("Algo não fechou direito");
         }
+        sc.close();
     }
 
 }
