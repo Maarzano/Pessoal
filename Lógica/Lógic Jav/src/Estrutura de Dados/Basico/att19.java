@@ -17,6 +17,7 @@ public class att19 {
             } else if (character == ']' || character == '}' || character == ')'){
                 if (pilha.isEmpty()) {
                     System.out.println("Algo não fechou direito");
+                    sc.close();
                     return;
                 }
                 char topo = pilha.pop();
@@ -24,6 +25,7 @@ public class att19 {
                     (character == ']' && topo != '[') ||
                     (character == '}' && topo != '{')) {
                     System.out.println("Algo não fechou direito");
+                    sc.close();
                     return;
                 }
             }
