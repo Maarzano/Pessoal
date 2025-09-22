@@ -12,8 +12,8 @@ public class Matrizes {
         }
     }
 
-    public static int[][] criarMatriz2(int quantasColunas, int quantasLinhas, Scanner sc){
-        int[][] matriz = new int[quantasLinhas][quantasColunas];
+    public static Integer[][] criarMatriz2(int quantasColunas, int quantasLinhas, Scanner sc){
+        Integer[][] matriz = new Integer[quantasLinhas][quantasColunas];
         for (int i = 0; i< quantasLinhas;i++){
             for(int j = 0; j < quantasColunas; j++){
                 System.out.print("Linha " + (i + 1) + ", coluna " + (j + 1) + ": ");
@@ -23,20 +23,20 @@ public class Matrizes {
         return matriz;
     }
 
-    public static int somarMatriz2(int[][] matriz){
+    public static int somarMatriz2(Integer[][] matriz){
         int soma = 0;
-        for (int[] linha : matriz) {
+        for (Integer[] linha : matriz) {
             for (int numero : linha){
                 soma += numero;
             }
         }
         return soma;
     }
-    public static int[] encontrarMaiorMenorValorMatriz2(int[][] matriz){
+    public static int[] encontrarMaiorMenorValorMatriz2(Integer[][] matriz){
         int maior = Integer.MIN_VALUE;
         int menor = Integer.MAX_VALUE;
 
-        for(int[] linha : matriz){
+        for(Integer[] linha : matriz){
             for(int numero : linha){
                 if (numero > maior){
                     maior = numero;
