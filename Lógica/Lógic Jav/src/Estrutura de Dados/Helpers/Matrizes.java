@@ -32,6 +32,21 @@ public class Matrizes {
         }
         return soma;
     }
+    public static int[] encontrarMaiorMenorValorMatriz2(int[][] matriz){
+        int maior = Integer.MIN_VALUE;
+        int menor = Integer.MAX_VALUE;
+
+        for(int[] linha : matriz){
+            for(int numero : linha){
+                if (numero > maior){
+                    maior = numero;
+                } else if (numero < menor){
+                    menor = numero;
+                }
+            }
+        }
+        return new int[]{maior, menor};
+    }
     
 
 }
