@@ -8,7 +8,7 @@ public class att18 {
         System.out.println("fale um número: ");
         int numero = sc.nextInt();
 
-        int[][] matriz = Matrizes.criarMatriz2(numero, numero, sc);
+        Integer[][] matriz = Matrizes.criarMatriz2(numero, numero, sc);
 
         Matrizes.imprimirMatriz2(matriz);
         System.out.println("\nA soma dos números do vetor é " + Matrizes.somarMatriz2(matriz));
