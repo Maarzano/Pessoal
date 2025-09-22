@@ -47,6 +47,21 @@ public class Matrizes {
         }
         return new int[]{maior, menor};
     }
+    public static Character[][] criarPiramide(int altura, int largura, Character simbolo){
+        Character[][] matriz = new Character[altura][largura];
+        int meio = largura /2;
+
+        for(int i = 0; i < altura;i++){
+            for (int j = 0; j < largura;j++){
+                if (j >= meio - i && j <= meio + i){
+                    matriz[i][j] = simbolo;
+                } else {
+                    matriz[i][j] = ' ';
+                }
+            }
+        }
+        return matriz;
+    }
     
 
 }
