@@ -3,9 +3,9 @@ package Helpers;
 import java.util.Scanner;
 
 public class Matrizes {
-    public static void imprimirMatriz2(int[][] matriz){
-        for (int[] linha : matriz){
-            for (int numero : linha){
+    public static <T> void imprimirMatriz2(T[][] matriz){
+        for (T[] linha : matriz){
+            for (T numero : linha){
                 System.out.print(numero + " ");
             }
             System.out.println();
