@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.function.Consumer;
 
 public class Vetores {
 
@@ -104,5 +105,8 @@ public class Vetores {
             }
             return vetorResposta;
         }
+    }
+    public static void iterator(int[] vetor, Consumer<Integer> func){
+        for (int numero : vetor) func.accept(numero);
     }
 }
