@@ -22,3 +22,4 @@ public class Jogador extends User{
         System.out.println("[Jogador] " + getName() + " possui " + getGames().size() + " jogos e saldo: " + getSaldo());
     }
 }
+
