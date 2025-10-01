@@ -5,6 +5,7 @@ import java.util.List;
 
 import att3.Models.Student;
 import att3.Models.Teacher;
+import att3.Service.PaymentService;
 import att3.vehicle.Bike;
 import att3.vehicle.Car;
 import att3.vehicle.Vehicle;
@@ -15,8 +16,9 @@ public class App {
     public static void main(String[] args) {
 
         List<Student> lista = new ArrayList<>();
-        lista.add(new Student("João", 20, 7.5));
-        lista.add(new Student("Maria", 22, 8.9));
+        PaymentService paymentService = new PaymentService();
+        lista.add(new Student("João", 20, 7.5, 500));
+        lista.add(new Student("Maria", 22, 8.9, 100));
 
         Teacher professor = new Teacher("Arthur", 45, lista);
 
@@ -44,18 +46,16 @@ public class App {
         System.out.println("Pagamento João: " + s1.pay(30));
         System.out.println("Pagamento João: " + s1.pay(-80));
 
-        List<Vehicle> listaDrivables = new ArrayList<>();
-        listaDrivables.add(carro);
-        listaDrivables.add(moto);
+        List<IPayable> listaPayables = new ArrayList<>();
+        listaPayables.addAll(lista);
 
-        for (var vari : listaDrivables){
-    
-            System.out.println(vari.drive());
+        for (var vari : listaPayables){
+            paymentService.proccesPayment(vari, 101);
         }
 
         List<Object> teste = new ArrayList<>();
 
-        teste.addAll(listaDrivables);
+        teste.addAll(listaPayables);
         teste.addAll(lista);
         System.out.println("TESTE");
         for (var obj : teste){
