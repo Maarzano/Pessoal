@@ -1,6 +1,11 @@
 package MinhasEstruturas.LinkedList.Single;
 
-public class SinglyLinkedList<T> {
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+
+public class SinglyLinkedList<T> implements Iterable<T>{
 
     private Node<T> head;
 
@@ -62,6 +67,25 @@ public class SinglyLinkedList<T> {
         }
         System.out.println("null");
         return this;
+    }
+    @Override
+    public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            private Node<T> current = head;
+
+            @Override
+            public boolean hasNext() {
+                return current != null;
+            }
+
+            @Override
+            public T next() {
+                if (!hasNext()) throw new NoSuchElementException();
+                T value = current.value;
+                current = current.next;
+                return value;
+            }
+        };
     }
 
     
