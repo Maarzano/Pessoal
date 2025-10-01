@@ -9,6 +9,14 @@ public class SinglyLinkedList<T> implements Iterable<T>{
 
     private Node<T> head;
 
+    public SinglyLinkedList(){
+
+    }
+    
+    public SinglyLinkedList(T[] lista){
+        addAll(lista);
+    }
+
     public SinglyLinkedList<T> add(T value){
         Node<T> newNode = new Node<T>(value);
 
