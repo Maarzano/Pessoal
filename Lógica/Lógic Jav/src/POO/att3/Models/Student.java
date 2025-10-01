@@ -5,10 +5,12 @@ import att3.Contracts.IPayable;
 public class Student extends Person implements IPayable{
     
     private double grade;
+    private double amount;
 
-    public Student(String name, int age, double grade){
+    public Student(String name, int age, double grade, double amount){
         super(name, age);
         this.grade = grade;
+        this.amount = amount;
     }
 
     public double getGrade(){
@@ -26,7 +28,15 @@ public class Student extends Person implements IPayable{
 
     @Override
     public boolean pay(double price){
-        return price >= 0 ? true : false;
+        if (price >= 0 && price <= amount){
+            amount -= price;
+            return true;
+        }
+        return false;
+    }
+
+    public double getAmount(){
+        return this.amount;
     }
 
     public String study(){
