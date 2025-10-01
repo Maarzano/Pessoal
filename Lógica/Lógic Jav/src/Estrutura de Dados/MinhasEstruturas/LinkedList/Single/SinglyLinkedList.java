@@ -22,6 +22,17 @@ public class SinglyLinkedList<T> {
         
     }
 
+    public void addAll(Collection<T> lista){
+        for (T valor : lista){
+            add(valor);
+        }
+    }
+    public void addAll(T[] lista){
+        for (T valor : lista){
+            add(valor);
+        }
+    }
+
     public void addFirst(T data) {
         Node<T> newNode = new Node<T>(data);
         newNode.next = head;
