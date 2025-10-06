@@ -18,12 +18,12 @@ public class Livro {
         return disponivel;
     }
 
-    public void emprestar(){
+    void emprestar(){
         if (!disponivel) throw new IllegalStateException("Livro já está emprestado!");
         disponivel = false;
     }
 
-    public void devolver(){
+    void devolver(){
         disponivel = true;
     }
 
