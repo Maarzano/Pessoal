@@ -62,6 +62,18 @@ public class Matrizes {
         }
         return matriz;
     }
+    public static Integer[][] somar2Matrizes(Integer[][] matriz, Integer[][] matriz2){
+        if (matriz.length != matriz2.length) throw new RuntimeException("Matrizes com tamanhos diferentes!");
+        Integer[][] matrizSoma = new Integer[matriz.length][];
+
+        for (int i = 0; i < matriz.length;i++){
+            matrizSoma[i] = new Integer[matriz.length];
+            for (int j = 0; j < matriz[i].length;j++){
+                matrizSoma[i][j] = matriz[i][j] + matriz2[i][j];
+            }
+        }
+        return matrizSoma;
+    }
     
 
 }
