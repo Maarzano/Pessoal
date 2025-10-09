@@ -102,7 +102,25 @@ public class Vetores {
             return vetorResposta;
         }
     }
+
     public static void iterator(Integer[] vetor, Consumer<Integer> func){
         for (int numero : vetor) func.accept(numero);
+    }
+
+    public static boolean buscaBinaria(Integer[] vetor, int valor){
+        int minimo = 0;
+        int maximo = vetor.length -1;
+        
+        while(minimo <= maximo){
+            int meio = minimo + (maximo - minimo) /2;
+
+            if (vetor[meio] == valor) return true;
+            if (vetor[meio] > valor){
+                maximo = meio -1;
+            } else {
+                minimo = meio + 1;
+            }
+        }
+        return false;
     }
 }
