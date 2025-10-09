@@ -8,7 +8,7 @@ public class att16 {
         System.out.println("qual será o tamanho do vetor? ");
         int tamanhoVetor = sc.nextInt();
 
-        int[] vetor = Vetores.criarVetorInteiro(tamanhoVetor);
+        Integer[] vetor = Vetores.criarVetorInteiro(tamanhoVetor);
 
         Vetores.mostrarVetor(vetor);
 
@@ -28,10 +28,10 @@ public class att16 {
         System.out.println(Vetores.existeNumeroRepetido(vetor) ? "Existe número repetido" : "");
 
         System.out.println("Agora vamos somar com um  outro vetor: ");
-        int[] outroVetor = Vetores.criarVetorInteiro(tamanhoVetor);
+        Integer[] outroVetor = Vetores.criarVetorInteiro(tamanhoVetor);
 
 
-        int[] somaVetores = Vetores.somarDoisVetores(vetor, outroVetor);
+        Integer[] somaVetores = Vetores.somarDoisVetores(vetor, outroVetor);
 
         System.out.println("A soma dos vetores é ");
         Vetores.mostrarVetor(somaVetores);

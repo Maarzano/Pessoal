@@ -5,7 +5,7 @@ import Helpers.Vetores;
 
 public class att28 {
     public static void main(String[] args) {
-        int[] lista = new int[]{1, 2, 3, 4, 5, 6, 7, 7, 7, 5, 3, 2, 2};
+        Integer[] lista = new Integer[]{1, 2, 3, 4, 5, 6, 7, 7, 7, 5, 3, 2, 2};
 
         System.out.println("Temos uma lista onde tem duplicatas: ");
         Vetores.mostrarVetor(lista);

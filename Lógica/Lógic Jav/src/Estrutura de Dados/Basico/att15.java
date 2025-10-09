@@ -8,7 +8,7 @@ public class att15 {
         Scanner sc = new Scanner(System.in);
         int numeroALvo = sc.nextInt();
 
-        int[] vetor = Vetores.criarVetorInteiro(10);
+        Integer[] vetor = Vetores.criarVetorInteiro(10);
 
         int indiceNumero = Vetores.existeNumeroIndice(vetor, numeroALvo);
 

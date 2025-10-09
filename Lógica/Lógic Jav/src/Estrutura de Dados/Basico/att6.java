@@ -8,7 +8,7 @@ public class att6 {
         System.out.println("Qual será o tamanho de seu vetor? ");
         int tamanho = sc.nextInt();
 
-        int[] vetor = Vetores.criarVetorInteiro(tamanho);
+        Integer[] vetor = Vetores.criarVetorInteiro(tamanho);
 
         if (Vetores.existeNumeroRepetido(vetor)){
             System.out.println("Existe um número repetido");

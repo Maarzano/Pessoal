@@ -9,7 +9,7 @@ public class att4 {
         System.out.println("Qual o tamanho que quer criar seu vetor? ");   
         int resposta = sc.nextInt();
 
-        int[] vetor = Vetores.criarVetorInteiro(resposta);
+        Integer[] vetor = Vetores.criarVetorInteiro(resposta);
 
         System.out.println("A média dos seus valores dentro do vetor é: " + Vetores.mediaDoVetor(vetor));
     }

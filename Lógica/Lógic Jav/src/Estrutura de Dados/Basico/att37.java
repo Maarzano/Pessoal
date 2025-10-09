@@ -7,7 +7,7 @@ import Helpers.Vetores;
 public class att37 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Map<String, int[]> mapa = new HashMap<>();
+        Map<String, Integer[]> mapa = new HashMap<>();
 
         for (int i = 0; i < 5;i++){
             System.out.println("Digite o nome do estudante: ");
@@ -18,7 +18,7 @@ public class att37 {
             
         }
 
-        for (Map.Entry<String, int[]> entry : mapa.entrySet()){
+        for (Map.Entry<String, Integer[]> entry : mapa.entrySet()){
             System.out.print("\nAluno " + entry.getKey() + " tem as notas ");
             for (var nota : entry.getValue()){
                 System.out.print(nota + " ");

@@ -11,9 +11,9 @@ public class att3 {
         int resposta = sc.nextInt();
 
         System.out.println("Então agora preencha ele: ");
-        int[] vetor = Vetores.criarVetorInteiro(resposta);
+        Integer[] vetor = Vetores.criarVetorInteiro(resposta);
 
-        int[] numerosPares = Vetores.numerosPares(vetor);
+        Integer[] numerosPares = Vetores.numerosPares(vetor);
 
         System.out.println("Os números pares de seu vetor são: " + Arrays.toString(numerosPares));
     }

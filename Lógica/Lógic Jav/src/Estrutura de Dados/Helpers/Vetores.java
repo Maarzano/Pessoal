@@ -1,29 +1,25 @@
 package Helpers;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 import java.util.function.Consumer;
 
 public class Vetores {
 
-    public static void mostrarVetor(int[] vetor){
+    public static void mostrarVetor(Integer[] vetor){
         System.out.print("O seu vetor é: ");
         for(var num : vetor){
             System.out.print(num + " ");
         }
         System.out.println();
     }
-    public static int identificarMaior(int[] vetor){
+    public static Integer identificarMaior(Integer[] vetor){
         int maiorValor = vetor[0];
         for (int numero : vetor) {
             if (numero > maiorValor) maiorValor = numero;
         }
         return maiorValor;
     }
-    public static int identificarMenor(int[] vetor){
+    public static Integer identificarMenor(Integer[] vetor){
         int menorValor = vetor[0];
         for (int numero : vetor) {
             if (numero < menorValor) menorValor = numero;
@@ -31,11 +27,11 @@ public class Vetores {
         return menorValor;
     }
 
-    public static int[] criarVetorInteiro(int tamanho) {
+    public static Integer[] criarVetorInteiro(int tamanho) {
 
         Scanner sc = new Scanner(System.in);
 
-        int[] vetor = new int[tamanho];
+        Integer[] vetor = new Integer[tamanho];
 
         for (int i = 0; i < tamanho; i++){
             System.out.print(i + 1 + ": ");
@@ -45,14 +41,14 @@ public class Vetores {
         return vetor;
     }
 
-    public static int[] numerosPares(int[] vetor){
-        int quantosPares = 0;
+    public static Integer[] numerosPares(Integer[] vetor){
+        Integer quantosPares = 0;
         for(int numero : vetor){
             if (numero % 2 == 0) quantosPares++;
         }
 
         int j = 0;
-        int[] numerosPares = new int[quantosPares];
+        Integer[] numerosPares = new Integer[quantosPares];
 
         for(int i = 0; i < vetor.length; i++){
             if (vetor[i] % 2 == 0){ numerosPares[j] = vetor[i];
@@ -62,7 +58,7 @@ public class Vetores {
         return numerosPares;
     }
 
-    public static float mediaDoVetor(int[] vetor) {
+    public static float mediaDoVetor(Integer[] vetor) {
         int soma = 0;
         for (int numero : vetor ){
             soma += numero;
@@ -70,7 +66,7 @@ public class Vetores {
         return (float) soma / vetor.length;
     }
 
-    public static boolean existeNumero(int[] vetor, int alvo){
+    public static boolean existeNumero(Integer[] vetor, Integer alvo){
         boolean existeAlvo = false;
 
         for (int numero : vetor){
@@ -79,15 +75,15 @@ public class Vetores {
         return existeAlvo;
     }
 
-    public static int existeNumeroIndice(int[] vetor, int alvo){
+    public static Integer existeNumeroIndice(Integer[] vetor, int alvo){
         for(int i =0; i < vetor.length; i++){
             if (alvo == vetor[i]) return i;
         }
         return -1;
     }
 
-    public static boolean existeNumeroRepetido(int[] vetor){
-        int[] vetorCopia = vetor;
+    public static boolean existeNumeroRepetido(Integer[] vetor){
+        Integer[] vetorCopia = vetor;
         for(int i = 0;i < vetor.length;i++){
             for(int j = i + 1; j < vetor.length;j++){
                 if (vetor[j] == vetorCopia[i]) return true;
@@ -95,8 +91,8 @@ public class Vetores {
         }
         return false;
     }
-    public static int[] somarDoisVetores(int[] vetor1, int[] vetor2){
-        int[] vetorResposta = new int[vetor1.length];
+    public static Integer[] somarDoisVetores(Integer[] vetor1, Integer[] vetor2){
+        Integer[] vetorResposta = new Integer[vetor1.length];
         if(vetor1.length != vetor2.length){
             throw new IllegalArgumentException("Não pode adicinar vetores de tamanhos diferentes");
         } else {
@@ -106,7 +102,7 @@ public class Vetores {
             return vetorResposta;
         }
     }
-    public static void iterator(int[] vetor, Consumer<Integer> func){
+    public static void iterator(Integer[] vetor, Consumer<Integer> func){
         for (int numero : vetor) func.accept(numero);
     }
 }

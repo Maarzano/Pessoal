@@ -9,7 +9,7 @@ public class att2 {
         System.out.println("Você quer criar um vetor qual tamanho? ");
         int tamanhoVetor = sc.nextInt();
 
-        int[] vetor = Vetores.criarVetorInteiro(tamanhoVetor);
+        Integer[] vetor = Vetores.criarVetorInteiro(tamanhoVetor);
 
         System.out.println("Escolha uma opção: \n1.Menor valor\n2.Maior valor");
         int escolha = sc.nextInt();

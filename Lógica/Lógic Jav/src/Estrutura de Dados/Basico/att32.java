@@ -10,12 +10,12 @@ public class att32 {
         System.out.print("Escreva o tamanho do vetor: ");
         int tamanho = sc.nextInt();
 
-        int[] vetor = Vetores.criarVetorInteiro(tamanho);
-        int[] vetorInvertido = new int[vetor.length];
+        Integer[] vetor = Vetores.criarVetorInteiro(tamanho);
+        Integer[] vetorInvertido = new Integer[vetor.length];
 
-        int[] impares = {0};
+        Integer[] impares = {0};
 
-        int[] indice = {0};
+        Integer[] indice = {0};
         indice[0] = vetor.length - 1;
         
         Vetores.iterator(vetor, x -> {

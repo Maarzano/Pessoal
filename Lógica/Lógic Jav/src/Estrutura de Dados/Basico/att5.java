@@ -7,11 +7,11 @@ public class att5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
-        int numero = sc.nextInt();
+        Integer numero = sc.nextInt();
 
         System.out.println("Agora crie um vetor: ");
 
-        int[] vetor = Vetores.criarVetorInteiro(7);
+        Integer[] vetor = Vetores.criarVetorInteiro(7);
 
         System.out.println("Seu vetor é: ");
         Vetores.mostrarVetor(vetor);

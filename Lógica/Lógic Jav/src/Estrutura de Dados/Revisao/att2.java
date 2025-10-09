@@ -11,7 +11,7 @@ public class att2 {
         Set<Integer> conjunto = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 
         System.out.println("Escreva 5 números: ");
-        int[] vetor = Vetores.criarVetorInteiro(5);
+        Integer[] vetor = Vetores.criarVetorInteiro(5);
 
         Set<Integer> conjuntoSet = new HashSet<>();
         for (int num : vetor) {

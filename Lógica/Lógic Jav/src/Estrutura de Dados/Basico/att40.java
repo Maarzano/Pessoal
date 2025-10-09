@@ -4,7 +4,7 @@ import Helpers.Vetores;
 
 public class att40 {
     public static void main(String[] args) {
-        int[] vetor = Vetores.criarVetorInteiro(5);
+        Integer[] vetor = Vetores.criarVetorInteiro(5);
 
         HashSet<Integer> array = new HashSet<>();
 

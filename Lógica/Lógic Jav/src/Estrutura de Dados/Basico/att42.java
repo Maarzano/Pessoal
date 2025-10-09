@@ -6,7 +6,7 @@ import Helpers.Vetores;
 
 public class att42 {
     public static void main(String[] args) {
-        int[] vetor = Vetores.criarVetorInteiro(5);
+        Integer[] vetor = Vetores.criarVetorInteiro(5);
         HashMap<Integer, List<Integer>> mapa = new HashMap<>();
 
         for (int n : vetor){
