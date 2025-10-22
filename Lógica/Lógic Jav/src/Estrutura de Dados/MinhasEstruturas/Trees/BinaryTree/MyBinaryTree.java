@@ -7,6 +7,10 @@ public class MyBinaryTree<T> {
         this.root = new Node<>(valor);
     }
 
+    public MyBinaryTree(){
+        this.root = new Node<>(null);
+    }
+
 /*  public boolean Search(T valor){
         TODO implementar
     }*/

@@ -1,6 +1,10 @@
 package Advanced;
 
-public class att1 {
-    //TODO: testar implementação de árvore
+import MinhasEstruturas.Trees.BinaryTree.MyBinaryTree;
 
+public class att1 {
+    public static void main(String[] args) {
+        MyBinaryTree<Integer> tree = new MyBinaryTree<>();
+        
+    }
 }
