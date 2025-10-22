@@ -1,4 +1,4 @@
-package MinhasEstruturas.Trees;
+package MinhasEstruturas.Trees.Tree;
 
 import java.util.ArrayList;
 import java.util.List;

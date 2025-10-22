@@ -1,4 +1,4 @@
-package MinhasEstruturas.Trees;
+package MinhasEstruturas.Trees.Tree;
 
 public class MyTree<T> {
     Node<T> root;
