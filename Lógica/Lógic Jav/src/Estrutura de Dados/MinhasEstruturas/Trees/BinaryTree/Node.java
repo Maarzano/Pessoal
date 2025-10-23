@@ -7,6 +7,8 @@ public class Node<T> {
 
     public Node(T valor){
         this.valor = valor;
+        direito = null;
+        esquerdo = null;
     }
 
 }
