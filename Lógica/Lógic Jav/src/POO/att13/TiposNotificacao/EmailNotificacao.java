@@ -1,8 +1,8 @@
 package att13.TiposNotificacao;
 
-import att13.Abstracts.Notificacao;
+import att13.Contracts.INotificacao;
 
-public class EmailNotificacao extends Notificacao {
+public class EmailNotificacao implements INotificacao {
     @Override
     public void enviar(String meString){
         System.out.println("Enviando email " + meString);
