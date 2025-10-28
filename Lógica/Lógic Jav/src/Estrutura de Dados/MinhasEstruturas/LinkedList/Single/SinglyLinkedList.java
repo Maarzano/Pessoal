@@ -98,6 +98,45 @@ public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, P
         };
     }
 
+    @Override
+    public void push(T elemento) {
+        addFirst(elemento);
+    }
+
+    @Override
+    public T pop() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("A pilha está vazia. Não é possível dar pop().");
+        }
+        T value = head.value;
+        head = head.next;
+        return value;
+    }
+
+    @Override
+    public T peek() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("A pilha está vazia. Não é possível dar peek().");
+        }
+        return head.value;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return head == null;
+    }
+
+    @Override
+    public int size() {
+        int count = 0;
+        Node<T> current = head;
+        while (current != null) {
+            count++;
+            current = current.next;
+        }
+        return count;
+    }
+
     
 
 }
