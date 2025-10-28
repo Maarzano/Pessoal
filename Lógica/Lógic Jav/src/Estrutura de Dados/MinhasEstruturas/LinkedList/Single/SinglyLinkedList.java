@@ -4,8 +4,10 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+import MinhasEstruturas.Pilha.Pilha;
 
-public class SinglyLinkedList<T> implements Iterable<T>{
+
+public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, Pilha<T>{
 
     private Node<T> head;
 

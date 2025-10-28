@@ -10,7 +10,7 @@ public class att44 {
         
     }
 
-    public static <T> SinglyLinkedList<T> inverterPrimeirosK(SinglyLinkedList<T> lista, int k){
+    public static <T extends Comparable<T>> SinglyLinkedList<T> inverterPrimeirosK(SinglyLinkedList<T> lista, int k){
         Stack<T> pilha = new Stack<>();
         SinglyLinkedList<T> resultado = new SinglyLinkedList<>();
 
