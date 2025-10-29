@@ -2,7 +2,7 @@ package MinhasEstruturas.Set;
 
 import MinhasEstruturas.HashTable.HashTable;
 
-public class HashSet<T extends Comparable<T>> extends HashTable<T> implements ISet<T> {
+public class HashSet<T> extends HashTable<T> implements ISet<T> {
 
     @Override
     public boolean add(T elemento) {
@@ -11,7 +11,7 @@ public class HashSet<T extends Comparable<T>> extends HashTable<T> implements IS
     }
 
     @Override
-    public T remove(T elemento) {
+    public boolean remove(T elemento) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'remove'");
     }
