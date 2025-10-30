@@ -74,6 +74,15 @@ public class Matrizes {
         }
         return matrizSoma;
     }
+
+    public static int[] acharValor(Integer[][] matriz, int valor){
+        for (int i = 0; i < matriz.length;i++){
+            for (int j = 0; j < matriz[i].length;j++){
+                if (matriz[i][j] == valor) return new int[]{i, j};
+            }
+        }
+        return new int[]{-1, -1};
+    }
     
 
 }
