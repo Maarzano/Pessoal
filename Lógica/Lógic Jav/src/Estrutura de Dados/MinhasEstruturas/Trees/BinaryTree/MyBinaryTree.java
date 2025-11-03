@@ -36,6 +36,39 @@ public class MyBinaryTree<T extends Comparable<T>> implements Iterable<T>{
         return false;
     }
 
+    public void add(T valor) {
+        Node<T> novoNode = new Node<>(valor);
+
+        if (this.root == null) {
+            this.root = novoNode;
+            return;
+        }
+
+        Node<T> current = this.root;
+
+        while (true) {
+            int comparacao = valor.compareTo(current.valor);
+
+            if (comparacao < 0) {
+                if (current.esquerdo == null) {
+                    current.esquerdo = novoNode;
+                    return;
+                }
+                current = current.esquerdo;
+
+            } else if (comparacao > 0) {
+                if (current.direito == null) {
+                    current.direito = novoNode;
+                    return;
+                }
+                current = current.direito;
+            
+            } else {
+                return;
+            }
+        }
+    }
+
     @Override
     public Iterator<T> iterator() {
         return new Iterator<T>() {
