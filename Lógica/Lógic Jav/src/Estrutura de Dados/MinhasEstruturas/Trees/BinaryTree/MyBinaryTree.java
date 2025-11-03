@@ -69,6 +69,50 @@ public class MyBinaryTree<T extends Comparable<T>> implements Iterable<T>{
         }
     }
 
+    public void remove(T valor) {
+        this.root = remove(this.root, valor);
+    }
+
+    private Node<T> remove(Node<T> node, T valor) {
+        if (node == null) {
+            return null;
+        }
+
+        int comparacao = valor.compareTo(node.valor);
+
+        if (comparacao < 0) {
+            node.esquerdo = remove(node.esquerdo, valor);
+        } else if (comparacao > 0) {
+            node.direito = remove(node.direito, valor);
+        
+        } else {
+
+            if (node.esquerdo == null) {
+                return node.direito;
+            }
+            
+            if (node.direito == null) {
+                return node.esquerdo;
+            }
+
+            Node<T> sucessor = findMin(node.direito);
+            
+            node.valor = sucessor.valor;
+            
+            node.direito = remove(node.direito, sucessor.valor);
+        }
+
+        return node;
+    }
+
+    private Node<T> findMin(Node<T> node) {
+        Node<T> current = node;
+        while (current.esquerdo != null) {
+            current = current.esquerdo;
+        }
+        return current;
+    }
+
     @Override
     public Iterator<T> iterator() {
         return new Iterator<T>() {
