@@ -1,8 +1,7 @@
 package MinhasEstruturas.Set;
 
-import MinhasEstruturas.HashTable.HashTable;
 
-public class HashSet<T> extends HashTable<T> implements ISet<T> {
+public class HashSet<T> implements ISet<T> {
 
     @Override
     public boolean add(T elemento) {
