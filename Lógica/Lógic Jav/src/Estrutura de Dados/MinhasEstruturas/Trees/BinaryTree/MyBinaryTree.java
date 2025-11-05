@@ -12,7 +12,7 @@ public class MyBinaryTree<T extends Comparable<T>> implements Iterable<T>{
     }
 
     public MyBinaryTree(){
-        this.root = new Node<>(null);
+        this.root = null;
     }
 
     public boolean search(T valor) {
