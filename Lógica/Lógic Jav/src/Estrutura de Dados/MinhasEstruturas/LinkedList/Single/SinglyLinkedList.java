@@ -139,6 +139,43 @@ public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, P
         return count;
     }
 
+    @Override
+    public void enqueue(T t) {
+        Node<T> newNode = new Node<T>(t);
+
+        if (isEmpty()) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+    }
+
+    @Override
+    public T dequeue() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("A fila está vazia. Não é possível dar dequeue().");
+        }
+
+        T value = head.value;
+        head = head.next;
+
+        if (head == null) {
+            tail = null;
+        }
+        
+        return value;
+    }
+
+    @Override
+    public T front() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("A fila está vazia. Não é possível dar front().");
+        }
+        return head.value;
+    }
+
     
 
 }
