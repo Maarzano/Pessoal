@@ -22,21 +22,8 @@ public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, P
     }
 
     public SinglyLinkedList<T> add(T value){
-        Node<T> newNode = new Node<T>(value);
-
-        if (head == null){
-            head = newNode;
-            return this;
-        }
-
-        Node<T> current = head;
-
-        while(current.next != null){
-            current = current.next;
-        }
-        current.next = newNode;
+        enqueue(value);
         return this;
-        
     }
 
     public void addAll(Collection<T> lista){
@@ -54,21 +41,37 @@ public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, P
         Node<T> newNode = new Node<T>(data);
         newNode.next = head;
         head = newNode;
+
+        if (tail == null) {
+            tail = head;
+        }
     }
 
     public SinglyLinkedList<T> remove(T data) {
         if (head == null) return this;
+
         if (head.value.equals(data)) {
             head = head.next;
+            
+            if (head == null) {
+                tail = null;
+            }
             return this;
         }
+
         Node<T> current = head;
-        while (current.next != null && !current.next.value.equals(data) ) {
+        
+        while (current.next != null && !current.next.value.equals(data)) {
             current = current.next;
         }
+
         if (current.next != null) {
+            if (current.next == tail) {
+                tail = current;
+            }
             current.next = current.next.next;
         }
+        
         return this;
     }
     public SinglyLinkedList<T> printList() {
@@ -112,6 +115,11 @@ public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, P
         }
         T value = head.value;
         head = head.next;
+
+        if (head == null) {
+            tail = null;
+        }
+        
         return value;
     }
 
