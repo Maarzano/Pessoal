@@ -4,12 +4,14 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+import MinhasEstruturas.Fila.IFila;
 import MinhasEstruturas.Pilha.Pilha;
 
 
-public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, Pilha<T>{
+public class SinglyLinkedList<T extends Comparable<T>> implements Iterable<T>, Pilha<T>, IFila<T>{
 
     private Node<T> head;
+    private Node<T> tail;
 
     public SinglyLinkedList(){
 
