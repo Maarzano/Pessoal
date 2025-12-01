@@ -1,0 +1,72 @@
+<mxfile host="65bd71144e">
+    <diagram id="z3SrOumP812K4I45EDPf" name="Page-1">
+        <mxGraphModel dx="1317" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="simple">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Pede um objeto IRelatorio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4">
+                    <mxGeometry x="-0.0545" relative="1" as="geometry">
+                        <mxPoint x="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Main" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="RelatorioFactory" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ETipoRelatorio" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.656;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="10" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="390" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Escolhe qual objeto com base no Enum passado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="0.0751" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.458;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="10" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(19, 20, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;public&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;static&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #8be9fd;font-style: italic;&quot;&gt;Relatorio&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #50fa7b;&quot;&gt;gerarRelatorio&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #8be9fd;font-style: italic;&quot;&gt;ETipoRelatorio&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffb86c;font-style: italic;&quot;&gt;tipoRelatorio&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;switch&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #ffb86c;font-style: italic;&quot;&gt;tipoRelatorio&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;case&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;EXCEL&lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;font-weight: bold;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #50fa7b;&quot;&gt;RelatorioExcel&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;case&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;JSON&lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;font-weight: bold;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #50fa7b;&quot;&gt;RelatorioJson&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;case&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;PDF&lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;font-weight: bold;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #50fa7b;&quot;&gt;RelatorioPDF&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;default:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;&quot;&gt;throw&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff79c6;font-weight: bold;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #50fa7b;&quot;&gt;IllegalArgumentException&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e9f284;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #f1fa8c;&quot;&gt;Opção inválida&lt;/span&gt;&lt;span style=&quot;color: #e9f284;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f8f8f2;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="360" width="550" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.425;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Possui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.09" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="RelatoriaExcel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="RelatorioJson" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="RelatorioPDF" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Possui dependência com" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="420" width="90" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
