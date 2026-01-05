@@ -8,5 +8,5 @@ public class QuadroSelvagem extends Quadro{
         super.pintar();
         System.out.println(" Selvagem");
     }
-
+    
 }
